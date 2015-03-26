@@ -1,0 +1,3 @@
+John ||| person:Stanford ||| arrive in ||| city ||| location:WordNet ||| 
+John ||| person:Stanford ||| arrive ||| city ||| location:WordNet ||| 
+John ||| person:Stanford ||| arrive on ||| Tuesday ||| time_unit:Stanford,time_unit:Day ||| 

@@ -1,0 +1,13 @@
+DOCID-SENTID	Tuple Part	Original	Head	Type
+0-0	ARG1	John	John	person:Stanford
+	REL	arrived in	arrive in
+	ARG2	the beautiful city	city	location:WordNet
+
+0-0	ARG1	John	John	person:Stanford
+	REL	arrived	arrive
+	ARG2	the beautiful city	city	location:WordNet
+
+0-0	ARG1	John	John	person:Stanford
+	REL	arrived on	arrive on
+	ARG2	Tuesday	Tuesday	time_unit:Stanford,time_unit:Day
+
