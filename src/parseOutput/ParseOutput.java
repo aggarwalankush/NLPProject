@@ -10,7 +10,7 @@ public class ParseOutput {
 	public static void main(String[] args) {
 
 		try {
-			new ParseOutput().parse("test-output.txt","parse-output.txt");
+			new ParseOutput().parse("test-output.txt", "parse-output.txt");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -20,7 +20,7 @@ public class ParseOutput {
 	public void parse(String input, String output) throws Exception {
 
 		BufferedReader br = new BufferedReader(new FileReader(input));
-		BufferedWriter bw=new BufferedWriter(new FileWriter(output));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(output));
 		String line = "";
 		int count = 1;
 		br.readLine();
@@ -33,12 +33,15 @@ public class ParseOutput {
 			}
 			count++;
 			String[] elements = line.split("\t");
-			bw.write(elements[3]+" ||| ");
-			System.out.print(elements[3] + " ||| ");
-		
+			if (elements.length >= 4) {
+				bw.write(elements[3] + " ||| ");
+				System.out.print(elements[3] + " ||| ");
+			}
 			if (count % 3 != 0) {
-				bw.write(elements[4]+" ||| ");
-				System.out.print(elements[4] + " ||| ");
+				if (elements.length >= 5) {
+					bw.write(elements[4] + " ||| ");
+					System.out.print(elements[4] + " ||| ");
+				}
 			}
 
 		}
