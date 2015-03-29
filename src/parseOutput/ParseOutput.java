@@ -37,6 +37,7 @@ public class ParseOutput {
 				bw.write(elements[3] + " ||| ");
 				System.out.print(elements[3] + " ||| ");
 			}
+			
 			if (count % 3 != 0) {
 				if (elements.length >= 5) {
 					bw.write(elements[4] + " ||| ");
