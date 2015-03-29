@@ -28,20 +28,20 @@ public class ParseOutput {
 			if (line.trim().length() == 0) {
 				count = 1;
 				bw.write("\n");
-				System.out.println();
+				//System.out.println();
 				continue;
 			}
 			count++;
 			String[] elements = line.split("\t");
 			if (elements.length >= 4) {
 				bw.write(elements[3] + " ||| ");
-				System.out.print(elements[3] + " ||| ");
+			//	System.out.print(elements[3] + " ||| ");
 			}
 			
 			if (count % 3 != 0) {
 				if (elements.length >= 5) {
 					bw.write(elements[4] + " ||| ");
-					System.out.print(elements[4] + " ||| ");
+				//	System.out.print(elements[4] + " ||| ");
 				}
 			}
 
