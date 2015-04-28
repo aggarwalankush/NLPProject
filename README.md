@@ -14,8 +14,10 @@ The problem is to extract information about events mentioned in sentences. `Inpu
     - sbt
     - service/reStart
 
+####Recommended way to Run
+- Run EventExtraction.java 
 
-####Instructions to run
+####Step by Step Instructions to run
 1. Copy required schema lines in `manual_schema_original.txt`
 2. Steps to run relgramtuples-app on news articles and store output in `document_relgram_original.txt`
   - save news article in `news_articles.txt`
