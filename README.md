@@ -11,5 +11,5 @@ University NLP project
 4. Run TextEntail.java to see required results
 
 ####Output
-- Schema_tuple  confidence  Document_tuple
+- Schema_tuple - confidence - Document_tuple
 
