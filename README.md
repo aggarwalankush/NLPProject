@@ -5,7 +5,7 @@ The problem is to extract information about events mentioned in sentences. `Inpu
 
 ####Instructions to run
 1. Copy required schema lines in `manual_schema_original.txt`
-2. Run relgramsapp on document lines and store output in `document_relgram_original.txt`
+2. Run relgramtuples-app on document lines and store output in `document_relgram_original.txt`
 3. Run following parsers to parse above files
   - `ParseDocument.java`
   - `ParseSchema.java`
