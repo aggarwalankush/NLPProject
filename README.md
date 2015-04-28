@@ -27,7 +27,7 @@ The problem is to extract information about events mentioned in sentences. `Inpu
 3. Run following parsers to parse above files
   - `ParseDocument.java`
   - `ParseSchema.java`
-4. Run `TextEntail.java` to see required results
+4. Run `TextEntail.java` to see desired output
 
 ####Output
 - `Schema_tuple - confidence - Document_tuple`
