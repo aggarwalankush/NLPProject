@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+import static extras.FileNames.*;
 /**
  * @author Ankush
  *Input: document output from relgram-app 
@@ -16,8 +17,8 @@ public class ParseDocument {
 	public static void main(String[] args) {
 
 		try {
-			new ParseDocument().parse("document_relgram_original.txt",
-					"document_relgram_Relations.txt");
+			new ParseDocument().parse(D_R_O,
+					D_R_R);
 			System.out.println("done parsing document");
 		} catch (Exception e) {
 			e.printStackTrace();

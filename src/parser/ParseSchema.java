@@ -7,18 +7,16 @@ import java.io.FileWriter;
 import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import static extras.FileNames.*;
 
 /**
- * @author Ankush
- *Input: schema original form 
- *Output: unique arg-rel-arg pairs
+ * @author Ankush Input: schema original form Output: unique arg-rel-arg pairs
  */
 public class ParseSchema {
 
 	public static void main(String[] args) {
 		try {
-			new ParseSchema().parse("manual_schema_original.txt",
-					"manual_schema_Relations.txt");
+			new ParseSchema().parse(M_S_O, M_S_R);
 			System.out.println("done parsing schema");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -38,14 +36,14 @@ public class ParseSchema {
 		while ((line = br.readLine()) != null) {
 			matcher = pattern.matcher(line);
 			if (matcher.find()) {
-				//System.out.println(matcher.group());
+				// System.out.println(matcher.group());
 				schemas_set.add(matcher.group());
 			}
 
 		}
 		System.out.println("\n");
-		for (String s : schemas_set){
-			bw.write(s+"\n");
+		for (String s : schemas_set) {
+			bw.write(s + "\n");
 		}
 		br.close();
 		bw.close();

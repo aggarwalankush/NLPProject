@@ -10,13 +10,14 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class ParseRelation {
 	MaxentTagger tagger;
+
 	public ParseRelation() {
 		String taggerPath = "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger";
 		tagger = new MaxentTagger(taggerPath);
 	}
 
 	public static void main(String[] args) {
-		ParseRelation p=new ParseRelation();
+		ParseRelation p = new ParseRelation();
 		System.out.println(p.parse("be kill by"));
 		System.out.println(p.parse("he killed injured by"));
 		System.out.println(p.parse("be kil"));
@@ -29,7 +30,7 @@ public class ParseRelation {
 				new StringReader(relation));
 		for (List<HasWord> sentence : tokenizer) {
 			List<TaggedWord> tagged = tagger.tagSentence(sentence);
-			StringBuilder sb=new StringBuilder();
+			StringBuilder sb = new StringBuilder();
 			for (TaggedWord tw : tagged) {
 				if (tw.tag().equalsIgnoreCase("IN"))
 					continue;
@@ -37,7 +38,7 @@ public class ParseRelation {
 					continue;
 				if (tw.word().equalsIgnoreCase("be"))
 					continue;
-				 sb.append(tw.word()+" ");
+				sb.append(tw.word() + " ");
 			}
 			return sb.toString();
 		}

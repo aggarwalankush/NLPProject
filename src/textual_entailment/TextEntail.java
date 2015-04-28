@@ -4,14 +4,12 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,6 +20,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import parser.ParseRelation;
+import static extras.FileNames.*;
 
 public class TextEntail {
 	ParseRelation parseRelation = null;
@@ -39,10 +38,10 @@ public class TextEntail {
 			// String hypothesis = "hi ankush";
 			// System.out.println(text_entail.entail(text, hypothesis));
 
-			text_entail.match_document_schema("document_relgram_Relations.txt",
-					"manual_schema_Relations.txt");
+			text_entail.match_document_schema(D_R_R, M_S_R);
 			text_entail.match_args_also();
-			System.out.println("<<Program ended>> : Please see results in results.txt file");
+			System.out
+					.println("<<Program ended>> : Please see results in results.txt file");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -65,7 +64,7 @@ public class TextEntail {
 	 */
 	private void match_args_also() throws Exception {
 		PrintWriter result_file = new PrintWriter(new BufferedWriter(
-				new FileWriter("results.txt", true)));
+				new FileWriter(RESULT, true)));
 		result_file
 				.println("\n=======================================================================Good Match=======================================================================\n");
 
@@ -75,10 +74,10 @@ public class TextEntail {
 		for (String s : match_list) {
 			String[] arrOfMatchList = s.split("\t");
 			StringBuilder sb = new StringBuilder();
-			//System.out.println();
+			// System.out.println();
 			m = p.matcher(s);
 			while (m.find()) {
-				//System.out.print(m.group(1) + "\t");
+				// System.out.print(m.group(1) + "\t");
 				sb.append(m.group(1) + "\t");
 			}
 
@@ -93,43 +92,43 @@ public class TextEntail {
 			else if (len == 3) {// match 0 with 2 or 1 with 2
 				if (args[0].equalsIgnoreCase(args[2])) {
 					result_file.println(s);
-//					result_file.println(args[0] + " : " + arrOfMatchList[4]);
-//					result_file.println(args[1] + " : " + arrOfMatchList[8]);
+					// result_file.println(args[0] + " : " + arrOfMatchList[4]);
+					// result_file.println(args[1] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[0])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[0], list);
-					}else{
+					} else {
 						entities.get(args[0]).add(arrOfMatchList[4]);
 					}
-					
+
 					if (!entities.containsKey(args[1])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[1], list);
-					}else{
+					} else {
 						entities.get(args[1]).add(arrOfMatchList[8]);
 					}
 
 				} else if (args[1].equalsIgnoreCase(args[2])) {
 					result_file.println(s);
-//					result_file.println(args[1] + " : " + arrOfMatchList[4]);
-//					result_file.println(args[0] + " : " + arrOfMatchList[8]);
-					
+					// result_file.println(args[1] + " : " + arrOfMatchList[4]);
+					// result_file.println(args[0] + " : " + arrOfMatchList[8]);
+
 					if (!entities.containsKey(args[1])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[1], list);
-					}else{
+					} else {
 						entities.get(args[1]).add(arrOfMatchList[4]);
 					}
-					
+
 					if (!entities.containsKey(args[0])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[0], list);
-					}else{
+					} else {
 						entities.get(args[0]).add(arrOfMatchList[8]);
 					}
 				}
@@ -140,22 +139,22 @@ public class TextEntail {
 						|| (args[0].equalsIgnoreCase(args[3]) && args[1]
 								.equalsIgnoreCase(args[2]))) {
 					result_file.println(s);
-//					result_file.println(args[2] + " : " + arrOfMatchList[4]);
-//					result_file.println(args[3] + " : " + arrOfMatchList[8]);
-					
+					// result_file.println(args[2] + " : " + arrOfMatchList[4]);
+					// result_file.println(args[3] + " : " + arrOfMatchList[8]);
+
 					if (!entities.containsKey(args[2])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[2], list);
-					}else{
+					} else {
 						entities.get(args[2]).add(arrOfMatchList[4]);
 					}
-					
+
 					if (!entities.containsKey(args[3])) {
 						List<String> list = new ArrayList<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[3], list);
-					}else{
+					} else {
 						entities.get(args[3]).add(arrOfMatchList[8]);
 					}
 				}
@@ -167,9 +166,9 @@ public class TextEntail {
 				.println("\n=======================================================================Entities=======================================================================\n");
 
 		for (Map.Entry<String, List<String>> entry : entities.entrySet()) {
-		    result_file.println(entry.getKey()+" : "+entry.getValue());
+			result_file.println(entry.getKey() + " : " + entry.getValue());
 		}
-		
+
 		result_file.close();
 
 	}
@@ -178,7 +177,7 @@ public class TextEntail {
 			throws Exception {
 		BufferedReader document = new BufferedReader(new FileReader(doc_file));
 		BufferedReader schema = new BufferedReader(new FileReader(schema_file));
-		PrintWriter result_file = new PrintWriter("results.txt");
+		PrintWriter result_file = new PrintWriter(RESULT);
 		String schema_line = null;
 		List<String> schema_list = new ArrayList<String>();
 		while ((schema_line = schema.readLine()) != null)
@@ -206,7 +205,7 @@ public class TextEntail {
 
 			}
 			if (!max_match_pair.trim().isEmpty()) {
-				//System.out.println(max_match_pair);
+				// System.out.println(max_match_pair);
 				match_list.add(max_match_pair);
 				result_file.println(max_match_pair);
 			}
