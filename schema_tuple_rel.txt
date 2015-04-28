@@ -1,7 +1,0 @@
-wound
-injure
-explode injure 
-charge
-injure
-kill
-shoot

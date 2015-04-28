@@ -2,7 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/json"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sdf"/>
+	<classpathentry kind="lib" path="/Users/Anku/Downloads/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Anku/Downloads/stanford-corenlp-full-2015-01-29/stanford-corenlp-3.5.1-models.jar"/>
+	<classpathentry kind="lib" path="/Users/Anku/Downloads/stanford-corenlp-full-2015-01-29/stanford-corenlp-3.5.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

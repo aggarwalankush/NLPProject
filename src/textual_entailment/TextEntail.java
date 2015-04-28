@@ -21,8 +21,8 @@ public class TextEntail {
 			// String hypothesis = "hi ankush";
 			// System.out.println(text_entail.entail(text, hypothesis));
 
-			text_entail.match_document_schema("document_tuple_rel.txt",
-					"schema_tuple_rel.txt");
+			text_entail.match_document_schema("document_relgram_Relations.txt",
+					"manual_schema_Relations.txt");
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

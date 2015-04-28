@@ -1,4 +1,4 @@
-package parseOutput;
+package parser;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,8 +17,9 @@ public class ParseSchema {
 
 	public static void main(String[] args) {
 		try {
-			new ParseSchema().parse("manual_schema.txt",
-					"manual_schema_mainContent.txt");
+			new ParseSchema().parse("manual_schema_original.txt",
+					"manual_schema_Relations.txt");
+			System.out.println("done parsing schema");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

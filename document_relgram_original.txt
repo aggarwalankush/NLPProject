@@ -1,0 +1,89 @@
+DOCID-SENTID	Tuple Part	Original	Head	Type
+0-0	ARG1	Four whites	whites	person:WordNet
+	REL	were injured by	be injure by
+	ARG2	stones	stone	
+
+0-0	ARG1	Fourteen Negroes	Negroes	
+	REL	were injured in	be injure in
+	ARG2	the explosion	explosion	
+
+0-0	ARG1	The four girls	girl	person:WordNet
+	REL	be killed in	be kill in
+	ARG2	the blast	blast	
+
+0-0	ARG1	The four girls killed in the blast	girl	person:WordNet
+	REL	had just heard	hear
+	ARG2	Mrs. Ella C. Demand	Demand	person:Stanford
+
+0-0	ARG1	Some law-enforcement officials	official	person:WordNet
+	REL	might be linked to	be link to
+	ARG2	the second anniversary	anniversary	time_period:WordNet,time_unit:Stanford
+
+0-0	ARG1	an operation	operation	
+	REL	ended in	end in
+	ARG2	a fire that killed about 80 people , including many children	fire	
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	entered	enter
+	ARG2	the United States	United States	location:Stanford
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	entered the United States under	enter United States under
+	ARG2	an assumed name	name	
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	recruited	recruit
+	ARG2	local supporters	supporter	person:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	recruited local supporters to carry out	recruit supporter to carry out
+	ARG2	the detail work	work	activity:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	then fled	flee
+	ARG2	the country	country	organization:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	then fled the country within	flee country within
+	ARG2	hours of the blast	blast	
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	went off in	go off in
+	ARG2	the church which held 400 Negroes at the time	church	organization:WordNet
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	went off including	go off including
+	ARG2	80 children	child	person:WordNet
+
+0-0	ARG1	the church	church	organization:WordNet
+	REL	held 400 Negroes at	hold Negroes at
+	ARG2	the time	time	
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	be killed by	be kill by
+	ARG2	police	police	organization:WordNet
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	was	be
+	ARG2	Johnny Robinson	Johnny Robinson	person:Stanford
+
+0-0	ARG1	The bombing	bombing	activity:WordNet
+	REL	was	be
+	ARG2	the 21st in Birmingham in eight years , and the first to kill	Birmingham	location:Stanford
+
+0-0	ARG1	The bombing	bombing	activity:WordNet
+	REL	was the 21st in	be in
+	ARG2	Birmingham	Birmingham	location:Stanford
+
+0-0	ARG1	The bombing	bombing	activity:WordNet
+	REL	was the 21st in	be in
+	ARG2	eight years	year	time_period:WordNet
+
+0-0	ARG1	The Associated Press	Associated Press	organization:Stanford
+	REL	reported	report
+	ARG2	a white man injured by a Negro	man	person:WordNet
+
+0-0	ARG1	a white man	man	person:WordNet
+	REL	be injured by	be injure by
+	ARG2	a Negro	Negro	location:Stanford
+
