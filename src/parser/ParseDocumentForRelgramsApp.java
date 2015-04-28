@@ -16,7 +16,7 @@ public class ParseDocumentForRelgramsApp {
 		ParseDocumentForRelgramsApp p = new ParseDocumentForRelgramsApp();
 		try {
 			p.parse(N_A, N_R_I);
-			System.out.println("Document ready for relgramtuples-app");
+			System.out.println("<<Document ready for relgramtuples-app>>");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

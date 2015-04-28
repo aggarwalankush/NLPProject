@@ -19,7 +19,7 @@ public class ParseDocument {
 		try {
 			new ParseDocument().parse(D_R_O,
 					D_R_R);
-			System.out.println("done parsing document");
+			System.out.println("<<done parsing document>>");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

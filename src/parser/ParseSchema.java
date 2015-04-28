@@ -17,7 +17,7 @@ public class ParseSchema {
 	public static void main(String[] args) {
 		try {
 			new ParseSchema().parse(M_S_O, M_S_R);
-			System.out.println("done parsing schema");
+			System.out.println("<<done parsing schema>>");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -41,7 +41,7 @@ public class ParseSchema {
 			}
 
 		}
-		System.out.println("\n");
+		//System.out.println("\n");
 		for (String s : schemas_set) {
 			bw.write(s + "\n");
 		}
