@@ -1,4 +1,4 @@
-#Natural Language Processing Course Project
+##Natural Language Processing Course Project
 
 ####Problem Description
 The problem is to extract information about events mentioned in sentences. `Input` includes articles describing events and a schema for that domain such as bombing domain. `Output` is the information about the events in a tabular form of triples where each tuple denotes the relation between two actors and a second table for each actor and all its mentions. `Event extraction` is a key prerequisite for generating structured, machine-readable representations of natural language. Such representations can aid various tasks like question answering, machine translation, novelty detection.
