@@ -17,7 +17,7 @@ The problem is to extract information about events mentioned in sentences. `Inpu
 
 ####Instructions to run
 1. Copy required schema lines in `manual_schema_original.txt`
-2. Run relgramtuples-app on news articles and store output in `document_relgram_original.txt`
+2. Steps to run relgramtuples-app on news articles and store output in `document_relgram_original.txt`
   - save news article in `news_articles.txt`
   - run `ParseDocumentForRelgramsApp.java`, it will output `news_relgram_input.txt`
   - copy `news_relgram_input.txt` in relgramtuples-app directory
