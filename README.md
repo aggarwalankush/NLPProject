@@ -30,5 +30,6 @@ The problem is to extract information about events mentioned in sentences. `Inpu
 4. Run `TextEntail.java` to see desired output
 
 ####Output
+- results.txt file
 - `Schema_tuple - confidence - Document_tuple`
 
