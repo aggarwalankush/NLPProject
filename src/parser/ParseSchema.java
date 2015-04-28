@@ -29,7 +29,7 @@ public class ParseSchema {
 		BufferedReader br = new BufferedReader(new FileReader(input));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(output));
 
-		Pattern pattern = Pattern.compile("A\\d+:\\[.*\\]");
+		Pattern pattern = Pattern.compile("A\\s*?\\d+\\s*?:\\s*?\\[.*\\]");
 		Matcher matcher = null;
 		HashSet<String> schemas_set = new HashSet<String>();
 		String line = "";

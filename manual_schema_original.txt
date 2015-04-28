@@ -1,4 +1,3 @@
-
 default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people
 
 
@@ -28,5 +27,4 @@ default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	
 
 
 default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	shoot	A6:[person]	Linda Lambesis;he;guy;hunter;Hawkins
-
 

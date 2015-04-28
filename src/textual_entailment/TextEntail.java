@@ -11,6 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -24,8 +25,8 @@ import static extras.FileNames.*;
 
 public class TextEntail {
 	ParseRelation parseRelation = null;
-	List<String> match_list = new ArrayList<String>();
-	HashMap<String, List<String>> entities = new HashMap<String, List<String>>();
+	HashSet<String> match_list = new HashSet<String>();
+	HashMap<String, HashSet<String>> entities = new HashMap<String, HashSet<String>>();
 
 	public TextEntail() {
 		parseRelation = new ParseRelation();
@@ -39,10 +40,12 @@ public class TextEntail {
 			// System.out.println(text_entail.entail(text, hypothesis));
 
 			text_entail.match_document_schema(D_R_R, M_S_R);
+			// System.out.println("done");
 			text_entail.match_args_also();
 			System.out
 					.println("<<Program ended>> : Please see results in results.txt file");
 		} catch (Exception e) {
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 	}
@@ -96,7 +99,7 @@ public class TextEntail {
 					// result_file.println(args[1] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[0])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[0], list);
 					} else {
@@ -104,7 +107,7 @@ public class TextEntail {
 					}
 
 					if (!entities.containsKey(args[1])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[1], list);
 					} else {
@@ -117,7 +120,7 @@ public class TextEntail {
 					// result_file.println(args[0] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[1])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[1], list);
 					} else {
@@ -125,7 +128,7 @@ public class TextEntail {
 					}
 
 					if (!entities.containsKey(args[0])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[0], list);
 					} else {
@@ -143,7 +146,7 @@ public class TextEntail {
 					// result_file.println(args[3] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[2])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[4]);
 						entities.put(args[2], list);
 					} else {
@@ -151,7 +154,7 @@ public class TextEntail {
 					}
 
 					if (!entities.containsKey(args[3])) {
-						List<String> list = new ArrayList<String>();
+						HashSet<String> list = new HashSet<String>();
 						list.add(arrOfMatchList[8]);
 						entities.put(args[3], list);
 					} else {
@@ -165,7 +168,7 @@ public class TextEntail {
 		result_file
 				.println("\n=======================================================================Entities=======================================================================\n");
 
-		for (Map.Entry<String, List<String>> entry : entities.entrySet()) {
+		for (Map.Entry<String, HashSet<String>> entry : entities.entrySet()) {
 			result_file.println(entry.getKey() + " : " + entry.getValue());
 		}
 
@@ -193,6 +196,7 @@ public class TextEntail {
 			String doc_relation = doc_line.split("\t")[2];
 			doc_relation = parseRelation.parse(doc_relation);
 			for (String s : schema_list) {
+
 				String schema_relation = s.split("\t")[1];
 				schema_relation = parseRelation.parse(schema_relation);
 
@@ -202,12 +206,22 @@ public class TextEntail {
 					max_match_pair = s + "\t<<-schema--|" + max_confidence
 							+ "|--document->>\t" + doc_line;
 				}
+				if (confidence == 1.0) {
+					max_match_pair = s + "\t<<-schema--|" + max_confidence
+							+ "|--document->>\t" + doc_line;
+					if (!match_list.contains(max_match_pair)) {
+						match_list.add(max_match_pair);
+						result_file.println(max_match_pair);
+					}
+				}
 
 			}
 			if (!max_match_pair.trim().isEmpty()) {
 				// System.out.println(max_match_pair);
-				match_list.add(max_match_pair);
-				result_file.println(max_match_pair);
+				if (!match_list.contains(max_match_pair)) {
+					match_list.add(max_match_pair);
+					result_file.println(max_match_pair);
+				}
 			}
 		}
 		result_file.close();
@@ -266,9 +280,13 @@ public class TextEntail {
 			JSONParser parser = new JSONParser();
 
 			JSONObject jsonObject = (JSONObject) parser.parse(br);
+			try {
+				double confidence = (double) jsonObject.get("confidence");
 
-			double confidence = (double) jsonObject.get("confidence");
-			return confidence;
+				return confidence;
+			} catch (Exception e) {
+				return 0;
+			}
 			// System.out.println(confidence);
 
 		} else {
