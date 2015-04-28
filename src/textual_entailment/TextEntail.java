@@ -12,7 +12,13 @@ import java.util.List;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import parser.ParseRelation;
+
 public class TextEntail {
+	ParseRelation parseRelation = null;
+	public TextEntail() {
+		parseRelation=new ParseRelation();
+	}
 
 	public static void main(String[] args) {
 		TextEntail text_entail = new TextEntail();
@@ -44,11 +50,16 @@ public class TextEntail {
 		while ((doc_line = document.readLine()) != null) {
 			String max_match_pair = "";
 			double confidence = 0.0, max_confidence = 0.0;
+			String doc_relation=doc_line.split("\t")[2];
+			doc_relation=parseRelation.parse(doc_relation);
 			for (String s : schema_list) {
-				confidence = entail(doc_line, s);
+				String schema_relation=s.split("\t")[1];
+				schema_relation=parseRelation.parse(schema_relation);
+				
+				confidence = entail(doc_relation, schema_relation);
 				if (confidence > max_confidence) {
 					max_confidence = confidence;
-					max_match_pair = s + "\t" + doc_line;
+					max_match_pair = s + "\t<-schema--|"+ max_confidence +"|--document->\t" + doc_line;
 				}
 
 			}
