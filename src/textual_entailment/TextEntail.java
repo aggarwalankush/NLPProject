@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -39,7 +40,7 @@ public class TextEntail {
 			throws Exception {
 		BufferedReader document = new BufferedReader(new FileReader(doc_file));
 		BufferedReader schema = new BufferedReader(new FileReader(schema_file));
-
+		PrintWriter result_file=new PrintWriter("results.txt");
 		String schema_line = null;
 		List<String> schema_list = new ArrayList<String>();
 		while ((schema_line = schema.readLine()) != null)
@@ -63,9 +64,12 @@ public class TextEntail {
 				}
 
 			}
-			if (!max_match_pair.trim().isEmpty())
+			if (!max_match_pair.trim().isEmpty()){
 				System.out.println(max_match_pair);
+				result_file.println(max_match_pair);
+			}
 		}
+		result_file.close();
 		document.close();
 	}
 

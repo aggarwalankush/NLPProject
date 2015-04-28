@@ -1,0 +1,7 @@
+A1:[device]	injure	A6:[person]	<-schema--|1.0|--document->	Four whites	A1:[person]	be injure by	A2:[]	stones
+A1:[device]	injure	A6:[person]	<-schema--|1.0|--document->	Fourteen Negroes	A1:[person]	be injure in	A2:[]	the explosion
+A1:[activity]	kill	A5:[number]	<-schema--|1.0|--document->	The four girls	A1:[person]	be kill in	A2:[]	the blast
+A1:[activity]	kill	A5:[number]	<-schema--|1.0|--document->	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
+A1:[activity]	kill	A5:[number]	<-schema--|1.0|--document->	the bomb	A1:[device]	go off including	A2:[person]	80 children
+A1:[activity]	kill	A5:[number]	<-schema--|1.0|--document->	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[device]	injure	A6:[person]	<-schema--|1.0|--document->	a white man	A1:[person]	be injure by	A2:[location]	a Negro
