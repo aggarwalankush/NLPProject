@@ -11,7 +11,10 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,6 +26,7 @@ import parser.ParseRelation;
 public class TextEntail {
 	ParseRelation parseRelation = null;
 	List<String> match_list = new ArrayList<String>();
+	HashMap<String, List<String>> entities = new HashMap<String, List<String>>();
 
 	public TextEntail() {
 		parseRelation = new ParseRelation();
@@ -38,6 +42,7 @@ public class TextEntail {
 			text_entail.match_document_schema("document_relgram_Relations.txt",
 					"manual_schema_Relations.txt");
 			text_entail.match_args_also();
+			System.out.println("<<Program ended>> : Please see results in results.txt file");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -62,44 +67,111 @@ public class TextEntail {
 		PrintWriter result_file = new PrintWriter(new BufferedWriter(
 				new FileWriter("results.txt", true)));
 		result_file
-				.println("\n--------------------------------------------Good Match--------------------------------------------\n");
+				.println("\n=======================================================================Good Match=======================================================================\n");
 
 		Pattern p = Pattern.compile("\\[(.*?)\\]");
 		Matcher m;
 
 		for (String s : match_list) {
+			String[] arrOfMatchList = s.split("\t");
 			StringBuilder sb = new StringBuilder();
-			System.out.println();
+			//System.out.println();
 			m = p.matcher(s);
 			while (m.find()) {
-				System.out.print(m.group(1) + "\t");
+				//System.out.print(m.group(1) + "\t");
 				sb.append(m.group(1) + "\t");
 			}
 
 			String[] args = sb.toString().split("\t");
 			int len = args.length;
 			for (int i = 0; i < len; i++) {
-				args[i] = args[i].replaceAll("person", "number");
-				args[i] = args[i].replaceAll("device", "activity");
+				args[i] = args[i].replaceAll("number", "person");
+				args[i] = args[i].replaceAll("activity", "device");
 			}
-
 			if (len < 3)
 				continue; // no types detected for document line by relgrams
 			else if (len == 3) {// match 0 with 2 or 1 with 2
-				if (args[0].equalsIgnoreCase(args[2])
-						|| args[1].equalsIgnoreCase(args[2]))
+				if (args[0].equalsIgnoreCase(args[2])) {
 					result_file.println(s);
+//					result_file.println(args[0] + " : " + arrOfMatchList[4]);
+//					result_file.println(args[1] + " : " + arrOfMatchList[8]);
+
+					if (!entities.containsKey(args[0])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[4]);
+						entities.put(args[0], list);
+					}else{
+						entities.get(args[0]).add(arrOfMatchList[4]);
+					}
+					
+					if (!entities.containsKey(args[1])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[8]);
+						entities.put(args[1], list);
+					}else{
+						entities.get(args[1]).add(arrOfMatchList[8]);
+					}
+
+				} else if (args[1].equalsIgnoreCase(args[2])) {
+					result_file.println(s);
+//					result_file.println(args[1] + " : " + arrOfMatchList[4]);
+//					result_file.println(args[0] + " : " + arrOfMatchList[8]);
+					
+					if (!entities.containsKey(args[1])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[4]);
+						entities.put(args[1], list);
+					}else{
+						entities.get(args[1]).add(arrOfMatchList[4]);
+					}
+					
+					if (!entities.containsKey(args[0])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[8]);
+						entities.put(args[0], list);
+					}else{
+						entities.get(args[0]).add(arrOfMatchList[8]);
+					}
+				}
+
 			} else if (len == 4) {// match 0-1 with 2-3 or 3-2
 				if ((args[0].equalsIgnoreCase(args[2]) && args[1]
 						.equalsIgnoreCase(args[3]))
 						|| (args[0].equalsIgnoreCase(args[3]) && args[1]
-								.equalsIgnoreCase(args[2])))
+								.equalsIgnoreCase(args[2]))) {
 					result_file.println(s);
+//					result_file.println(args[2] + " : " + arrOfMatchList[4]);
+//					result_file.println(args[3] + " : " + arrOfMatchList[8]);
+					
+					if (!entities.containsKey(args[2])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[4]);
+						entities.put(args[2], list);
+					}else{
+						entities.get(args[2]).add(arrOfMatchList[4]);
+					}
+					
+					if (!entities.containsKey(args[3])) {
+						List<String> list = new ArrayList<String>();
+						list.add(arrOfMatchList[8]);
+						entities.put(args[3], list);
+					}else{
+						entities.get(args[3]).add(arrOfMatchList[8]);
+					}
+				}
 			}
 
 		}
 
+		result_file
+				.println("\n=======================================================================Entities=======================================================================\n");
+
+		for (Map.Entry<String, List<String>> entry : entities.entrySet()) {
+		    result_file.println(entry.getKey()+" : "+entry.getValue());
+		}
+		
 		result_file.close();
+
 	}
 
 	private void match_document_schema(String doc_file, String schema_file)
@@ -115,7 +187,7 @@ public class TextEntail {
 		schema.close();
 		String doc_line = null;
 		result_file
-				.println("\n----------------------------Document-Schema pairs matched using only relation----------------------------\n");
+				.println("\n========================================Document-Schema pairs matched using only relation===============================================\n");
 		while ((doc_line = document.readLine()) != null) {
 			String max_match_pair = "";
 			double confidence = 0.0, max_confidence = 0.0;
@@ -134,7 +206,7 @@ public class TextEntail {
 
 			}
 			if (!max_match_pair.trim().isEmpty()) {
-				System.out.println(max_match_pair);
+				//System.out.println(max_match_pair);
 				match_list.add(max_match_pair);
 				result_file.println(max_match_pair);
 			}
