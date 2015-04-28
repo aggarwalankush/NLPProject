@@ -3,6 +3,15 @@
 ####Problem Description
 The problem is to extract information about events mentioned in sentences. `Input` includes articles describing events and a schema for that domain such as bombing domain. `Output` is the information about the events in a tabular form of triples where each tuple denotes the relation between two actors and a second table for each actor and all its mentions. `Event extraction` is a key prerequisite for generating structured, machine-readable representations of natural language. Such representations can aid various tasks like question answering, machine translation, novelty detection.
 
+####Required Files
+1. Jars
+  - json-simple-1.1.1
+  - stanford-corenlp-3.5.1-models
+  - stanford-corenlp-3.5.1
+2. relgramtuples-app
+3. textual-entailment running as service
+
+
 ####Instructions to run
 1. Copy required schema lines in `manual_schema_original.txt`
 2. Run relgramtuples-app on document lines and store output in `document_relgram_original.txt`
