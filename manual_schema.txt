@@ -1,0 +1,32 @@
+
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people
+
+
+default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	injure	A6:[person]	people;son;girl;nurse;more
+
+
+default	492	bomb;grenade;device;missile	A1:[device]	explode injure	A7:[person]	woman;people;immigrant;person;policeman
+
+
+default	35	robbery;abuse;bombing;conduct;exercise	A14:[activity]	kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+
+
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	kill	A5:[number]	8600;three;two;192;eight
+
+
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	be charge with	A7:[activity]	charge;practice;crime;possession;fraud
+default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	injure	A6:[person]	people;son;girl;nurse;more
+default	35	robbery;abuse;bombing;conduct;exercise	A14:[activity]	kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+default	284	Mrs. Pyne;man;officer;Martin;she	A7:[person]	kill	A1:[person]	I;husband;youth;Catholics;people
+
+
+default	677	summer;month;week;weekend	A10:[time_period]	be kill in	A4:[activity]	raid;bombing;attack;ambush;demonstration
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	kill	A5:[number]	8600;three;two;192;eight
+
+
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people
+
+
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	shoot	A6:[person]	Linda Lambesis;he;guy;hunter;Hawkins
+
+
