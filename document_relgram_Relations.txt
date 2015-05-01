@@ -1,18 +1,18 @@
 Four whites	A1:[person]	be injure by	A2:[]	stones
-Fourteen Negroes	A1:[person]	be injure in	A2:[]	the explosion
-The four girls	A1:[person]	be kill in	A2:[]	the blast
+Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+The four girls	A1:[person]	be kill in	A2:[event]	the blast
 The four girls killed in the blast	A1:[person]	hear	A2:[person]	Mrs. Ella C. Demand
 Some law-enforcement officials	A1:[person]	be link to	A2:[time_period]	the second anniversary
-an operation	A1:[person]	end in	A2:[time_period]	a fire that killed about 80 people , including many children
+an operation	A1:[person]	end in	A2:[event]	a fire that killed about 80 people , including many children
 Ramzi Ahmed Yousef	A1:[person]	enter	A2:[location]	the United States
 Ramzi Ahmed Yousef	A1:[person]	enter United States under	A2:[location]	an assumed name
 Ramzi Ahmed Yousef	A1:[person]	recruit	A2:[person]	local supporters
-Ramzi Ahmed Yousef	A1:[person]	recruit supporter to carry out	A2:[activity]	the detail work
+Ramzi Ahmed Yousef	A1:[person]	recruit supporter to carry out	A2:[event]	the detail work
 Ramzi Ahmed Yousef	A1:[person]	flee	A2:[organization]	the country
-Ramzi Ahmed Yousef	A1:[person]	flee country within	A2:[organization]	hours of the blast
+Ramzi Ahmed Yousef	A1:[person]	flee country within	A2:[event]	hours of the blast
 the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
 the bomb	A1:[device]	go off including	A2:[person]	80 children
-the church	A1:[organization]	hold Negroes at	A2:[person]	the time
+the church	A1:[organization]	hold Negroes at	A2:[event]	the time
 The Negro youth	A1:[person]	be kill by	A2:[organization]	police
 The Negro youth	A1:[person]	be	A2:[person]	Johnny Robinson
 The bombing	A1:[activity]	be	A2:[location]	the 21st in Birmingham in eight years , and the first to kill

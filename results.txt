@@ -2,11 +2,11 @@
 ========================================Document-Schema pairs matched using only relation===============================================
 
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[]	stones
-A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[]	the explosion
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
-A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
-A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
+A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
 A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
@@ -23,15 +23,14 @@ A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	a white man	A1:[per
 
 =======================================================================Good Match=======================================================================
 
-A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
+A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
 A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[]	the explosion
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[]	stones
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[]	the blast
 
 =======================================================================Entities=======================================================================
 
-person : [80 children, Four whites, Fourteen Negroes, The four girls, the blast]
-device : [the explosion, the bomb, stones, the blast]
+activity/device : [the explosion, the bomb, stones, the blast]
+person : [80 children, Four whites, Fourteen Negroes, The four girls]

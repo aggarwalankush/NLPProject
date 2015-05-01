@@ -88,7 +88,9 @@ public class TextEntail {
 			int len = args.length;
 			for (int i = 0; i < len; i++) {
 				args[i] = args[i].replaceAll("number", "person");
-				args[i] = args[i].replaceAll("activity", "device");
+				args[i] = args[i].replaceAll("event", "activity");
+				//args[i] = args[i].replaceAll("physical_object", "device");
+				args[i] = args[i].replaceAll("device", "activity");
 			}
 			if (len < 3)
 				continue; // no types detected for document line by relgrams
@@ -169,7 +171,10 @@ public class TextEntail {
 				.println("\n=======================================================================Entities=======================================================================\n");
 
 		for (Map.Entry<String, HashSet<String>> entry : entities.entrySet()) {
-			result_file.println(entry.getKey() + " : " + entry.getValue());
+			String key=entry.getKey();
+			if(key.equalsIgnoreCase("activity"))
+				key+="/device";
+			result_file.println(key + " : " + entry.getValue());
 		}
 
 		result_file.close();

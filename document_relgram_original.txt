@@ -5,11 +5,11 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	Fourteen Negroes	Negroes	
 	REL	were injured in	be injure in
-	ARG2	the explosion	explosion	
+	ARG2	the explosion	explosion	event:WordNet
 
 0-0	ARG1	The four girls	girl	person:WordNet
 	REL	be killed in	be kill in
-	ARG2	the blast	blast	
+	ARG2	the blast	blast	event:WordNet
 
 0-0	ARG1	The four girls killed in the blast	girl	person:WordNet
 	REL	had just heard	hear
@@ -21,7 +21,7 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	an operation	operation	
 	REL	ended in	end in
-	ARG2	a fire that killed about 80 people , including many children	fire	
+	ARG2	a fire that killed about 80 people , including many children	fire	event:WordNet
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	entered	enter
@@ -37,7 +37,7 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	recruited local supporters to carry out	recruit supporter to carry out
-	ARG2	the detail work	work	activity:WordNet
+	ARG2	the detail work	work	event:WordNet,activity:WordNet
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	then fled	flee
@@ -45,7 +45,7 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	then fled the country within	flee country within
-	ARG2	hours of the blast	blast	
+	ARG2	hours of the blast	blast	event:WordNet
 
 0-0	ARG1	the bomb	bomb	device:WordNet
 	REL	went off in	go off in
@@ -57,7 +57,7 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	the church	church	organization:WordNet
 	REL	held 400 Negroes at	hold Negroes at
-	ARG2	the time	time	
+	ARG2	the time	time	event:WordNet
 
 0-0	ARG1	The Negro youth	youth	person:WordNet
 	REL	be killed by	be kill by
@@ -67,15 +67,15 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 	REL	was	be
 	ARG2	Johnny Robinson	Johnny Robinson	person:Stanford
 
-0-0	ARG1	The bombing	bombing	activity:WordNet
+0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
 	REL	was	be
 	ARG2	the 21st in Birmingham in eight years , and the first to kill	Birmingham	location:Stanford
 
-0-0	ARG1	The bombing	bombing	activity:WordNet
+0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
 	REL	was the 21st in	be in
 	ARG2	Birmingham	Birmingham	location:Stanford
 
-0-0	ARG1	The bombing	bombing	activity:WordNet
+0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
 	REL	was the 21st in	be in
 	ARG2	eight years	year	time_period:WordNet
 
