@@ -7,14 +7,12 @@ A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[
 A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
-A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
-A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
+A1:[activity]	kill	A5:[number]	<<-schema--|0.004166666666666667|--document->>	an operation	A1:[person]	end in	A2:[event]	a fire that killed about 80 people , including many children
+A1:[person]	shoot	A6:[person]	<<-schema--|0.021367521367521368|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter	A2:[location]	the United States
+A1:[person]	shoot	A6:[person]	<<-schema--|0.006675117005280684|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter United States under	A2:[location]	an assumed name
+A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
+A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
+A1:[person]	shoot	A6:[person]	<<-schema--|0.0075259890084549|--document->>	the church	A1:[organization]	hold Negroes at	A2:[event]	the time
 A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
 A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
@@ -23,10 +21,9 @@ A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	a white man	A1:[per
 
 =======================================================================Good Match=======================================================================
 
+A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
 A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[]	stones
 

@@ -38,9 +38,9 @@ public class TextEntail {
 			// String text = "hello ankush";
 			// String hypothesis = "hi ankush";
 			// System.out.println(text_entail.entail(text, hypothesis));
-
+				//System.out.println(text_entail.entail("kill","go off including"));
 			text_entail.match_document_schema(D_R_R, M_S_R);
-			// System.out.println("done");
+//			// System.out.println("done");
 			text_entail.match_args_also();
 			System.out
 					.println("<<Program ended>> : Please see results in results.txt file");
@@ -76,6 +76,8 @@ public class TextEntail {
 
 		for (String s : match_list) {
 			String[] arrOfMatchList = s.split("\t");
+			double conf=Double.parseDouble(arrOfMatchList[3].split("\\|")[1]);
+			if(conf<conf_threshold)continue;
 			StringBuilder sb = new StringBuilder();
 			// System.out.println();
 			m = p.matcher(s);
@@ -206,6 +208,8 @@ public class TextEntail {
 				schema_relation = parseRelation.parse(schema_relation);
 
 				confidence = entail(doc_relation, schema_relation);
+				confidence+= entail(schema_relation,doc_relation);
+				confidence/=2;
 				if (confidence > max_confidence) {
 					max_confidence = confidence;
 					max_match_pair = s + "\t<<-schema--|" + max_confidence
@@ -287,7 +291,7 @@ public class TextEntail {
 			JSONObject jsonObject = (JSONObject) parser.parse(br);
 			try {
 				double confidence = (double) jsonObject.get("confidence");
-
+//System.out.println(jsonObject);
 				return confidence;
 			} catch (Exception e) {
 				return 0;

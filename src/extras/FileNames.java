@@ -8,4 +8,5 @@ public final class FileNames {
 	public static final String N_A="news_article.txt";
 	public static final String N_R_I="news_relgram_input.txt";
 	public static final String RESULT="results.txt";
+	public static final Double conf_threshold=0.2;
 }
