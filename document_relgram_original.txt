@@ -1,11 +1,235 @@
 DOCID-SENTID	Tuple Part	Original	Head	Type
-0-0	ARG1	Four whites	whites	person:WordNet
-	REL	were injured by	be injure by
-	ARG2	stones	stone	
+0-0	ARG1	two Negro boys	boy	person:WordNet
+	REL	were shot to	be shoot to
+	ARG2	death	death	event:WordNet
 
 0-0	ARG1	Fourteen Negroes	Negroes	
 	REL	were injured in	be injure in
 	ARG2	the explosion	explosion	event:WordNet
+
+0-0	ARG1	One Negro and five whites	Negro	
+	REL	were hurt in	be hurt in
+	ARG2	the disorders that followed	disorder	
+
+0-0	ARG1	Some 500 National Guardsmen	National Guardsmen	organization:Stanford
+	REL	stood on	stand on
+	ARG2	orders of Gov. George C. Wallace	order	event:WordNet
+
+0-0	ARG1	300 state troopers	trooper	person:WordNet
+	REL	joined	join
+	ARG2	the Birmingham police	police	organization:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	sent	send
+	ARG2	the guardsmen and the troopers	guardsman	person:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	sent the guardsmen in	send guardsman in
+	ARG2	response	response	effect:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	sent the troopers in	send trooper in
+	ARG2	response	response	effect:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	sent the guardsmen	send guardsman
+	ARG2	response	response	effect:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	sent the troopers	send trooper
+	ARG2	response	response	effect:WordNet
+
+0-0	ARG1	Sporadic gunfire	gunfire	event:WordNet
+	REL	sounded tonight in	sound in
+	ARG2	Negro neighborhoods	neighborhood	location:WordNet
+
+0-0	ARG1	Sporadic gunfire	gunfire	event:WordNet
+	REL	roamed	roam
+	ARG2	the streets	street	
+
+0-0	ARG1	small bands of residents	resident	person:WordNet
+	REL	roamed	roam
+	ARG2	the streets	street	
+
+0-0	ARG1	the city	city	location:WordNet
+	REL	be armed with	be arm with
+	ARG2	riot guns , carbines and shotguns	gun	device:WordNet
+
+0-0	ARG1	three fires	fire	event:WordNet
+	REL	burned simultaneously one at a broom and mop factory , one at a roofing company and a third in another building in	burn at broom mop factory , at roofing company in building in
+	ARG2	Negro sections	section	
+
+0-0	ARG1	three fires	fire	event:WordNet
+	REL	burned simultaneously	burn
+	ARG2	one	one	number:NUM
+
+0-0	ARG1	An incendiary bomb	bomb	device:WordNet
+	REL	was tossed into	be toss into
+	ARG2	a supermarket	supermarket	structure:WordNet
+
+0-0	ARG1	Fire marshals	marshal	person:WordNet
+	REL	investigated	investigate
+	ARG2	blazes	blaze	
+
+0-0	ARG1	Fire marshals	marshal	person:WordNet
+	REL	investigated blazes at	investigate blaze at
+	ARG2	two vacant houses	house	building:WordNet,structure:WordNet
+
+0-0	ARG1	Mayor Albert Boutwell and other city officials and civic leaders	Mayor Albert Boutwell	person:Stanford
+	REL	appeared on	appear on
+	ARG2	television station WAPI	WAPI	time:Stanford,organization:Stanford
+
+0-0	ARG1	Mayor Albert Boutwell and other city officials and civic leaders	Mayor Albert Boutwell	person:Stanford
+	REL	appeared in	appear in
+	ARG2	television station WAPI	WAPI	time:Stanford,organization:Stanford
+
+0-0	ARG1	Mayor Albert Boutwell and other city officials and civic leaders	Mayor Albert Boutwell	person:Stanford
+	REL	urged	urge
+	ARG2	residents	resident	person:WordNet
+
+0-0	ARG1	Melvin Bailey	Melvin Bailey	person:Stanford
+	REL	referred to	refer to
+	ARG2	the day	day	time_unit:WordNet
+
+0-0	ARG1	this morning	morning	time_period:WordNet,time:Stanford
+	REL	brought	bring
+	ARG2	hundreds of angry Negroes	Negroes	
+
+0-0	ARG1	hundreds of angry Negroes	Negroes	
+	REL	pouring into	pour into
+	ARG2	the streets	street	
+
+0-0	ARG1	The police	police	organization:WordNet
+	REL	dispersed	disperse
+	ARG2	them	they	person:Pronoun
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	was shot this afternoon in	be shoot afternoon in
+	ARG2	the back	back	
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	was shot	be shoot
+	ARG2	this afternoon	afternoon	time_period:WordNet
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	be killed by	be kill by
+	ARG2	a policeman	policeman	person:WordNet
+
+0-0	ARG1	Officers	Officers	person:WordNet
+	REL	said	say
+	ARG2	the victim	victim	person:WordNet
+
+0-0	ARG1	the victim	victim	person:WordNet
+	REL	was among	be among
+	ARG2	a group that had hurled stones at white youths	group	
+
+0-0	ARG1	white youths	youth	person:WordNet
+	REL	driving through	drive through
+	ARG2	the area	area	location:WordNet
+
+0-0	ARG1	white youths	youth	person:WordNet
+	REL	driving in	drive in
+	ARG2	cars flying Confederate battle flags	flag	
+
+0-0	ARG1	Virgil Wade	Virgil Wade	person:Stanford
+	REL	be killed outside	be kill outside
+	ARG2	Birmingham	Birmingham	location:Stanford
+
+0-0	ARG1	The Jefferson County sheriff 's office	office	structure:WordNet
+	REL	said	say
+	ARG2	no reason	reason	
+
+0-0	ARG1	it	it	
+	REL	was related to	be relate to
+	ARG2	the general racial disorders	disorder	
+
+0-0	ARG1	Four whites	whites	person:WordNet
+	REL	were injured by	be injure by
+	ARG2	stones	stone	
+
+0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
+	REL	resulted in	result in
+	ARG2	heavy damage	damage	event:WordNet
+
+0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
+	REL	resulted to	result to
+	ARG2	a two-story office building across the street and to a home	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	Governor Wallace	Governor Wallace	person:Stanford
+	REL	offered	offer
+	ARG2	a $ 5,000 reward	reward	event:WordNet
+
+0-0	ARG1	Mayor Boutwell and Chief of Police Jamie Moore	Mayor Boutwell	person:Stanford
+	REL	expressed	express
+	ARG2	fear	fear	
+
+0-0	ARG1	the bombing	bombing	activity:WordNet,event:WordNet
+	REL	coming on	come on
+	ARG2	top of tension	top	location:WordNet
+
+0-0	ARG1	tension	tension	
+	REL	be aroused by	be arouse by
+	ARG2	desegregation of three schools	desegregation	event:WordNet
+
+0-0	ARG1	tension	tension	
+	REL	be aroused in	be arouse in
+	ARG2	last week	week	time_period:WordNet
+
+0-0	ARG1	George G. Seibels Jr.	George G. Seibels Jr.	person:Stanford
+	REL	be chairman of	be chairman of
+	ARG2	the City Council 's police committee	committee	organization:WordNet
+
+0-0	ARG1	George G. Seibels Jr.	George G. Seibels Jr.	person:Stanford
+	REL	broadcast	broadcast
+	ARG2	frequent appeals	appeal	event:WordNet
+
+0-0	ARG1	George G. Seibels Jr.	George G. Seibels Jr.	person:Stanford
+	REL	broadcast frequent appeals tonight to white parents urging	broadcast appeal to parent urge
+	ARG2	them	they	person:Pronoun
+
+0-0	ARG1	a repetition of the segregationist motorcades	repetition	event:WordNet
+	REL	resulting in	result in
+	ARG2	possible death or injury	death	event:WordNet
+
+0-0	ARG1	The Rev. Dr. Martin Luther King Jr.	Rev. Dr. Martin Luther King Jr.	person:Stanford
+	REL	arrived tonight by	arrive by
+	ARG2	plane	plane	
+
+0-0	ARG1	He	He	person:Pronoun
+	REL	had led	lead
+	ARG2	Negroes	Negroes	location:Stanford,person:Stanford
+
+0-0	ARG1	The bombed church	church	organization:WordNet
+	REL	had been used as	be use as
+	ARG2	the staging point	point	
+
+0-0	ARG1	Col . Albert J. Lingo	Col	
+	REL	be State director of	be State director of
+	ARG2	Public Safety	Public Safety	organization:Stanford
+
+0-0	ARG1	State	State	
+	REL	be director of	be director of
+	ARG2	Public Safety	Public Safety	organization:Stanford
+
+0-0	ARG1	Col . Albert J. Lingo	Col	
+	REL	met with	meet with
+	ARG2	Mayor Boutwell and the City Council	Mayor Boutwell	person:Stanford
+
+0-0	ARG1	They	They	person:Pronoun
+	REL	discussed	discuss
+	ARG2	imposition of a curfew	imposition	event:WordNet
+
+0-0	ARG1	The way	way	
+	REL	had been cleared for	be clear for
+	ARG2	the desegregation	desegregation	event:WordNet
+
+0-0	ARG1	President Kennedy	President Kennedy	person:Stanford
+	REL	federalized thus ending	federalize end
+	ARG2	his defiance	defiance	
+
+0-0	ARG1	the Alabama National Guard and the Federal courts	Alabama National Guard	organization:Stanford
+	REL	issued	issue
+	ARG2	a sweeping order	order	event:WordNet
 
 0-0	ARG1	The four girls	girl	person:WordNet
 	REL	be killed in	be kill in
@@ -15,6 +239,134 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 	REL	had just heard	hear
 	ARG2	Mrs. Ella C. Demand	Demand	person:Stanford
 
+0-0	ARG1	The subject	subject	
+	REL	was	be
+	ARG2	The Love	Love	
+
+0-0	ARG1	The subject	subject	
+	REL	was The Love that	be Love that
+	ARG2	Forgives	Forgives	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	went to	go to
+	ARG2	the women 's lounge	lounge	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	went at	go at
+	ARG2	the northeast corner of the church	corner	location:WordNet
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	occurred at	occur at
+	ARG2	about 10:25	10:25	number:NUM
+
+0-0	ARG1	Church members	member	person:WordNet
+	REL	said	say
+	ARG2	they	they	person:Pronoun
+
+0-0	ARG1	the girls	girl	person:WordNet
+	REL	huddled together beneath	huddle beneath
+	ARG2	a pile of masonry debris	debris	substance:WordNet
+
+0-0	ARG1	whose parents	parent	person:WordNet
+	REL	be the Negro members of	be Negro member of
+	ARG2	a biracial committee established by Mayor Boutwell to deal with racial problems	committee	organization:WordNet
+
+0-0	ARG1	whose grandmother	grandmother	person:WordNet
+	REL	be the Negro members of	be Negro member of
+	ARG2	a biracial committee established by Mayor Boutwell to deal with racial problems	committee	organization:WordNet
+
+0-0	ARG1	a biracial committee	committee	organization:WordNet
+	REL	be established by	be establish by
+	ARG2	Mayor Boutwell	Mayor Boutwell	organization:Stanford,person:Stanford
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	blew gaping	blow gape
+	ARG2	holes	hole	location:WordNet
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	blew gaping holes through	blow gape hole through
+	ARG2	walls	wall	structure:WordNet
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	blew gaping holes in	blow gape hole in
+	ARG2	the church basement	basement	structure:WordNet
+
+0-0	ARG1	Floors of offices	Floors	
+	REL	appeared near	appear near
+	ARG2	collapse	collapse	illness:WordNet
+
+0-0	ARG1	Stairways	Stairways	
+	REL	were blocked by	be block by
+	ARG2	splintered window frames , glass and timbers	glass	
+
+0-0	ARG1	at least 15 sticks of dynamite	stick	
+	REL	might have caused	cause
+	ARG2	it	it	
+
+0-0	ARG1	the police	police	organization:WordNet
+	REL	had talked to	talk to
+	ARG2	two witnesses who reported having seen a car drive by the church , slow down and then speed away before the blast	witness	person:WordNet
+
+0-0	ARG1	The authorities	authority	organization:WordNet
+	REL	opened	open
+	ARG2	an intensive hunt	hunt	person:WordNet
+
+0-0	ARG1	The authorities	authority	organization:WordNet
+	REL	opened an intensive hunt in	open hunt in
+	ARG2	today	today	time_unit:Stanford
+
+0-0	ARG1	the bombing	bombing	activity:WordNet,event:WordNet
+	REL	was	be
+	ARG2	a terrorist attack	attack	event:WordNet,activity:WordNet
+
+0-0	ARG1	the bombing	bombing	activity:WordNet,event:WordNet
+	REL	was a terrorist attack against	be attack against
+	ARG2	the Government	Government	
+
+0-0	ARG1	President Clinton	President Clinton	person:Stanford
+	REL	appeared in	appear in
+	ARG2	the White House press room	room	structure:WordNet
+
+0-0	ARG1	killers	killer	person:WordNet
+	REL	must be treated like	be treat like
+	ARG2	killers	killer	person:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	must be treated like	be treat like
+	ARG2	killers	killer	person:WordNet
+
+0-0	ARG1	casualty figures	figure	
+	REL	were climbing that of	be climb that of
+	ARG2	the 550 people who worked in the building	people	person:People
+
+0-0	ARG1	the 550 people	people	person:People
+	REL	worked in	work in
+	ARG2	the building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	Federal prosecutors	prosecutor	person:WordNet
+	REL	would seek	seek
+	ARG2	the death penalty	penalty	event:WordNet
+
+0-0	ARG1	The death penalty	penalty	event:WordNet
+	REL	will seek	seek
+	ARG2	it	it	
+
+0-0	ARG1	we	we	person:Pronoun
+	REL	will seek	seek
+	ARG2	it	it	
+
+0-0	ARG1	the authorities	authority	organization:WordNet
+	REL	said	say
+	ARG2	they	they	person:Pronoun
+
+0-0	ARG1	no suspects , and questions	suspect	person:WordNet
+	REL	swirled around	swirl around
+	ARG2	the case	case	event:WordNet
+
+0-0	ARG1	The only solid fact	fact	
+	REL	was	be
+	ARG2	the explosion	explosion	event:WordNet
+
 0-0	ARG1	Some law-enforcement officials	official	person:WordNet
 	REL	might be linked to	be link to
 	ARG2	the second anniversary	anniversary	time_period:WordNet,time_unit:Stanford
@@ -22,6 +374,350 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 0-0	ARG1	an operation	operation	
 	REL	ended in	end in
 	ARG2	a fire that killed about 80 people , including many children	fire	event:WordNet
+
+0-0	ARG1	the offices	office	structure:WordNet
+	REL	be housed by	be house by
+	ARG2	the Federal building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	Branch Davidians and their sympathizers	Branch Davidians	person:Stanford
+	REL	be blamed for	be blame for
+	ARG2	the confrontation	confrontation	event:WordNet
+
+0-0	ARG1	the technical expertise	expertise	
+	REL	to engage in	to engage in
+	ARG2	bombings	bombing	activity:WordNet,event:WordNet
+
+0-0	ARG1	Some experts	expert	person:WordNet
+	REL	focused on	focus on
+	ARG2	the possibility	possibility	
+
+0-0	ARG1	the attack	attack	event:WordNet,activity:WordNet
+	REL	had been the work of	be work of
+	ARG2	Islamic militants	militant	person:WordNet
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	would have struck in	strike in
+	ARG2	Oklahoma City	Oklahoma City	location:Stanford
+
+0-0	ARG1	Some Middle Eastern groups	group	
+	REL	have held there	hold
+	ARG2	meetings	meeting	
+
+0-0	ARG1	Some Middle Eastern groups	group	
+	REL	is	be
+	ARG2	home	home	location:WordNet
+
+0-0	ARG1	Some Middle Eastern groups	group	
+	REL	is home to	be home to
+	ARG2	at least three mosques	mosque	structure:WordNet,building:WordNet
+
+0-0	ARG1	Some Middle Eastern groups	group	
+	REL	is home of	be home of
+	ARG2	at least three mosques	mosque	structure:WordNet,building:WordNet
+
+0-0	ARG1	the city	city	location:WordNet
+	REL	is	be
+	ARG2	home	home	location:WordNet
+
+0-0	ARG1	the city	city	location:WordNet
+	REL	is home to	be home to
+	ARG2	at least three mosques	mosque	structure:WordNet,building:WordNet
+
+0-0	ARG1	the city	city	location:WordNet
+	REL	is home of	be home of
+	ARG2	at least three mosques	mosque	structure:WordNet,building:WordNet
+
+0-0	ARG1	Imam Muhammad Karoub	Imam Muhammad Karoub	person:Stanford
+	REL	be director of	be director of
+	ARG2	the Federation of Islamic Associations	Federation	organization:Stanford
+
+0-0	ARG1	Imam Muhammad Karoub	Imam Muhammad Karoub	person:Stanford
+	REL	be based in	be base in
+	ARG2	Redford	Redford	location:Stanford
+
+0-0	ARG1	investigators	investigator	person:WordNet
+	REL	were seeking to question	be seek to question
+	ARG2	several men described as being Middle Eastern in appearance ,	Middle Eastern	organization:Stanford
+
+0-0	ARG1	investigators	investigator	person:WordNet
+	REL	to question	to question
+	ARG2	several men described as being Middle Eastern in appearance ,	Middle Eastern	organization:Stanford
+
+0-0	ARG1	the authorities	authority	organization:WordNet
+	REL	had interviewed	interview
+	ARG2	employees	employee	person:WordNet
+
+0-0	ARG1	the authorities	authority	organization:WordNet
+	REL	had interviewed employees at	interview employee at
+	ARG2	a National Car Rental office	office	structure:WordNet
+
+0-0	ARG1	the authorities	authority	organization:WordNet
+	REL	had interviewed employees about	interview employee about
+	ARG2	a recently leased truck	truck	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	could not confirm	confirm
+	ARG2	those reports	report	
+
+0-0	ARG1	the bombers	bomber	
+	REL	were	be
+	ARG2	domestic or international terrorists	terrorist	person:WordNet
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	had probably been packed in	be pack in
+	ARG2	a vehicle parked outside the Alfred P. Murrah Federal Building ,	vehicle	
+
+0-0	ARG1	a vehicle	vehicle	
+	REL	be parked outside	be park outside
+	ARG2	the Alfred P. Murrah Federal Building	Alfred P. Murrah Federal Building	organization:Stanford,person:Stanford
+
+0-0	ARG1	the explosion	explosion	event:WordNet
+	REL	left	leave
+	ARG2	a 20-foot-wide , 8-foot-deep crater	crater	
+
+0-0	ARG1	the explosion	explosion	event:WordNet
+	REL	left a 20-foot-wide , 8-foot-deep crater in	leave , crater in
+	ARG2	the street	street	
+
+0-0	ARG1	the explosion	explosion	event:WordNet
+	REL	left a 20-foot-wide , 8-foot-deep crater	leave , crater
+	ARG2	the street	street	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	had not determined	determine
+	ARG2	the bomb 's chemical makeup which they suspected to be ammonium nitrate and fuel oil , both easily available substances	makeup	
+
+0-0	ARG1	the type	type	
+	REL	be used in	be use in
+	ARG2	the World Trade Center	World Trade Center	
+
+0-0	ARG1	They	They	person:Pronoun
+	REL	said	say
+	ARG2	the damage	damage	event:WordNet
+
+0-0	ARG1	it	it	
+	REL	was made of	be make of
+	ARG2	ammonium nitrate	nitrate	substance:WordNet
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	might have weighed	weigh
+	ARG2	1,000 to 1,200 pounds	1,000	number:NUM
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	might have weighed 1,000 to 1,200 pounds about	weigh to pound about
+	ARG2	the size of the trade center bomb	size	
+
+0-0	ARG1	Government aircraft	aircraft	
+	REL	carried to	carry to
+	ARG2	Oklahoma City	Oklahoma City	location:Stanford
+
+0-0	ARG1	The firearms bureau	bureau	organization:WordNet
+	REL	sent	send
+	ARG2	national emergency teams	team	organization:WordNet
+
+0-0	ARG1	The firearms bureau	bureau	organization:WordNet
+	REL	sent national emergency teams to coordinate	send emergency team to coordinate
+	ARG2	the examination of the bomb site	examination	event:WordNet,activity:WordNet
+
+0-0	ARG1	The firearms bureau	bureau	organization:WordNet
+	REL	to coordinate	to coordinate
+	ARG2	the examination of the bomb site	examination	event:WordNet,activity:WordNet
+
+0-0	ARG1	The Federal Bureau of Investigation	Federal Bureau	organization:Stanford
+	REL	sent	send
+	ARG2	four special agents	agent	
+
+0-0	ARG1	The Federal Bureau of Investigation	Federal Bureau	organization:Stanford
+	REL	sent four special agents in	send agent in
+	ARG2	charge of field offices	charge	event:WordNet,activity:WordNet
+
+0-0	ARG1	The Federal Bureau of Investigation	Federal Bureau	organization:Stanford
+	REL	sent four special agents	send agent
+	ARG2	charge of field offices	charge	event:WordNet,activity:WordNet
+
+0-0	ARG1	The Federal Bureau of Investigation	Federal Bureau	organization:Stanford
+	REL	sent four special agents to manage	send agent to manage
+	ARG2	the investigative operation	operation	
+
+0-0	ARG1	The Federal Bureau of Investigation	Federal Bureau	organization:Stanford
+	REL	to manage	to manage
+	ARG2	the investigative operation	operation	
+
+0-0	ARG1	Army soldiers	soldier	person:WordNet
+	REL	be trained in	be train in
+	ARG2	bomb disposal	disposal	
+
+0-0	ARG1	The Air Force	Air Force	organization:Stanford
+	REL	sent	send
+	ARG2	a 66-member rescue squad	squad	organization:WordNet
+
+0-0	ARG1	It	It	
+	REL	also dispatched	dispatch
+	ARG2	38 trauma-team members	member	person:WordNet
+
+0-0	ARG1	It	It	
+	REL	also dispatched 38 trauma-team members from	dispatch trauma-team member from
+	ARG2	Lackland Air Force Base	Lackland Air Force Base	organization:Stanford
+
+0-0	ARG1	Military transport aircraft	aircraft	
+	REL	flew	fly
+	ARG2	68 civilian firefighters and a 60-member search and rescue team	firefighter	person:WordNet
+
+0-0	ARG1	Military transport aircraft	aircraft	
+	REL	flew 68 civilian firefighters to	fly firefighter to
+	ARG2	the site	site	location:WordNet
+
+0-0	ARG1	Military transport aircraft	aircraft	
+	REL	flew a 60-member search to	fly search to
+	ARG2	the site	site	location:WordNet
+
+0-0	ARG1	Military transport aircraft	aircraft	
+	REL	flew rescue team to	fly rescue team to
+	ARG2	the site	site	location:WordNet
+
+0-0	ARG1	about 80 soldiers	soldier	person:WordNet
+	REL	were helping to provide	be help to provide
+	ARG2	security	security	
+
+0-0	ARG1	about 80 soldiers	soldier	person:WordNet
+	REL	were helping to provide security around	be help to provide security around
+	ARG2	the Federal building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	A 24-hour F.B.I. command center	center	location:WordNet
+	REL	was established in	be establish in
+	ARG2	Oklahoma	Oklahoma	location:Stanford
+
+0-0	ARG1	A 24-hour F.B.I. command center	center	location:WordNet
+	REL	to coordinate	to coordinate
+	ARG2	the work of explosives teams	work	activity:WordNet,event:WordNet
+
+0-0	ARG1	Mr. Clinton	Mr. Clinton	person:Stanford
+	REL	learned of	learn of
+	ARG2	the explosion about 10:30 A.M. from his press secretary	explosion	event:WordNet
+
+0-0	ARG1	Michael D. McCurry	Michael D. McCurry	person:Stanford
+	REL	was beginning	be begin
+	ARG2	an Oval Office meeting	meeting	
+
+0-0	ARG1	Oval Office	Oval Office	organization:Stanford
+	REL	meeting with	meeting with
+	ARG2	the Turkish Prime Minister	Prime Minister	organization:Stanford
+
+0-0	ARG1	The White House chief of staff	chief	person:WordNet,leader:WordNet
+	REL	left	leave
+	ARG2	the meeting	meeting	
+
+0-0	ARG1	The White House chief of staff	chief	person:WordNet,leader:WordNet
+	REL	left about	leave about
+	ARG2	11	11	number:NUM
+
+0-0	ARG1	The White House chief of staff	chief	person:WordNet,leader:WordNet
+	REL	left the meeting about 11 with	leave meeting about with
+	ARG2	instructions to call Attorney General Reno and make sure that Federal agencies were coordinating their responses and had all the resources	instruction	
+
+0-0	ARG1	Federal agencies	agency	organization:WordNet
+	REL	were coordinating	be coordinate
+	ARG2	their responses	response	effect:WordNet
+
+0-0	ARG1	The President	President	
+	REL	dispatched	dispatch
+	ARG2	James Lee Witt	James Lee Witt	person:Stanford
+
+0-0	ARG1	The President	President	
+	REL	dispatched James Lee Witt , head of the Federal Emergency Management Agency , to	dispatch James Lee Witt , head of Federal Emergency Management Agency , to
+	ARG2	Oklahoma	Oklahoma	location:Stanford
+
+0-0	ARG1	James Lee Witt	James Lee Witt	person:Stanford
+	REL	be head of	be head of
+	ARG2	the Federal Emergency Management Agency	Federal Emergency Management Agency	organization:Stanford
+
+0-0	ARG1	The President	President	
+	REL	left	leave
+	ARG2	the Oval Office	Oval Office	organization:Stanford
+
+0-0	ARG1	The President	President	
+	REL	left the Oval Office periodically the rest of the day to watch	leave Oval Office rest of day to watch
+	ARG2	reports	report	
+
+0-0	ARG1	The President	President	
+	REL	left the Oval Office periodically the rest of the day to watch reports from	leave Oval Office rest of day to watch report from
+	ARG2	the scene	scene	location:WordNet
+
+0-0	ARG1	The President	President	
+	REL	left the Oval Office periodically the rest of the day to watch reports on	leave Oval Office rest of day to watch report on
+	ARG2	a television	television	
+
+0-0	ARG1	The President	President	
+	REL	to watch	to watch
+	ARG2	reports	report	
+
+0-0	ARG1	The President	President	
+	REL	to watch reports from	to watch report from
+	ARG2	the scene	scene	location:WordNet
+
+0-0	ARG1	The President	President	
+	REL	to watch reports on	to watch report on
+	ARG2	a television	television	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	was troubled by	be trouble by
+	ARG2	pictures of the children	picture	
+
+0-0	ARG1	The President	President	
+	REL	also discussed	discuss
+	ARG2	the situation	situation	
+
+0-0	ARG1	The President	President	
+	REL	also discussed the situation with	discuss situation with
+	ARG2	Oklahoma 's Governor , Frank Keating , and members of the state 's Congressional delegation	member	person:WordNet
+
+0-0	ARG1	Justice Department officials	official	person:WordNet
+	REL	heard	hear
+	ARG2	early reports of the blast	report	
+
+0-0	ARG1	Justice Department officials	official	person:WordNet
+	REL	heard of	hear of
+	ARG2	the blast	blast	event:WordNet
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	had not realized	realize
+	ARG2	the extent of the damage	extent	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	watched	watch
+	ARG2	television accounts	account	
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	watched television accounts from	watch television account from
+	ARG2	the scene	scene	location:WordNet
+
+0-0	ARG1	Ms. Reno	Ms. Reno	person:Stanford
+	REL	sent	send
+	ARG2	Deputy Attorney General Jamie S. Gorelick	Deputy Attorney General Jamie S. Gorelick	person:Stanford
+
+0-0	ARG1	Ms. Reno	Ms. Reno	person:Stanford
+	REL	sent Deputy Attorney General Jamie S. Gorelick to	send Deputy Attorney General Jamie S. Gorelick to
+	ARG2	the White House	White House	organization:Stanford
+
+0-0	ARG1	Ms. Reno	Ms. Reno	person:Stanford
+	REL	sent Deputy Attorney General Jamie S. Gorelick to advise there	send Deputy Attorney General Jamie S. Gorelick to advise
+	ARG2	officials	official	person:WordNet
+
+0-0	ARG1	Ms. Reno	Ms. Reno	person:Stanford
+	REL	to advise there	to advise
+	ARG2	officials	official	person:WordNet
+
+0-0	ARG1	a standing emergency response plan	plan	
+	REL	had been put into	be put into
+	ARG2	effect	effect	effect:WordNet
+
+0-0	ARG1	the Government	Government	
+	REL	had received	receive
+	ARG2	any intelligence indicating that any group had been planning an attack , and also unclear whether there had been any sign of movement like that leading to the explosion at the World Trade Center	World Trade Center	
+
+0-0	ARG1	any group	group	
+	REL	had been planning	be plan
+	ARG2	an attack	attack	event:WordNet,activity:WordNet
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	entered	enter
@@ -37,7 +733,7 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	recruited local supporters to carry out	recruit supporter to carry out
-	ARG2	the detail work	work	event:WordNet,activity:WordNet
+	ARG2	the detail work	work	activity:WordNet,event:WordNet
 
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	then fled	flee
@@ -46,6 +742,202 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
 	REL	then fled the country within	flee country within
 	ARG2	hours of the blast	blast	event:WordNet
+
+0-0	ARG1	the site	site	location:WordNet
+	REL	could yield	yield
+	ARG2	a wealth of clues	wealth	
+
+0-0	ARG1	violence	violence	event:WordNet
+	REL	left in	leave in
+	ARG2	the streets	street	
+
+0-0	ARG1	Two Negro youths	youth	person:WordNet
+	REL	were killed in	be kill in
+	ARG2	outbreaks shooting seven hours after the 16th Street Baptist Church	hour	time_unit:WordNet
+
+0-0	ARG1	darkness	darkness	
+	REL	closed later over	close over
+	ARG2	the city hours	hour	time_unit:WordNet
+
+0-0	ARG1	shots	shot	event:WordNet
+	REL	crackled sporadically in	crackle in
+	ARG2	the Negro sections	section	
+
+0-0	ARG1	Stones	Stones	
+	REL	smashed into	smash into
+	ARG2	cars driven by whites	car	
+
+0-0	ARG1	cars	car	
+	REL	be driven by	be drive by
+	ARG2	whites	whites	person:WordNet
+
+0-0	ARG1	Five Fires Reported Police	Fires Reported Police	
+	REL	reported tonight	report
+	ARG2	at least five fires	fire	event:WordNet
+
+0-0	ARG1	A official	official	person:WordNet
+	REL	are being set including	be be set including
+	ARG2	one	one	number:NUM
+
+0-0	ARG1	gasoline	gasoline	substance:WordNet
+	REL	be thrown on	be throw on
+	ARG2	the building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	The fires	fire	event:WordNet
+	REL	were brought under	be bring under
+	ARG2	control	control	
+
+0-0	ARG1	Negroes	Negroes	person:Stanford
+	REL	will employ	employ
+	ARG2	such methods	method	
+
+0-0	ARG1	Negroes	Negroes	person:Stanford
+	REL	will employ such methods as	employ method as
+	ARG2	our desperation	desperation	
+
+0-0	ARG1	Reinforced police units	unit	
+	REL	patrolled	patrol
+	ARG2	the city and 500 battle-dressed National Guardsmen	city	location:WordNet
+
+0-0	ARG1	City police	police	organization:WordNet
+	REL	shot	shoot
+	ARG2	a 16-year-old Negro	Negro	location:Stanford,person:Stanford
+
+0-0	ARG1	City police	police	organization:WordNet
+	REL	shot a 16-year-old Negro to	shoot Negro to
+	ARG2	death	death	event:WordNet
+
+0-0	ARG1	him	he	person:Pronoun
+	REL	stoning	stone
+	ARG2	cars	car	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	rode	ride
+	ARG2	his bicycle	bicycle	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	rode his bicycle in	ride bicycle in
+	ARG2	a suburban area	area	location:WordNet
+
+0-0	ARG1	dark and police	police	organization:WordNet
+	REL	urged	urge
+	ARG2	white and Negro parents	parent	person:WordNet
+
+0-0	ARG1	dark and police	police	organization:WordNet
+	REL	urged white and Negro parents to keep	urge parent to keep
+	ARG2	their children	child	person:WordNet
+
+0-0	ARG1	dark and police	police	organization:WordNet
+	REL	urged white and Negro parents to keep their children off	urge parent to keep child off
+	ARG2	the streets	street	
+
+0-0	ARG1	dark and police	police	organization:WordNet
+	REL	to keep their children off	to keep child off
+	ARG2	the streets	street	
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	poured into	pour into
+	ARG2	the area	area	location:WordNet
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	poured around	pour around
+	ARG2	the church	church	organization:WordNet
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	poured in	pour in
+	ARG2	this morning	morning	time_period:WordNet
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	poured firing	pour fire
+	ARG2	rifles	rifle	device:WordNet
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	poured firing rifles into	pour fire rifle into
+	ARG2	the air	air	
+
+0-0	ARG1	Thousands of hysterical Negroes	Negroes	
+	REL	fought for	fight for
+	ARG2	two hours	hour	time_unit:WordNet
+
+0-0	ARG1	police	police	organization:WordNet
+	REL	fought for	fight for
+	ARG2	two hours	hour	time_unit:WordNet
+
+0-0	ARG1	scattered shootings and stonings	shooting	event:WordNet
+	REL	erupted through	erupt through
+	ARG2	the city	city	location:WordNet
+
+0-0	ARG1	scattered shootings and stonings	shooting	event:WordNet
+	REL	erupted during	erupt during
+	ARG2	the afternoon	afternoon	time_period:WordNet
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	be killed by	be kill by
+	ARG2	police	police	organization:WordNet
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	was	be
+	ARG2	Johnny Robinson	Johnny Robinson	person:Stanford
+
+0-0	ARG1	They	They	person:Pronoun
+	REL	said	say
+	ARG2	he	he	person:Pronoun
+
+0-0	ARG1	him	he	person:Pronoun
+	REL	stoning	stone
+	ARG2	cars	car	
+
+0-0	ARG1	They	They	person:Pronoun
+	REL	shot	shoot
+	ARG2	him	he	person:Pronoun
+
+0-0	ARG1	The 13-year-old boy	boy	person:WordNet
+	REL	killed outside	kill outside
+	ARG2	the city	city	location:WordNet
+
+0-0	ARG1	the bombing police	police	organization:WordNet
+	REL	broke up	break up
+	ARG2	a rally of white students	student	person:WordNet
+
+0-0	ARG1	Police patrols	patrol	organization:WordNet
+	REL	be augmented by	be augment by
+	ARG2	300 State troopers	trooper	person:WordNet
+
+0-0	ARG1	Police patrols augmented by 300 State troopers	patrol	organization:WordNet
+	REL	sent into	send into
+	ARG2	the city	city	location:WordNet
+
+0-0	ARG1	Police patrols augmented by 300 State troopers	patrol	organization:WordNet
+	REL	sent by	send by
+	ARG2	Gov. George C. Wallace	Gov. George C. Wallace	person:Stanford
+
+0-0	ARG1	Wallace	Wallace	person:Stanford
+	REL	sent	send
+	ARG2	the troopers	trooper	person:WordNet
+
+0-0	ARG1	King	King	
+	REL	arrived in	arrive in
+	ARG2	the city tonight	tonight	
+
+0-0	ARG1	King	King	
+	REL	arrived	arrive
+	ARG2	the city tonight	tonight	
+
+0-0	ARG1	King	King	
+	REL	went into	go into
+	ARG2	a conference	conference	
+
+0-0	ARG1	King	King	
+	REL	went to	go to
+	ARG2	a conference	conference	
+
+0-0	ARG1	Rev. Fred Shuttlesworth	Rev. Fred Shuttlesworth	person:Stanford
+	REL	be a leader in	be leader in
+	ARG2	the civil rights fight	fight	event:WordNet
+
+0-0	ARG1	The City Council	City Council	organization:Stanford
+	REL	held	hold
+	ARG2	an emergency meeting to discuss safety measures for the city	meeting	
 
 0-0	ARG1	the bomb	bomb	device:WordNet
 	REL	went off in	go off in
@@ -59,13 +951,217 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 	REL	held 400 Negroes at	hold Negroes at
 	ARG2	the time	time	event:WordNet
 
-0-0	ARG1	The Negro youth	youth	person:WordNet
-	REL	be killed by	be kill by
-	ARG2	police	police	organization:WordNet
-
-0-0	ARG1	The Negro youth	youth	person:WordNet
+0-0	ARG1	It	It	
 	REL	was	be
-	ARG2	Johnny Robinson	Johnny Robinson	person:Stanford
+	ARG2	Young Day	Day	time_unit:Stanford,time_unit:WordNet
+
+0-0	ARG1	It	It	
+	REL	was Young Day at	be Day at
+	ARG2	the church	church	organization:WordNet
+
+0-0	ARG1	police	police	organization:WordNet
+	REL	picked up	pick up
+	ARG2	two white men	man	person:WordNet
+
+0-0	ARG1	police	police	organization:WordNet
+	REL	questioned	question
+	ARG2	them	they	person:Pronoun
+
+0-0	ARG1	police	police	organization:WordNet
+	REL	questioned them about	question about
+	ARG2	the bombing	bombing	activity:WordNet,event:WordNet
+
+0-0	ARG1	police	police	organization:WordNet
+	REL	released	release
+	ARG2	them	they	person:Pronoun
+
+0-0	ARG1	The Rev. Martin Luther King Jr.	Rev. Martin Luther King Jr.	person:Stanford
+	REL	wired	wire
+	ARG2	President Kennedy	President Kennedy	person:Stanford
+
+0-0	ARG1	The Rev. Martin Luther King Jr.	Rev. Martin Luther King Jr.	person:Stanford
+	REL	wired President Kennedy from	wire President Kennedy from
+	ARG2	Atlanta	Atlanta	location:Stanford
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	was going to	be go to
+	ARG2	Birmingham	Birmingham	location:Stanford
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	was going to plead with	be go to plead with
+	ARG2	Negroes	Negroes	location:Stanford,person:Stanford
+
+0-0	ARG1	immediate Federal steps	step	event:WordNet
+	REL	are taken in	be take in
+	ARG2	Birmingham and Alabama	Birmingham	location:Stanford
+
+0-0	ARG1	their faces	face	
+	REL	dripping blood from	drip blood from
+	ARG2	the glass that flew out of the church 's stained glass windows	glass	
+
+0-0	ARG1	the glass	glass	
+	REL	flew out of	fly out of
+	ARG2	the church 's stained glass windows	window	structure:WordNet
+
+0-0	ARG1	Dozens of survivors	survivor	person:WordNet
+	REL	staggered around	stagger around
+	ARG2	the building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	their faces dripping blood from the glass	blood	substance:WordNet
+	REL	staggered around	stagger around
+	ARG2	the building	building	structure:WordNet,building:WordNet
+
+0-0	ARG1	white dust	dust	substance:WordNet
+	REL	be raised by	be raise by
+	ARG2	the explosion	explosion	event:WordNet
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	crushed	crush
+	ARG2	two nearby cars	car	
+
+0-0	ARG1	The blast	blast	event:WordNet
+	REL	blew out away	blow out
+	ARG2	windows blocks	block	
+
+0-0	ARG1	Negroes	Negroes	location:Stanford
+	REL	stoned	stone
+	ARG2	cars	car	
+
+0-0	ARG1	Negroes	Negroes	location:Stanford
+	REL	stoned cars in	stone car in
+	ARG2	other sections of Birmingham and police	section	
+
+0-0	ARG1	a Negro firing wild shotgun	shotgun	device:WordNet
+	REL	blasts	blast
+	ARG2	two blocks	block	
+
+0-0	ARG1	a Negro firing wild shotgun	shotgun	device:WordNet
+	REL	blasts two blocks from	blast block from
+	ARG2	the church	church	organization:WordNet
+
+0-0	ARG1	It	It	
+	REL	took	take
+	ARG2	officers	officer	person:WordNet
+
+0-0	ARG1	It	It	
+	REL	took officers in	take officer in
+	ARG2	two hours to disperse the	hour	time_unit:WordNet
+
+0-0	ARG1	surging crowd of 2,000 Negroes	Negroes	
+	REL	ran to	run to
+	ARG2	the church	church	organization:WordNet
+
+0-0	ARG1	surging crowd of 2,000 Negroes	Negroes	
+	REL	ran at	run at
+	ARG2	the sound of the blast	sound	
+
+0-0	ARG1	At least 20 persons	person	person:WordNet
+	REL	were hurt badly enough by	be hurt by
+	ARG2	the blast to be treated at hospitals	blast	event:WordNet
+
+0-0	ARG1	the blast	blast	event:WordNet
+	REL	to be treated at	to be treat at
+	ARG2	hospitals	hospital	structure:WordNet,building:WordNet
+
+0-0	ARG1	The Associated Press	Associated Press	organization:Stanford
+	REL	reported	report
+	ARG2	a white man injured by a Negro	man	person:WordNet
+
+0-0	ARG1	a white man	man	person:WordNet
+	REL	be injured by	be injure by
+	ARG2	a Negro	Negro	location:Stanford
+
+0-0	ARG1	Another white man	man	person:WordNet
+	REL	was wounded by	be wound by
+	ARG2	a Negro	Negro	
+
+0-0	ARG1	the city	city	location:WordNet
+	REL	had asked for	ask for
+	ARG2	help	help	activity:WordNet,event:WordNet
+
+0-0	ARG1	It	It	
+	REL	is	be
+	ARG2	a tragic event	event	event:WordNet
+
+0-0	ARG1	a few individuals	individual	person:WordNet
+	REL	could commit	commit
+	ARG2	such a horrible atrocity	atrocity	
+
+0-0	ARG1	The occurrence of such a thing	occurrence	event:WordNet
+	REL	has so gravely concerned	concern
+	ARG2	the public	public	
+
+0-0	ARG1	Boutwell and Police Chief Jamie Moore	Boutwell	person:Stanford
+	REL	requested	request
+	ARG2	the State assistance	assistance	activity:WordNet,event:WordNet
+
+0-0	ARG1	Boutwell and Police Chief Jamie Moore	Boutwell	person:Stanford
+	REL	requested the State assistance in	request State assistance in
+	ARG2	a telegram	telegram	
+
+0-0	ARG1	the situation	situation	
+	REL	appears to be under	appear to be under
+	ARG2	control of federal law enforcement officers	control	
+
+0-0	ARG1	the situation	situation	
+	REL	appears to be at	appear to be at
+	ARG2	this time	time	event:WordNet
+
+0-0	ARG1	the situation	situation	
+	REL	to be under	to be under
+	ARG2	control of federal law enforcement officers	control	
+
+0-0	ARG1	the situation	situation	
+	REL	to be at	to be at
+	ARG2	this time	time	event:WordNet
+
+0-0	ARG1	the possibility of further trouble	possibility	
+	REL	said in	say in
+	ARG2	their telegram	telegram	
+
+0-0	ARG1	the possibility of further trouble	possibility	
+	REL	said	say
+	ARG2	their telegram	telegram	
+
+0-0	ARG1	Boutwell and Moore	Boutwell	person:Stanford
+	REL	said in	say in
+	ARG2	their telegram	telegram	
+
+0-0	ARG1	Boutwell and Moore	Boutwell	person:Stanford
+	REL	said	say
+	ARG2	their telegram	telegram	
+
+0-0	ARG1	radio-telephone and Attorney General Robert F. Kennedy	radio-telephone	
+	REL	ordered	order
+	ARG2	his chief civil rights troubleshooter	troubleshooter	person:WordNet
+
+0-0	ARG1	We	We	person:Pronoun
+	REL	have talked to	talk to
+	ARG2	witnesses who say they saw a car drive by and then speed away just before the bomb hit	witness	person:WordNet
+
+0-0	ARG1	they	they	person:Pronoun
+	REL	saw	see
+	ARG2	a car drive	drive	event:WordNet
+
+0-0	ARG1	Wallace	Wallace	person:Stanford
+	REL	said	say
+	ARG2	he	he	person:Pronoun
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	said of	say of
+	ARG2	the descriptions of the car 's occupants	description	
+
+0-0	ARG1	the descriptions of the car 's occupants	description	
+	REL	did not make	make
+	ARG2	clear their race	race	event:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	served	serve
+	ARG2	notice	notice	
+
+0-0	ARG1	every law enforcement agency of this State	State	location:WordNet,organization:Stanford
+	REL	to apprehend	to apprehend
+	ARG2	them	they	person:Pronoun
 
 0-0	ARG1	The bombing	bombing	activity:WordNet,event:WordNet
 	REL	was	be
@@ -79,11 +1175,139 @@ DOCID-SENTID	Tuple Part	Original	Head	Type
 	REL	was the 21st in	be in
 	ARG2	eight years	year	time_period:WordNet
 
-0-0	ARG1	The Associated Press	Associated Press	organization:Stanford
-	REL	reported	report
-	ARG2	a white man injured by a Negro	man	person:WordNet
+0-0	ARG1	police	police	organization:WordNet
+	REL	struggled to hold back	struggle to hold back
+	ARG2	the crowd	crowd	
 
-0-0	ARG1	a white man	man	person:WordNet
-	REL	be injured by	be injure by
-	ARG2	a Negro	Negro	location:Stanford
+0-0	ARG1	the blasted church 's pastor	pastor	person:WordNet,leader:WordNet
+	REL	grabbed	grab
+	ARG2	a megaphone	megaphone	device:WordNet
+
+0-0	ARG1	the blasted church 's pastor	pastor	person:WordNet,leader:WordNet
+	REL	grabbed a megaphone telling The police	grab megaphone tell police
+	ARG2	the crowd	crowd	
+
+0-0	ARG1	the blasted church 's pastor	pastor	person:WordNet,leader:WordNet
+	REL	grabbed a megaphone telling the crowd	grab megaphone tell crowd
+	ARG2	The police	police	organization:WordNet
+
+0-0	ARG1	the blasted church 's pastor	pastor	person:WordNet,leader:WordNet
+	REL	grabbed a megaphone are doing	grab megaphone be do
+	ARG2	everything they can	everything	
+
+0-0	ARG1	The Lord	Lord	organization:Stanford
+	REL	is	be
+	ARG2	our shepherd	shepherd	person:WordNet,leader:WordNet
+
+0-0	ARG1	the church	church	organization:WordNet
+	REL	remained in	remain in
+	ARG2	its frame	frame	structure:WordNet
+
+0-0	ARG1	Christ	Christ	
+	REL	leading	lead
+	ARG2	a group of little children	child	person:WordNet
+
+0-0	ARG1	the hysterical crowds	crowd	
+	REL	went into	go into
+	ARG2	the wrecked basement of the church	basement	structure:WordNet
+
+0-0	ARG1	the hysterical crowds	crowd	
+	REL	went to	go to
+	ARG2	the wrecked basement of the church	basement	structure:WordNet
+
+0-0	ARG1	blood	blood	substance:WordNet
+	REL	stained	stain
+	ARG2	the floors	floor	
+
+0-0	ARG1	Chunks of concrete the size of footballs	football	game:WordNet,event:WordNet,sport:WordNet,activity:WordNet
+	REL	littered	litter
+	ARG2	the basement	basement	structure:WordNet
+
+0-0	ARG1	The bomb	bomb	device:WordNet
+	REL	apparently went off in	go off in
+	ARG2	an unoccupied basement room	room	structure:WordNet
+
+0-0	ARG1	stone and debris	stone	
+	REL	flying like	fly like
+	ARG2	shrapnel	shrapnel	
+
+0-0	ARG1	stone and debris	stone	
+	REL	flying into	fly into
+	ARG2	a room where children were assembling for closing prayers following Sunday School	room	structure:WordNet
+
+0-0	ARG1	children	child	person:WordNet
+	REL	were assembling for	be assemble for
+	ARG2	closing prayers	prayer	activity:WordNet,event:WordNet
+
+0-0	ARG1	Bibles and song books	Bibles	
+	REL	be scattered through	be scatter through
+	ARG2	the church	church	organization:WordNet
+
+0-0	ARG1	the pulpit and Bible	pulpit	
+	REL	were covered with	be cover with
+	ARG2	pieces of stained glass	piece	
+
+0-0	ARG1	one youth	youth	person:WordNet
+	REL	tried to touch	try to touch
+	ARG2	one of the blanket-covered forms	form	
+
+0-0	ARG1	one youth	youth	person:WordNet
+	REL	to touch	to touch
+	ARG2	one of the blanket-covered forms	form	
+
+0-0	ARG1	Police	Police	organization:WordNet
+	REL	took away	take
+	ARG2	the hysterical boy	boy	person:WordNet
+
+0-0	ARG1	Mamie Grier	Mamie Grier	person:Stanford
+	REL	be superintendent of	be superintendent of
+	ARG2	the Sunday School	Sunday School	organization:Stanford
+
+0-0	ARG1	Mamie Grier	Mamie Grier	person:Stanford
+	REL	said	say
+	ARG2	people	people	person:People
+
+0-0	ARG1	the current school desegregation crisis	crisis	
+	REL	came to	come to
+	ARG2	a boil	boil	
+
+0-0	ARG1	the current school desegregation crisis	crisis	
+	REL	came in	come in
+	ARG2	Sept. 4	Sept.	time_unit:Stanford
+
+0-0	ARG1	Desegregation of schools in Birmingham , Mobile , and Tuskegee	Desegregation	
+	REL	was finally brought about	be bring about
+	ARG2	last Wednesday	Wednesday	time_unit:Stanford,time_unit:Day
+
+0-0	ARG1	President Kennedy	President Kennedy	person:Stanford
+	REL	federalized	federalize
+	ARG2	the National Guard	National Guard	organization:Stanford
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	alerted in	alert in
+	ARG2	today	today	
+
+0-0	ARG1	the ones he alerted today	one	
+	REL	were	be
+	ARG2	units of the Guard	Guard	
+
+0-0	ARG1	the ones he alerted today	one	
+	REL	were units of	be unit of
+	ARG2	the Guard	Guard	
+
+0-0	ARG1	The City of Birmingham	City	organization:Stanford
+	REL	has offered	offer
+	ARG2	a $ 52,000 reward	reward	event:WordNet
+
+0-0	ARG1	Dr. King Berates Wallace	Dr. King Berates Wallace	person:Stanford
+	REL	wired	wire
+	ARG2	Wallace	Wallace	person:Stanford
+
+0-0	ARG1	the blood of four little children	child	person:WordNet
+	REL	is on	be on
+	ARG2	your hands	hand	
+
+0-0	ARG1	Your irresponsible and misguided actions	action	event:WordNet
+	REL	have created in	create in
+	ARG2	Birmingham and Alabama	Birmingham	location:Stanford
 

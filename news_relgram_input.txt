@@ -1,13 +1,496 @@
+dummy	dummy	0	0	A bomb severely damaged a Negro church today during Sunday school services , killing four Negro girls and setting off racial rioting and other violence in which two Negro boys were shot to death .
+dummy	dummy	0	0	Fourteen Negroes were injured in the explosion .
+dummy	dummy	0	0	One Negro and five whites were hurt in the disorders that followed .
+dummy	dummy	0	0	Some 500 National Guardsmen in battle dress stood by at armories here tonight , on orders of Gov. George C. Wallace .
+dummy	dummy	0	0	And 300 state troopers joined the Birmingham police , Jefferson County sheriff 's deputies and other law-enforcement units in efforts to restore peace .
+dummy	dummy	0	0	Governor Wallace sent the guardsmen and the troopers in response to requests from local authorities .
+dummy	dummy	0	0	Sporadic gunfire sounded in Negro neighborhoods tonight , and small bands of residents roamed the streets .
+dummy	dummy	0	0	Aside from the patrols that cruised the city armed with riot guns , carbines and shotguns , few whites were seen .
+dummy	dummy	0	0	Fire Bomb Hurled .
+dummy	dummy	0	0	At one point , three fires burned simultaneously in Negro sections , one at a broom and mop factory , one at a roofing company and a third in another building .
+dummy	dummy	0	0	An incendiary bomb was tossed into a supermarket , but the flames were extinguished swiftly .
+dummy	dummy	0	0	Fire marshals investigated blazes at two vacant houses to see if arson was involved .
+dummy	dummy	0	0	Mayor Albert Boutwell and other city officials and civic leaders appeared on television station WAPI late tonight and urged residents to cooperate in ending `` this senseless reign of terror .
+dummy	dummy	0	0	`` Sheriff Melvin Bailey referred to the day as `` the most distressing in the history of Birmingham . ''
+dummy	dummy	0	0	The explosion at the 16th Street Baptist Church this morning brought hundreds of angry Negroes pouring into the streets .
+dummy	dummy	0	0	Some attacked the police with stones .
+dummy	dummy	0	0	The police dispersed them by firing shotguns over their heads .
+dummy	dummy	0	0	Johnny Robinson , a 16-year-old Negro , was shot in the back and killed by a policeman with a shotgun this afternoon .
+dummy	dummy	0	0	Officers said the victim was among a group that had hurled stones at white youths driving through the area in cars flying Confederate battle flags .
+dummy	dummy	0	0	When the police arrived , the youths fled , and one policeman said he had fired low but that some of the shot had struck the Robinson youth in the back .
+dummy	dummy	0	0	Virgil Wade , a 13-year-old Negro , was shot and killed just outside Birmingham while riding a bicycle .
+dummy	dummy	0	0	The Jefferson County sheriff 's office said `` there apparently was no reason at all '' for the killing , but indicated that it was related to the general racial disorders .
 dummy	dummy	0	0	Another Negro youth and a white youth were shot but not seriously wounded in separate incidents .
 dummy	dummy	0	0	Four whites , including a honeymooning couple from Chicago , were injured by stones while driving through the neighborhood of the bombing .
-dummy	dummy	0	0	Fourteen Negroes were injured in the explosion .
+dummy	dummy	0	0	The bombing , the fourth such incident in less than a month , resulted in heavy damage to the church , to a two-story office building across the street and to a home .
+dummy	dummy	0	0	Wallace Offers Reward .
+dummy	dummy	0	0	Governor Wallace , at the request of city officials , offered a $ 5,000 reward for the arrest and conviction of the bombers .
+dummy	dummy	0	0	None of the 50 bombings of Negro property here since World War II have been solved .
+dummy	dummy	0	0	Mayor Boutwell and Chief of Police Jamie Moore expressed fear that the bombing , coming on top of tension aroused by desegregation of three schools last week , would bring further violence .
+dummy	dummy	0	0	George G. Seibels Jr. , chairman of the City Council 's police committee , broadcast frequent appeals tonight to white parents , urging them to restrain their children from staging demonstrations tomorrow .
+dummy	dummy	0	0	He said a repetition of the segregationist motorcades that raced through the streets last Thursday and Friday `` could provoke serious trouble , resulting in possible death or injury . ''
+dummy	dummy	0	0	The Rev. Dr. Martin Luther King Jr. arrived tonight by plane from Atlanta .
+dummy	dummy	0	0	He had led Negroes , who make up almost one-third of Birmingham 's population , in a five-week campaign last spring that brought some lunch-counter desegregation and improved job opportunities .
+dummy	dummy	0	0	The bombed church had been used as the staging point by Negro demonstrators .
+dummy	dummy	0	0	Curfew Plan Rejected .
+dummy	dummy	0	0	Col. Albert J. Lingo , State director of Public Safety and commander of the troopers , met with Mayor Boutwell and the City Council in emergency session .
+dummy	dummy	0	0	They discussed imposition of a curfew , but decided against it .
+dummy	dummy	0	0	The bombing came five days after the desegregation of three previously all-white schools in Birmingham .
+dummy	dummy	0	0	The way had been cleared for the desegregation when President Kennedy federalized the Alabama National Guard and the Federal courts issued a sweeping order against Governor Wallace , thus ending his defiance toward the integration step .
 dummy	dummy	0	0	The four girls killed in the blast had just heard Mrs. Ella C. Demand , their teacher , complete the Sunday school lesson for the day .
+dummy	dummy	0	0	The subject was `` The Love That Forgives . ''
+dummy	dummy	0	0	During the period between the class and an assembly in the main auditorium , they went to the women 's lounge in the basement , at the northeast corner of the church .
+dummy	dummy	0	0	The blast occurred at about 10:25 A.M. -LRB- 12:25 P.M. New York time -RRB- .
+dummy	dummy	0	0	Church members said they found the girls huddled together beneath a pile of masonry debris .
+dummy	dummy	0	0	Parents of 3 Are Teachers .
+dummy	dummy	0	0	Both parents of each of three of the victims teach in the city 's schools .
+dummy	dummy	0	0	The dead were identified by University Hospital officials as : Cynthia Wesley , 14 , the only child of Claude A. Wesley , principal of the Lewis Elementary School , and Mrs. Wesley , a teacher there .
+dummy	dummy	0	0	Denise McNair , 11 , also an only child , whose parents are teachers .
+dummy	dummy	0	0	Carol Robertson , 14 , whose parents are teachers and whose grandmother , Mrs. Sallie Anderson , is one of the Negro members of a biracial committee established by Mayor Boutwell to deal with racial problems .
+dummy	dummy	0	0	Addie Mae Collins , 14 , about whom no information was immediately available .
+dummy	dummy	0	0	The blast blew gaping holes through walls in the church basement .
+dummy	dummy	0	0	Floors of offices in the rear of the sanctuary appeared near collapse .
+dummy	dummy	0	0	Stairways were blocked by splintered window frames , glass and timbers .
+dummy	dummy	0	0	Chief Police Inspector W. J. Haley said the impact of the blast indicated that at least 15 sticks of dynamite might have caused it .
+dummy	dummy	0	0	He said the police had talked to two witnesses who reported having seen a car drive by the church , slow down and then speed away before the blast .
+dummy	dummy	0	0	At Least 31 Are Dead , Scores Are Missing After Car Bomb Attack in Oklahoma City Wrecks 9-Story Federal Office Building Washington , April 19 -- The authorities opened an intensive hunt today for whoever bombed a Federal office building in Oklahoma City , and proceeded on the theory that the bombing was a terrorist attack against the Government , law-enforcement officials said .
+dummy	dummy	0	0	President Clinton appeared in the White House press room this afternoon and somberly promised that the Government would hunt down the ` evil cowards ' responsible .
+dummy	dummy	0	0	` These people are killers , ' he said , ` and must be treated like killers . '
+dummy	dummy	0	0	Attorney General Janet Reno , speaking to reporters at the White House in early evening , said that casualty figures from the scene were climbing and that of the 550 people who worked in the building , 300 were unaccounted for .
+dummy	dummy	0	0	Ms. Reno said Federal prosecutors would seek the death penalty against the bombers .
+dummy	dummy	0	0	` The death penalty is available , ' she said , ` and we will seek it . '
+dummy	dummy	0	0	But the authorities said they had no suspects , and questions about the identity of the bombers swirled around the case .
+dummy	dummy	0	0	The only solid fact was the explosion itself .
 dummy	dummy	0	0	Some law-enforcement officials said the bombing might be linked to the second anniversary today of Federal agents ' ill-fated assault on the Branch Davidian compound near Waco , Tex. , an operation that ended in a fire that killed about 80 people , including many children .
+dummy	dummy	0	0	Among the offices housed by the Federal building in Oklahoma City was one quartering local agents of the Bureau of Alcohol , Tobacco and Firearms , the agency that Branch Davidians and their sympathizers blamed for the confrontation .
+dummy	dummy	0	0	But other officials said that neither the Branch Davidians nor right-wing ` militia ' groups that have protested the Government 's handling of the Davidians were believed to have the technical expertise to engage in bombings like the one today .
+dummy	dummy	0	0	Some experts focused on the possibility that the attack had been the work of Islamic militants , like those who bombed the World Trade Center in February 1993 .
+dummy	dummy	0	0	But if so , it was unclear why they would have struck in Oklahoma City .
+dummy	dummy	0	0	Some Middle Eastern groups have held meetings there , and the city is home to at least three mosques .
+dummy	dummy	0	0	But of the estimated five million Muslims in the United States , ` there 's just very , very few out that way , ' said Imam Muhammad Karoub , director of the Federation of Islamic Associations , based in Redford , Mich , a Detroit suburb .
+dummy	dummy	0	0	Several news organizations , including CNN , reported that investigators were seeking to question several men , described as being Middle Eastern in appearance , who had driven away from the building shortly before the blast .
+dummy	dummy	0	0	There were also reports that the authorities had interviewed employees at a National Car Rental office in Dallas about a recently leased truck .
+dummy	dummy	0	0	But Federal officials here said they could not confirm those reports .
+dummy	dummy	0	0	Indeed , investigators said they did not know whether the bombers were domestic or international terrorists .
+dummy	dummy	0	0	The authorities said the bomb had probably been packed in a vehicle parked outside the Alfred P. Murrah Federal Building , where the explosion left a 20-foot-wide , 8-foot-deep crater in the street .
+dummy	dummy	0	0	Officials at the Bureau of Alcohol , Tobacco and Firearms said they had not determined the bomb 's chemical makeup , which they suspected to be ammonium nitrate and fuel oil , both easily available substances of the type used in the World Trade Center bombing .
+dummy	dummy	0	0	They said the damage led them to conclude that the bomb , if it was made of ammonium nitrate , might have weighed 1,000 to 1,200 pounds , about the size of the trade center bomb .
+dummy	dummy	0	0	From offices and bases around the country , Government aircraft carried to Oklahoma City an array of Federal law-enforcement officials , emergency management personnel and military forces , an operation that constituted one of the vastest responses to a crime in American history .
+dummy	dummy	0	0	The firearms bureau sent national emergency teams to coordinate the examination of the bomb site , the analysis of the explosives and the search for fragments of the vehicle in which the bomb was believed to have been planted .
+dummy	dummy	0	0	The Federal Bureau of Investigation sent four special agents in charge of field offices in New Orleans , Houston , Phoenix and Dallas to manage the investigative operation .
+dummy	dummy	0	0	From Fort Sill , Okla. , the Pentagon sent two medical evacuation helicopters , Army soldiers trained in bomb disposal and two canine bomb detection teams .
+dummy	dummy	0	0	The Air Force sent a 66-member rescue squad , along with two ambulances , from Tinker Air Force Base in Oklahoma .
+dummy	dummy	0	0	It also dispatched 38 trauma-team members from Lackland Air Force Base near San Antonio .
+dummy	dummy	0	0	Military transport aircraft flew 68 civilian firefighters and a 60-member search and rescue team to the site .
+dummy	dummy	0	0	In addition , the Pentagon said about 80 soldiers from the Oklahoma National Guard 's 745th Military Police Company were helping to provide security around the Federal building .
+dummy	dummy	0	0	A 24-hour F.B.I. command center with 400 telephones was established in Oklahoma to coordinate the work of explosives teams , bomb technicians and portable scientific gear used to analyze chemical residues .
+dummy	dummy	0	0	Mr. Clinton learned of the explosion about 10:30 A.M. from his press secretary , Michael D. McCurry , just as the President was beginning an Oval Office meeting with the Turkish Prime Minister .
+dummy	dummy	0	0	The White House chief of staff , Leon E. Panetta , left the meeting about 11 with instructions from Mr. Clinton to call Attorney General Reno and make sure that Federal agencies were coordinating their responses and had all the resources they needed .
+dummy	dummy	0	0	The President later dispatched James Lee Witt , head of the Federal Emergency Management Agency , to Oklahoma , and left the Oval Office periodically the rest of the day to watch reports from the scene on a television in his secretary 's office .
+dummy	dummy	0	0	` Like most Americans , ' Mr. McCurry said , ` he was troubled , expecially by pictures of the children ' who had been killed .
+dummy	dummy	0	0	The President also discussed the situation with Oklahoma 's Governor , Frank Keating , and members of the state 's Congressional delegation .
+dummy	dummy	0	0	Later he wrote out remarks in longhand , then went to the White House briefing room about 5:15 to deliver them to the waiting reporters .
+dummy	dummy	0	0	But aides said Mr. Clinton had also felt that it was important to keep up with the rest of his schedule .
+dummy	dummy	0	0	So he met as planned with representatives of three Iowa television stations who had come to interview him about a conference on rural America that is scheduled for Ames next week .
+dummy	dummy	0	0	Justice Department officials heard early reports of the blast but said later that they had not realized the extent of the damage until they watched television accounts from the scene .
+dummy	dummy	0	0	Ms. Reno spent much of the day monitoring developments and sent Deputy Attorney General Jamie S. Gorelick to the White House to advise officials there .
+dummy	dummy	0	0	Later , Ms. Reno met with Mr. Clinton , discussing Federal statutes that might apply to the crime and telling him that a standing emergency response plan had been put into effect , sending teams of Federal agents to Oklahoma City .
+dummy	dummy	0	0	It is unclear whether the Government had received any intelligence indicating that any group had been planning an attack , and also unclear whether there had been any sign of movement like that leading to the explosion at the World Trade Center .
 dummy	dummy	0	0	In the case of the trade center , Ramzi Ahmed Yousef , charged with being the mastermind behind the bombing , entered the United States under an assumed name , recruited local supporters to carry out the detail work and then fled the country within hours of the blast , the authorities say .
-dummy	dummy	0	0	Dozens of persons were injured when the bomb went off in the church , which held 400 Negroes at the time , including 80 children .
-dummy	dummy	0	0	Blast Kills Four Children .
+dummy	dummy	0	0	Several officials said there had been no threats before the Oklahoma City blast and no credible claims of responsibility afterward .
+dummy	dummy	0	0	The officials added that there were numerous witnesses among occupants of the building and said the site could yield a wealth of clues about the chemical composition of the bomb and the identity of the vehicle that presumably carried it .
+dummy	dummy	0	0	Six Dead After Church Bombing Blast Kills Four Children ; Riots Follow Two Youths Slain ; State Reinforces Birmingham Police Birmingham , Sept. 15 -- A bomb hurled from a passing car blasted a crowded Negro church today , killing four girls in their Sunday school classes and triggering outbreaks of violence that left two more persons dead in the streets .
+dummy	dummy	0	0	Two Negro youths were killed in outbreaks of shooting seven hours after the 16th Street Baptist Church was bombed , and a third was wounded .
+dummy	dummy	0	0	As darkness closed over the city hours later , shots crackled sporadically in the Negro sections .
+dummy	dummy	0	0	Stones smashed into cars driven by whites .
+dummy	dummy	0	0	Five Fires Reported Police reported at least five fires in Negro business establishments tonight .
+dummy	dummy	0	0	A official said some are being set , including one at a mop factory touched off by gasoline thrown on the building .
+dummy	dummy	0	0	The fires were brought under control and there were no injuries .
+dummy	dummy	0	0	Meanwhile , NAACP Executive Secretary Roy Wilkins wired President Kennedy that unless the Federal Government offers more than `` picayune and piecemeal aid against this type of bestiality '' Negroes will `` employ such methods as our desperation may dictate in defense of the lives of our people . ''
+dummy	dummy	0	0	Reinforced police units patrolled the city and 500 battle-dressed National Guardsmen stood by at an armory .
+dummy	dummy	0	0	City police shot a 16-year-old Negro to death when he refused to heed their commands to halt after they caught him stoning cars .
+dummy	dummy	0	0	A 13-year-old Negro boy was shot and killed as he rode his bicycle in a suburban area north of the city .
+dummy	dummy	0	0	Police Battle Crowd Downtown streets were deserted after dark and police urged white and Negro parents to keep their children off the streets .
+dummy	dummy	0	0	Thousands of hysterical Negroes poured into the area around the church this morning and police fought for two hours , firing rifles into the air to control them .
+dummy	dummy	0	0	When the crowd broke up , scattered shootings and stonings erupted through the city during the afternoon and tonight .
 dummy	dummy	0	0	The Negro youth killed by police was Johnny Robinson , 16 .
+dummy	dummy	0	0	They said he fled down an alley when they caught him stoning cars .
+dummy	dummy	0	0	They shot him when he refused to halt .
+dummy	dummy	0	0	The 13-year-old boy killed outside the city was Virgil Ware .
+dummy	dummy	0	0	He was shot at about the same time as Robinson .
+dummy	dummy	0	0	Shortly after the bombing police broke up a rally of white students protesting the desegregation of three Birmingham schools last week .
+dummy	dummy	0	0	A motorcade of militant adult segregationists apparently en route to the student rally was disbanded .
+dummy	dummy	0	0	Police patrols , augmented by 300 State troopers sent into the city by Gov. George C. Wallace , quickly broke up all gatherings of white and Negroes .
+dummy	dummy	0	0	Wallace sent the troopers and ordered 500 National Guardsmen to stand by at Birmingham armories .
+dummy	dummy	0	0	King arrived in the city tonight and went into a conference with Rev. Fred Shuttlesworth , a leader in the civil rights fight in Birmingham .
+dummy	dummy	0	0	The City Council held an emergency meeting to discuss safety measures for the city , but rejected proposals for a curfew .
+dummy	dummy	0	0	Dozens of persons were injured when the bomb went off in the church , which held 400 Negroes at the time , including 80 children .
+dummy	dummy	0	0	It was Young Day at the church .
+dummy	dummy	0	0	A few hours later , police picked up two white men , questioned them about the bombing and released them .
+dummy	dummy	0	0	The Rev. Martin Luther King Jr. wired President Kennedy from Atlanta that he was going to Birmingham to plead with Negroes to `` remain non-violent . ''
+dummy	dummy	0	0	But he said that unless `` immediate Federal steps are taken '' there will be `` in Birmingham and Alabama the worst racial holocaust this Nation has ever seen . ''
+dummy	dummy	0	0	Dozens of survivors , their faces dripping blood from the glass that flew out of the church 's stained glass windows , staggered around the building in a cloud of white dust raised by the explosion .
+dummy	dummy	0	0	The blast crushed two nearby cars like toys and blew out windows blocks away .
+dummy	dummy	0	0	Negroes stoned cars in other sections of Birmingham and police exchanged shots with a Negro firing wild shotgun blasts two blocks from the church .
+dummy	dummy	0	0	It took officers two hours to disperse the screaming , surging crowd of 2,000 Negroes who ran to the church at the sound of the blast .
+dummy	dummy	0	0	At least 20 persons were hurt badly enough by the blast to be treated at hospitals .
+dummy	dummy	0	0	Many more , cut and bruised by flying debris , were treated privately .
+dummy	dummy	0	0	-LRB- The Associated Press reported that among the injured in subsequent shooting were a white man injured by a Negro .
+dummy	dummy	0	0	Another white man was wounded by a Negro who attempted to rob him , according to police . -RRB-
+dummy	dummy	0	0	Mayor Albert Boutwell , tears streaming down his cheeks , announced the city had asked for help .
+dummy	dummy	0	0	`` It is a tragic event , '' Boutwell said .
+dummy	dummy	0	0	`` It is just sickening that a few individuals could commit such a horrible atrocity .
+dummy	dummy	0	0	The occurrence of such a thing has so gravely concerned the public ... '' His voice broke and he could not go on .
+dummy	dummy	0	0	Boutwell and Police Chief Jamie Moore requested the State assistance in a telegram to Wallace .
+dummy	dummy	0	0	`` While the situation appears to be well under control of federal law enforcement officers at this time , the possibility of further trouble exists , '' Boutwell and Moore said in their telegram .
+dummy	dummy	0	0	President Kennedy , yachting off Newport , R.I. , was notified by radio-telephone and Attorney General Robert F. Kennedy ordered his chief civil rights troubleshooter , Burke Marshall , to Birmingham .
+dummy	dummy	0	0	At least 25 FBI agents , including bomb experts from Washington , were being rushed in .
+dummy	dummy	0	0	City Police Inspector W.J. Haley said as many as 15 sticks of dynamite must have been used .
+dummy	dummy	0	0	`` We have talked to witnesses who say they saw a car drive by and then speed away just before the bomb hit , '' he said .
+dummy	dummy	0	0	In Montgomery , Wallace said he had a similar report and said the descriptions of the car 's occupants did not make clear their race .
+dummy	dummy	0	0	But he served notice `` on those responsible that every law enforcement agency of this State will be used to apprehend them . ''
 dummy	dummy	0	0	The bombing was the 21st in Birmingham in eight years , and the first to kill .
-dummy	dummy	0	0	The bombing last month of the Pearl Continental Hotel , which killed 11 people , appeared to be a last straw for many here .
+dummy	dummy	0	0	None of the bombings have been solved .
+dummy	dummy	0	0	As police struggled to hold back the crowd , the blasted church 's pastor , the Rev. John H. Cross , grabbed a megaphone and walked back and forth , telling the crowd : `` The police are doing everything they can .
+dummy	dummy	0	0	Please go home . ''
+dummy	dummy	0	0	`` The Lord is our shepherd , '' he sobbed .
+dummy	dummy	0	0	`` We shall not want . ''
+dummy	dummy	0	0	The only stained glass window in the church that remained in its frame showed Christ leading a group of little children .
+dummy	dummy	0	0	The face of Christ was blown out .
+dummy	dummy	0	0	After the police dispersed the hysterical crowds , workmen with pickaxes went into the wrecked basement of the church .
+dummy	dummy	0	0	Parts of brightly painted children 's furniture were strewn about in one Sunday School room , and blood stained the floors .
+dummy	dummy	0	0	Chunks of concrete the size of footballs littered the basement .
+dummy	dummy	0	0	The bomb apparently went off in an unoccupied basement room and blew down the wall , sending stone and debris flying like shrapnel into a room where children were assembling for closing prayers following Sunday School .
+dummy	dummy	0	0	Bibles and song books lay shredded and scattered through the church .
+dummy	dummy	0	0	In the main sanctuary upstairs , which holds about 500 persons , the pulpit and Bible were covered with pieces of stained glass .
+dummy	dummy	0	0	One of the dead girls was decapitated .
+dummy	dummy	0	0	The coroner 's office identified the dead as Denise McNair , 11 ; Carol Robertson , 14 ; Cynthia Wesley , 14 , and Addie Mae Collins , 10 .
+dummy	dummy	0	0	As the crowd came outside watched the victims being carried out , one youth broke away and tried to touch one of the blanket-covered forms .
+dummy	dummy	0	0	`` This is my sister , '' he cried .
+dummy	dummy	0	0	`` My God , she 's dead . ''
+dummy	dummy	0	0	Police took the hysterical boy away .
+dummy	dummy	0	0	Mamie Grier , superintendent of the Sunday School , said when the bomb went off `` people began screaming , almost stampeding '' to get outside .
+dummy	dummy	0	0	The wounded walked around in a daze , she said .
+dummy	dummy	0	0	One of the injured taken to a hospital was a white man .
+dummy	dummy	0	0	Many others cut by flying glass and other debris were not treated at hospitals .
+dummy	dummy	0	0	Fourth in Four Weeks It was the fourth bombing in four weeks in Birmingham , and the third since the current school desegregation crisis came to a boil Sept. 4 .
+dummy	dummy	0	0	Desegregation of schools in Birmingham , Mobile , and Tuskegee was finally brought about last Wednesday when President Kennedy federalized the National Guard .
+dummy	dummy	0	0	Some of the Guardsmen in Birmingham are still under Federal orders .
+dummy	dummy	0	0	Wallace said the ones he alerted today were units of the Guard `` not now federalized . ''
+dummy	dummy	0	0	The City of Birmingham has offered a $ 52,000 reward for the arrest of the bombers , and Wallace today offered another $ 5,000 .
+dummy	dummy	0	0	Dr. King Berates Wallace But Dr. King wired Wallace that `` the blood of four little children ... is on your hands .
+dummy	dummy	0	0	Your irresponsible and misguided actions have created in Birmingham and Alabama the atmosphere that has induced continued violence and now murder . ''
+dummy	dummy	0	0	Bomb Blast On Pakistan-India Border Kills Dozens LAHORE , Pakistan -LRB- AP -RRB- -- A suicide bomber detonated explosives near a Pakistani paramilitary checkpoint near the country 's eastern border with India on Sunday , killing at least 54 people in the deadliest attack to hit the country in several months , police and government officers said .
+dummy	dummy	0	0	The explosion hit near the checkpoint at the Wagah border crossing as hundreds of people were returning from a military parade on the outskirts of Lahore , provincial police chief Mushtaq Sukhera said .
+dummy	dummy	0	0	Both the Pakistani and the Indian military conduct daily parades and flag-flying ceremonies on their respective sides of the border .
+dummy	dummy	0	0	The events draw crowds of hundreds , a number that would rise into the thousands on a weekend like Sunday .
 dummy	dummy	0	0	The death toll was likely to rise because over 100 people were wounded , with several in critical condition , Sukhera said .
-dummy	dummy	0	0	The Associated Press reported that among the injured in subsequent shooting were a white man injured by a Negro .
+dummy	dummy	0	0	Police are investigating the bombing , and had intelligence reports in advance that there could be such a blast in the city , he added .
+dummy	dummy	0	0	Another Lahore officer , Haider Ashraf , said some paramilitary troops were among the dead and wounded .
+dummy	dummy	0	0	The paramilitary forces ' provincial Director General Tahir Javed said three soldiers died .
+dummy	dummy	0	0	Dr. Khurram Shahzad at private Ghurki Trust hospital said that there were 10 women and seven children among the dead , and eight members of a single family .
+dummy	dummy	0	0	He said several of them had multiple critical wounds .
+dummy	dummy	0	0	Live TV footage on private Pakistani news channels showed people drenched in blood and crying in pain as they were evacuated to hospitals .
+dummy	dummy	0	0	At the hospitals , relatives of the dead cried and beat their chests and heads .
+dummy	dummy	0	0	`` My brothers , my two brothers , '' private Geo News TV showed a man wailing .
+dummy	dummy	0	0	`` They both are dead . ''
+dummy	dummy	0	0	All the officers said they did not know what the target could have been .
+dummy	dummy	0	0	Javed , the paramilitary official , said the bomber exploded hardly 500 meters away from the checkpoint manned by the paramilitary troops .
+dummy	dummy	0	0	Security has been increased in all major Pakistani cities to thwart possible attacks on minority Shiite Muslims observing Ashura , a 10-day ritual to commemorate the death of Imam Hussain , the grandson of Prophet Muhammad .
+dummy	dummy	0	0	But , Haider , the police officer , said there was no such Shiite processions happening in the area where the bombing took place .
+dummy	dummy	0	0	Jamatul Ahrar , a splinter group of the Pakistani Taliban , claimed responsibility for the attack .
+dummy	dummy	0	0	Pakistani Taliban are made up of several local militant groups .
+dummy	dummy	0	0	Ahrar was set up some months ago by half a dozen militant commanders who previously worked for the outfit but had evolved differences with its chief .
+dummy	dummy	0	0	Its spokesman , Ahsanullah Ahsan , said the suicide attack was part of the militants ' war against the government and their attempts to enforce their version of Islamic law in the country .
+dummy	dummy	0	0	`` We will continue such attacks , '' he told an Associated Press reporter by phone from an undisclosed location .
+dummy	dummy	0	0	The militants have been waging a war against the state for over a decade , aiming to topple the government , killing thousands of Pakistanis .
+dummy	dummy	0	0	At present , the Pakistani army is fighting the militants in their last safe haven , in the tribal area of North Waziristan where they say they have killed over 1,200 insurgents .
+dummy	dummy	0	0	The militants have been on the run , some of them relocating them to other tribal areas and others managing to escape to neighboring Afghanistan .
+dummy	dummy	0	0	The suicide bombing was the deadliest attack in Pakistan since the military launched the offensive in mid-June .
+dummy	dummy	0	0	Suicide bombings paralyze Peshawar .
+dummy	dummy	0	0	The Pakistani city has been hardest hit by retaliatory attacks from militants as a government crackdown against the Taliban continues .
+dummy	dummy	0	0	Markets and parks are silent , and workers refuse night shifts .
+dummy	dummy	0	0	PESHAWAR , PAKISTAN -- The markets of this chaotic city are usually cacophonous places , alive with the din of motorcycle rickshaws and legions of Pakistanis sizing up the pyramids of mangoes in one stall , office furniture in the next .
+dummy	dummy	0	0	But on a recent dusky evening at Sadar market , shopkeepers sipped tea and looked out into an empty street .
+dummy	dummy	0	0	No one , they fretted , wants to risk being there the next time a suicide bomber strikes .
+dummy	dummy	0	0	`` Almost every shop here is empty , '' said Nisar Ahmed , 35 , manager of a small clothing store in the bazaar .
+dummy	dummy	0	0	`` No customers come .
+dummy	dummy	0	0	There are days when we just close early and go to sleep .
+dummy	dummy	0	0	We ca n't sustain this . ''
+dummy	dummy	0	0	Pakistan 's bid to subdue the Taliban has unleashed a wave of retaliatory suicide bombings in several major cities , from Islamabad , the capital , to the country 's cultural center , Lahore .
+dummy	dummy	0	0	No city , however , has been hit as hard as Peshawar , a metropolis of nearly 3 million just outside the Taliban-infested northwestern tribal areas .
+dummy	dummy	0	0	In recent weeks , suicide bombings have targeted crowded bazaars , police checkpoints , a movie theater and a heavily guarded luxury hotel frequented by Western diplomats and other foreigners .
+dummy	dummy	0	0	Zahid Ullah Shinwari , the owner of a plastic sheeting factory and a PVC pipe plant not far from Peshawar , said he had been trying in vain for weeks to sell his businesses and move his family to safer ground .
+dummy	dummy	0	0	`` Who will invest in an area where everyone is fleeing ? ''
+dummy	dummy	0	0	said Shinwari , seated in a posh Peshawar office decorated with white laminate furniture and a large painting of a moose behind his desk .
+dummy	dummy	0	0	`` But when you fear for your life , you ca n't think about business .
+dummy	dummy	0	0	There 's only one thing on my mind right now , and that 's how to save myself , how to sell my assets and find a safer place to live . ''
+dummy	dummy	0	0	An early-evening drive shows just how rattled this city is .
+dummy	dummy	0	0	Restaurants once teeming with Peshawar 's middle class are largely empty .
+dummy	dummy	0	0	There 's not a soul in sight at Funland , a large family park with a Ferris wheel , bumper cars and other amusement rides that 's a favorite with families .
+dummy	dummy	0	0	`` Cultural life has come to a standstill , '' said Behroz Khan , Peshawar bureau chief for the Geo TV network .
+dummy	dummy	0	0	`` People do n't go to restaurants anymore .
+dummy	dummy	0	0	They do n't go to neighborhood festivals .
+dummy	dummy	0	0	People just stay indoors now . ''
+dummy	dummy	0	0	The bombing last month of the Pearl Continental Hotel , which killed 11 people , appeared to be a last straw for many here .
+dummy	dummy	0	0	The hotel was seen as an oasis of security .
+dummy	dummy	0	0	Diplomats and dignitaries stayed there , and businesspeople often dined in its restaurant or used its health club .
+dummy	dummy	0	0	The bombing , businesspeople said , appeared to confirm their worst suspicion -- that no place in Peshawar is safe .
+dummy	dummy	0	0	`` That was a nail in the coffin , '' said Mohammed Ishaq , vice president of Peshawar 's chamber of commerce and owner of an adhesive tape plant in the city .
+dummy	dummy	0	0	`` That made people really scared .
+dummy	dummy	0	0	We used to go there and feel so secure . ''
+dummy	dummy	0	0	Since the government 's offensive in the Swat Valley began in April , 25 companies have moved out of Peshawar , Ishaq said .
+dummy	dummy	0	0	Some went to Lahore , others to Dubai , United Arab Emirates .
+dummy	dummy	0	0	Those that chose to stay have run into another problem : Workers are n't showing up for night shifts out of fear something could happen to them on their way to work .
+dummy	dummy	0	0	`` Factories in Peshawar do n't have evening shifts anymore , '' Ishaq said .
+dummy	dummy	0	0	At Sadar market , business owners say they ca n't hold on much longer .
+dummy	dummy	0	0	Ahmed 's clothing store , Melody Garments , used to take in an average of $ 560 in sales daily .
+dummy	dummy	0	0	Now , he said , his store pulls in about $ 10 a day .
+dummy	dummy	0	0	Next door , the sales at Tariq Javed 's See and Select carpet shop have dropped by 75 % .
+dummy	dummy	0	0	`` From morning to evening , there are no customers , '' Javed said angrily , as one of his workers sleepily leaned against a stack of rugs .
+dummy	dummy	0	0	`` All the shop owners here sit idle all day .
+dummy	dummy	0	0	If this continues , we 'll lose our business in a month . ''
+dummy	dummy	0	0	Blast Hits Trade Center , Bomb Suspected ; 5 Killed , Thousands Flee Smoke in Towers Many Are Trapped for Hours in Darkness and Confusion An explosion apparently caused by a car bomb in an underground garage shook the World Trade Center in lower Manhattan with the force of a small earthquake shortly after noon yesterday , collapsing walls and floors , igniting fires and plunging the city 's largest building complex into a maelstrom of smoke , darkness and fearful chaos .
+dummy	dummy	0	0	The police said the blast killed at least five people and left more than 650 others injured , mostly with smoke inhalation or minor burns , but dozens with cuts , bruises , broken bones or serious burns .
+dummy	dummy	0	0	The police said 476 were treated at hospitals and the rest by rescue and medical crews at the scene .
+dummy	dummy	0	0	The explosion also trapped hundreds of people in debris or in smoke-filled stairwells and elevators of the towers overhead and forced the evacuation of more than 50,000 workers from a trade center bereft of power for lights and elevators for seven hours .
+dummy	dummy	0	0	No Bomb Fragments Found The blast , which was felt throughout the Wall Street area and a mile away on Ellis and Liberty Islands in New York Harbor , also knocked out the police command and operations centers for the towers , which officials said rendered the office complex 's evacuation plans useless .
+dummy	dummy	0	0	James Fox , an assistant director of the Federal Bureau of Investigation in charge of the agency 's New York office , said that no bomb fragments were found but that a joint terrorist task force of Federal agents and city detectives had examined the wreckage and believed that a car bomb had caused the explosion .
+dummy	dummy	0	0	There was no warning of an impending explosion , Police Commissioner Raymond W. Kelly said .
+dummy	dummy	0	0	Jack Killorin , a spokesman in Washington for the Treasury Department 's Bureau of Alcohol , Tobacco and Firearms , said that after the blast , authorities received at least nine telephone calls claiming responsibility .
+dummy	dummy	0	0	Mr. Killorin said the first call was made 15 minutes after the blast to a non-emergency number of a New York Police Department precinct by an individual who mentioned the conflict in Bosnia .
+dummy	dummy	0	0	He said other claims were made between an hour and several hours after the event by callers who cited that and a variety of other reasons for the attack .
+dummy	dummy	0	0	He declined to elaborate .
+dummy	dummy	0	0	Some law-enforcement officials said an explosion of such size , without a claim of responsibility in advance , might suggest that it went off accidentally .
+dummy	dummy	0	0	Mr. Kelly was more oblique about the cause of the blast , saying only that a car bomb or other type of explosive device was not being ruled out .
+dummy	dummy	0	0	Four hours after the explosion , a bomb threat forced the evacuation of the Empire State Building in midtown Manhattan , and there were numerous other bomb threats in the city , the police said .
+dummy	dummy	0	0	But it was unclear if any were related to the World Trade Center explosion or only the macabre work of pranksters .
+dummy	dummy	0	0	As the day ended , a series of investigations began -- into the cause of the explosion and its possible perpetrators , and into what went wrong in what many called a botched evacuation , with no alarms and no instructions for thousands caught in dark , smoky stairwells , in stark contrast to carefully laid plans .
+dummy	dummy	0	0	Mayor David N. Dinkins , visiting in Osaka , Japan , was notified by City Hall and , in a telephone news conference , called the Fire Department response the largest for any non-natural disaster in the city 's history .
+dummy	dummy	0	0	He said he had spoken with President Clinton and had thanked him for the cooperation of Federal investigators .
+dummy	dummy	0	0	The effects of the blast radiated outward , disrupting most non-cable television transmissions throughout the metropolitan area , halting traffic in most of lower Manhattan and PATH train service under the Hudson River from the trade center to New Jersey , and transforming an ordinary Friday in the financial district into an afternoon of turmoil , death and destruction .
+dummy	dummy	0	0	On a day of high drama , tragedy and heroism , there were a thousand stories : rescuers digging frantically for victims in the collapsed PATH station under the towers , soot-streaked evacuees groping for hours in the city 's tallest buildings , a woman in a wheelchair carried down 66 stories by two friends , a pregnant woman airlifted by helicopter from a tower roof , and the tales of many others stumbling out , gasping for air , terrified but glad to be alive .
+dummy	dummy	0	0	And among the most poignant was that of a class of kindergartners from Public School 95 in Gravesend , Brooklyn .
+dummy	dummy	0	0	Caught on the 107th floor observatory , they took all day to walk down , singing to keep up their spirits .
+dummy	dummy	0	0	Many of those who walked down scores of flights from the upper reaches of the trade center towers said there had been no alarm bells and no instructions from building personnel or emergency workers .
+dummy	dummy	0	0	While little panic was reported , witnesses said confusion reigned in the darkness of crowded stairwells where smoke billowed and unknown dangers lurked below .
+dummy	dummy	0	0	Many put moist towels or handkerchiefs to their faces against the smoke .
+dummy	dummy	0	0	Others , frightened , remained in their offices , hoping for rescue .
+dummy	dummy	0	0	As smoke seeped in under the doors , some broke windows to get air .
+dummy	dummy	0	0	Dozens of people , meantime , were trapped for hours in elevators frozen between floors , among them another class of kindergartners from P.S. 95 .
+dummy	dummy	0	0	The worst fires were extinguished by midafternoon .
+dummy	dummy	0	0	By then extensive efforts to assist those caught on the upper floors were already well underway .
+dummy	dummy	0	0	But the trade center , with 250 elevators and miles of corridors and stairways , posed a major challenge and long after dark last night rescue workers continued to search the labyrinth for stragglers and others still trying to get out .
+dummy	dummy	0	0	On a day of confusion , the police and the Emergency Medical Service repeatedly revised the number of people killed by the blast .
+dummy	dummy	0	0	By early evening the police said five had been killed while the medical service said seven were dead .
+dummy	dummy	0	0	Several hours later the police increased the number to seven , but shortly after 11 P.M. , the police scaled back the figure to five , saying they could not confirm the medical service 's report of seven fatalities .
+dummy	dummy	0	0	There was no clear explanation for the discrepancies .
+dummy	dummy	0	0	The blast , which erupted at 12:18 P.M. on the second level of a four-story underground parking garage beneath the trade center 's 110-story twin towers and the complex 's Vista Hotel , sent cars hurtling like toys , blew out a 100-foot wall and sent the floor collapsing down several stories , creating a crater 60 feet wide that reached deep into the bowels of the parking complex .
+dummy	dummy	0	0	` Everything Was on Fire ' It also collapsed the ceiling of a mezzanine in the adjacent Port Authority Trans-Hudson train station , leaving dozens trapped under rubble on a concourse one floor above the platforms where hundreds awaited trains .
+dummy	dummy	0	0	Witnesses and rescue workers told of a blast of incredible force -- of bodies hurtling through the air , of cars wrapped around pillars , of people burning and scores trapped .
+dummy	dummy	0	0	` We crawled under pipes when we arrived and everything was on fire , ' said Edward Bergen , a 38-year-old firefighter who was one of the first to reach the scene of the blast .
+dummy	dummy	0	0	` Suddenly , a guy came walking out of the flames , like one of those zombies in the movie , ` The Night of the Living Dead . '
+dummy	dummy	0	0	His flesh was hanging off .
+dummy	dummy	0	0	He was a middle-aged man . '
+dummy	dummy	0	0	Fire Capt. Timothy Dowling , of Engine Company 6 , recalled a ghastly scene of fires lapping in the darkness , illuminating a smoking hell of others still trying to get out .
+dummy	dummy	0	0	On a day of confusion , the police and the Emergency Medical Service repeatedly revised the number of people killed by the blast .
+dummy	dummy	0	0	By early evening the police said five had been killed while the medical service said seven were dead .
+dummy	dummy	0	0	Several hours later the police increased the number to seven , but shortly after 11 P.M. , the police scaled back the figure to five , saying they could not confirm the medical service 's report of seven fatalities .
+dummy	dummy	0	0	There was no clear explanation for the discrepancies .
+dummy	dummy	0	0	The blast , which erupted at 12:18 P.M. on the second level of a four-story underground parking garage beneath the trade center 's 110-story twin towers and the complex 's Vista Hotel , sent cars hurtling like toys , blew out a 100-foot wall and sent the floor collapsing down several stories , creating a crater 60 feet wide that reached deep into the bowels of the parking complex .
+dummy	dummy	0	0	` Everything Was on Fire ' It also collapsed the ceiling of a mezzanine in the adjacent Port Authority Trans-Hudson train station , leaving dozens trapped under rubble on a concourse one floor above the platforms where hundreds awaited trains .
+dummy	dummy	0	0	Witnesses and rescue workers told of a blast of incredible force -- of bodies hurtling through the air , of cars wrapped around pillars , of people burning and scores trapped .
+dummy	dummy	0	0	` We crawled under pipes when we arrived and everything was on fire , ' said Edward Bergen , a 38-year-old firefighter who was one of the first to reach the scene of the blast .
+dummy	dummy	0	0	` Suddenly , a guy came walking out of the flames , like one of those zombies in the movie , ` The Night of the Living Dead . '
+dummy	dummy	0	0	His flesh was hanging off .
+dummy	dummy	0	0	He was a middle-aged man . '
+dummy	dummy	0	0	Fire Capt. Timothy Dowling , of Engine Company 6 , recalled a ghastly scene of fires lapping in the darkness , illuminating a smoking hell of twisted cars and broken concrete .
+dummy	dummy	0	0	` It looked like a bomb had exploded because of the amount of fire and damage to the floors .
+dummy	dummy	0	0	All we could do was put water on the flames . '
+dummy	dummy	0	0	` The Dust Was Blinding ' Ken Olson , 34 , a pipefitter , was in the basement when the explosion hit .
+dummy	dummy	0	0	` All of a sudden all hell broke loose , ' he said .
+dummy	dummy	0	0	` All the pipes ruptured , the dust was blinding .
+dummy	dummy	0	0	Luckily we all stayed together and got out . '
+dummy	dummy	0	0	Nearby , Vito de Leo , 32 , an air-conditioning mechanic , was eating lunch at his desk with other basement trade center workers .
+dummy	dummy	0	0	Suddenly , the desk rose up , came down and landed on top of him .
+dummy	dummy	0	0	But its well protected him from a rain of falling debris .
+dummy	dummy	0	0	` The furniture collapsed , the walls collapsed , the ceiling collapsed , ' he said .
+dummy	dummy	0	0	` There was total blackness .
+dummy	dummy	0	0	I thought I was dead . '
+dummy	dummy	0	0	Later , wading through knee-deep water amid gas pipelines danging overhead in the garage , a cadre of firefighters , police officers and other rescue workers found two bodies in a lunchroom used by mechanics , another body in the mangled wreckage of a car , and more victims under the debris in the garage .
+dummy	dummy	0	0	The five victims -- three men , one woman and one unidentified -- were all believed to heve been killed by the blast .
+dummy	dummy	0	0	They were not immediately identified but the Port Authority said that they were all believed to be authority workers or people working under contract to the agency .
+dummy	dummy	0	0	The authorities said that more bodies might be found in the rubble as the search went on .
+dummy	dummy	0	0	The police said 420 workers and visitors at the trade center were treated at hospitals , along with 44 firefighters , 11 police officers and one Emergency Medical Service worker .
+dummy	dummy	0	0	Meantime , as several fires erupted around the scene of the explosion , heavy smoke billowed up through the corridors , elevator shafts and stairwells of the trade center .
+dummy	dummy	0	0	Because of the time , shortly after noon , many workers were at lunch at nearby restaurants or at fast-food outlets on the ground floor , from where they easily escaped .
+dummy	dummy	0	0	But the police estimated that as many as 50,000 people -- workers , tourists and other visitors were still in the building , many of them trapped on the highest floors -- and it was not merely the blast that shook the entire complex , not merely the growing volumes of smoke pouring upward , that frightened them .
+dummy	dummy	0	0	Darkness and the unknown perils that awaited them below added to the fears .
+dummy	dummy	0	0	Much of the power to the trade center had been knocked out by the blast -- Consolidated Edison said four of its eight feeder cables to the center were shut down .
+dummy	dummy	0	0	And within an hour , at the request of the Fire Department , which was trying to protect rescue workers and firefighters in dangerous areas , all power to the trade center was shut off by Con Edison , as well as natural gas and steam to the complex , which houses thousands of offices in six buildings bounded by Church , West , Liberty and Vesey Streets .
+dummy	dummy	0	0	Pat Richardi , a Con Edison spokeswoman , said that no hazardous materials , such as polychlorinated biphenals , were in any of the transformers or cables of the trade center , which was completed 22 years ago.Many of the people climbing down stairs told of having to stop frequently because of panic below ; some let pregnant women and old people go through ; some nearly passed out with exhaustion ; others told of tense minutes in which they sat down on the steps , trying to regain breath in stifling , smoky air .
+dummy	dummy	0	0	` It was like sardines , cattle , a herd , ' said Larry Bianculli , 31 , of Hicksville , L.I. , who walked down 104 floors with his wool scarf over his sooty face .
+dummy	dummy	0	0	Sherri Chambers , 21 , a bank employee , said it took her two and a half hours to descend from the 60th floor .
+dummy	dummy	0	0	` You could n't even see it was so smoky , ' she said . '
+dummy	dummy	0	0	I kept wanting to sit down , but I did n't because if I sat down I thought I would n't get up .
+dummy	dummy	0	0	Firefighter Bill Chupa , 40 , of Ladder 20 , said many people were trapped in elevators and screaming for help .
+dummy	dummy	0	0	He said firefighters broke open elevator doors and found people in groups of 8 or 10 , lying in darkness on the floor to escape the smoke .
+dummy	dummy	0	0	After freeing those in elevators , the rescuers turned to the stairwells and began escorting people down .
+dummy	dummy	0	0	By midafternoon , there was a steady stream of survivors coming from the towers , many with faces blackened by smoke and gasping for air .
+dummy	dummy	0	0	Some of the most spectacular evacuations came when police helicopters landed on the roofs of the trade center towers and carried away 23 people , including a pregnant woman .
+dummy	dummy	0	0	Don Burke , who works for the Port Authority on the 66th floor , ran back to his office when he discovered there was a fire and , with a colleague , carried Cathy Collins , a lawyer who uses a wheelchair , to safety in relays .
+dummy	dummy	0	0	In a shopping area on the ground floor of the trade center 's World Financial Center at 250 Vesey Street , medical and rescue workers set up a triage area of folding chairs , oxygen tanks , blood pressure devices , blankets and other medical aids .
+dummy	dummy	0	0	While there was little panic , aides to Gov. Mario M. Cuomo told of a pregnant woman screaming as they descended from the Governor 's 57th floor offices in a chaos of darkness and disorder .
+dummy	dummy	0	0	The Governor , who was in Albany , said President Clinton had called him to express concern and offer aid from the Federal Emergency Management Agency .
+dummy	dummy	0	0	Mr. Cuomo also raised some questions : ` What emergency devices were available ?
+dummy	dummy	0	0	Did they work ?
+dummy	dummy	0	0	Why were there no lights ?
+dummy	dummy	0	0	Why were there no public announcements .
+dummy	dummy	0	0	The Port Authority will be called upon to answer , and I 'm sure they will . '
+dummy	dummy	0	0	Power was partly restored to the trade center towers at 7:20 P.M. , and by 9:30 rescue workers said everyone had been evacuated .
+dummy	dummy	0	0	The ceiling collapse in the PATH station forced a halt to all train service to New Jersey from the trade center , but PATH service from midtown , operating on another line , continued to operate through the day .
+dummy	dummy	0	0	Subway trains were rerouted and continued to run , but streets throughout the area were closed to clear the way for emergency vehicles .
+dummy	dummy	0	0	These New York Times reporters and photographers contributed to the coverage of the explosion at the World Trade Center : Ralph Blumenthal , Fred R. Conrad , Celia W. Dugger , Seth Faison , Ian Fisher , Lindsey Gruson , Dennis Hevesi , Lynette Holloway , Marvine Howe , Edward Keating , Clifford J. Levy , James C. McKinley Jr. , Steven Lee Myers , Alison Mitchell , Maria Newman , Larry Olmstead , Garry Pierre-Pierre , Todd S. Purdum , Dith Pran , Selwyn Raab , Lynda Richardson , Calvin Sims , Ronald Sullivan , Ruby Washington , Craig Wolff .
+dummy	dummy	0	0	In Nigeria , New Boko Haram Suicide Bomber Tactic : ` It 's a Little Girl ' DAKAR , Senegal -- A girl perhaps no more than 10 years old detonated powerful explosives concealed under her veil at a crowded northern Nigeria market on Saturday , killing as many as 20 people and wounding many more .
+dummy	dummy	0	0	The blast inflicted devastating damage on shoppers at the Monday Market in Maiduguri , the shopping hub in a city that is at the heart of the Boko Haram insurgency .
+dummy	dummy	0	0	The explosion , witnessed by dozens of people , represented a new tactic in the Islamists ' campaign with their decision to use perhaps their youngest-ever suicide bomber .
+dummy	dummy	0	0	The terrorist group has increasingly employed women as suicide bombers , even as it has stepped up its abductions of girls across northeast Nigeria , including the kidnapping of more than 200 in the town of Chibok last April .
+dummy	dummy	0	0	Late last year , two women hit the Monday Market in suicide attacks , killing dozens , and in one week last summer four women carried out bombings in northern Nigeria 's biggest city , Kano .
+dummy	dummy	0	0	But the use of a child to kill -- witnesses , police officials , a top hospital official in Maiduguri and local vigilantes all agreed that the bomber was very young -- may be unprecedented in the insurgency .
+dummy	dummy	0	0	`` It 's a little girl , '' said the hospital official , who spoke on the condition of anonymity because of the delicacy of his position .
+dummy	dummy	0	0	`` The body is beyond recognition , but from the face you can see it 's a young person .
+dummy	dummy	0	0	A young pretty girl . ''
+dummy	dummy	0	0	A vigilante group has taken responsibility for much of what little security exists in Maiduguri , and on Saturday morning , before the blast , several members of the group had screened the girl with metal detectors as she entered the market , said a spokesman , Abubakar Faruq .
+dummy	dummy	0	0	The girl resisted , the vigilantes noticed a bulge around her waist and the bomb went off , Mr. Faruq said .
+dummy	dummy	0	0	A police spokesman said 20 people were killed and 18 others critically wounded .
+dummy	dummy	0	0	Several witnesses said it appeared that the girl might not have been aware of her deadly burden .
+dummy	dummy	0	0	Bakura Bashir , a shopper who witnessed the explosion , said : `` This girl may not necessarily know she was conveying a timed bomb .
+dummy	dummy	0	0	The girl was torn into two halves , and half of her body was thrown across buildings by the devastating blast . ''
+dummy	dummy	0	0	A top federal police official in the capital , Abuja , who once worked in Maiduguri , said Saturday that the terrorist group appeared to have embarked on a new path .
+dummy	dummy	0	0	`` It 's something quite new , and it 's disturbing , using these young , young girls wearing hijabs , '' the official said , referring to the Muslim veil .
+dummy	dummy	0	0	`` Now , one has to be suspicious of any lady wearing a hijab -- whether it 's a young lady , or an old lady , '' said the police official , who asked not to be quoted by name because of concerns about his position .
+dummy	dummy	0	0	Boko Haram has carried out a spate of attacks recently in the northeast , including a devastating one in Baga , a fishing village north of Maiduguri , that killed dozens last week ; an assault on the nearby city of Damaturu on Friday evening that set off a gun battle lasting more than four hours , but that was ultimately repelled by security forces ; and a bombing in Potiskum on Saturday that killed two police officers .
+dummy	dummy	0	0	Bomb Attacks at Security Sites in Sinai Kill at Least 26 CAIRO -- A series of simultaneous bombings targeting security facilities in the Sinai killed at least 26 people Thursday night , prompting fears that the Egyptian government 's campaign of home demolitions , curfews and sweeping arrests has failed to choke off a budding insurgency there .
+dummy	dummy	0	0	The wave of bombings was the first major outburst of violence since the main Islamist militant group operating in the Sinai pledged allegiance to the Islamic State in November .
+dummy	dummy	0	0	Through a Twitter account linked to the group , now known as the Sinai Province of the Islamic State , it claimed responsibility for the attacks on more than a half-dozen locations .
+dummy	dummy	0	0	The assault , involving nearly simultaneous bombings in several places around the cities of Arish and Rafah , was the most complicated and widely coordinated terrorist attack in Egypt in years .
+dummy	dummy	0	0	It was also the deadliest attack in the Sinai since a multistage assault on a military checkpoint killed at least 31 people on the night of Oct. 24 .
+dummy	dummy	0	0	Indeed , the ambition of the attack suggested either that the Sinai militants may be following the advice , or the example , of the Islamic State extremist group , or perhaps that the Sinai outfit sought a spectacular attack to advertise its new affiliation .
+dummy	dummy	0	0	Residents of the Sinai and the Egyptian state news media said that attackers had deployed multiple car bombs and mortars against several government targets : the North Sinai security headquarters in Arish , the provincial capital ; a nearby army base ; a hotel used by the police ; a security camp near the border town of Rafah ; and several checkpoints .
+dummy	dummy	0	0	Al Ahram , Egypt 's flagship state newspaper , reported that its office in Arish had also been struck , although apparently only because it was near the security headquarters and not because it was a target .
+dummy	dummy	0	0	Health officials said the bombings had injured more than 100 people , according to the state news media .
+dummy	dummy	0	0	`` This means that the military does not control Sinai , as it claims , '' said Khalil al-Anani , a professor at the Johns Hopkins School of Advanced International Studies who studies extremism .
+dummy	dummy	0	0	`` The insurgency is getting stronger and stronger , and the government 's strategy is a failure . ''
+dummy	dummy	0	0	Borhan el-Beek , a resident of Arish , said his home was about 400 yards from a complex of security buildings that were attacked in four places about 7:30 p.m. , not long after the start of the nightly curfew .
+dummy	dummy	0	0	`` Now there are soldiers and patrols filling the streets , '' he said , `` and I can see from my balcony there are tanks making the rounds . ''
+dummy	dummy	0	0	The army `` has been fighting terrorism for a year and a half , and how are the percentages ?
+dummy	dummy	0	0	Is it increasing or decreasing ? ''
+dummy	dummy	0	0	he asked .
+dummy	dummy	0	0	`` In the North Sinai , we just do n't know . ''
+dummy	dummy	0	0	Islamist militants have long found a haven in the rugged and loosely governed Sinai Peninsula , capitalizing on its marginalization and the widespread resentment of the police .
+dummy	dummy	0	0	In the 18 months since the military ousted President Mohamed Morsi of the Muslim Brotherhood , however , the Sinai has become the center of a campaign of retaliatory attacks on Egyptian security forces that has become the most significant challenge to rule of Mr. Morsi 's successor , President Abdel Fattah el-Sisi .
+dummy	dummy	0	0	Continue reading the main story In an effort to combat the attacks , Mr. Sisi , a former defense minister , has ordered a virtual military occupation of the region .
+dummy	dummy	0	0	Helicopter gunships have destroyed homes and buildings believed to conceal militants .
+dummy	dummy	0	0	Residents describe large networks of police informants and widespread arrests .
+dummy	dummy	0	0	After the embarrassment of the Oct. 24 attack , security forces announced the forced evacuation and demolition of more than 800 homes within about a kilometer of the border with the Gaza Strip and Israel .
+dummy	dummy	0	0	That ultimately led to the razing of much of the border town of Rafah .
+dummy	dummy	0	0	The authorities said that was necessary to seal off tunnels under the border with Gaza , which they said had been used by militants to attack and escape .
+dummy	dummy	0	0	But the scale of Thursday 's assault indicates that the militants have retained sufficient ability to operate despite the crackdown .
+dummy	dummy	0	0	`` They have displaced a lot of people , and that undoubtedly creates a lot of resentment and increases the atmosphere of permissiveness for this kind of violence , '' said Tamara Cofman Wittes , director of the Center for Middle East Policy at the Brookings Institution and a former deputy assistant secretary of state for Near Eastern affairs .
+dummy	dummy	0	0	`` It is clear that this extremely coercive approach is not working , '' she added .
+dummy	dummy	0	0	Spokesmen for the military and the police did not respond to requests for comment .
+dummy	dummy	0	0	Mr. Beek , the resident of Arish , said he wished the Sinai could return to the time before the surge in violence .
+dummy	dummy	0	0	He lamented the forced evacuations , strict curfews and constrictions on the ability to enter or leave the Sinai .
+dummy	dummy	0	0	`` More increases in the pressure on the citizens of Sinai , making them feel really like seventh - and eighth-rate citizens , '' he said .
+dummy	dummy	0	0	India , Thailand Bombings Possibly Linked , Thai Investigators Say BANGKOK , Feb 15 -LRB- Reuters -RRB- - Thai investigators believe they have found a link between this week 's bomb blasts in Bangkok and New Delhi , a senior security official said on Wednesday , two of three botched attacks Israel has blamed on Iran .
+dummy	dummy	0	0	Iran , whose leaders had threatened to retaliate for Israel 's alleged car-bomb assassination of several of its nuclear scientists , denied involvement in the attacks on Monday and Tuesday , including a bomb that failed to explode in the Georgian capital , Tbilisi .
+dummy	dummy	0	0	Asked whether the explosives used in India and Thailand were the same , a senior Thai security official said they both had the same `` magnetic sheets '' .
+dummy	dummy	0	0	`` The individual was in possession of the same magnets and we are currently examining the source of the magnet , '' National Security Council Secretary Wichian Podphosri said .
+dummy	dummy	0	0	A man carrying an Iranian passport lost a leg when a bomb he was carrying in Bangkok went off on Tuesday after an earlier explosion , apparently accidental , at a house he was renting .
+dummy	dummy	0	0	His other leg had to be amputated .
+dummy	dummy	0	0	The suspect , identified as Saeid Moradi , was in stable condition in a Bangkok hospital , although he remained unconscious after 10 hours of surgery , said hospital surgeon Suparung Preechayuth .
+dummy	dummy	0	0	Police said he had been charged with illegal possesion of explosives , causing explosions , attempted murder and assaulting a police officer .
+dummy	dummy	0	0	The American , British and Australian embassies in Bangkok told their citizens to be vigilant in light of the explosions but did not advise against travel to the capital .
+dummy	dummy	0	0	A day earlier in the Indian capital , a bomb wrecked a car taking an Israeli embassy official to pick up her children from school , police said .
+dummy	dummy	0	0	The woman was in stable condition on Wednesday after surgery to her spine and liver .
+dummy	dummy	0	0	Her driver and two passers-by suffered lesser injuries in the attack which police believe was also a botched job .
+dummy	dummy	0	0	The motorbike rider who stuck the bomb on to the car put it on the opposite side to the petrol tank -- if it had been on the tank side it would have been a bigger blast and likely caused fatalities .
+dummy	dummy	0	0	Media said five people had been detained for questioning .
+dummy	dummy	0	0	Iran 's ambassador to India dismissed allegations of involvement in the bombing , saying Israel often made such accusations .
+dummy	dummy	0	0	`` We are not accepting , we are denying this and I do n't know how they can assume within a short time of one hour that to say who has done this .
+dummy	dummy	0	0	It has happened in India .
+dummy	dummy	0	0	If India 's security says something like that then we have to verify , '' Seyed Mehdi Nabizadeh told reporters .
+dummy	dummy	0	0	`` This is the real fact and it is not even under consideration .
+dummy	dummy	0	0	Really , it is that they are always telling such a thing . ''
+dummy	dummy	0	0	Delhi police spokesman Rajan Bhagat confirmed that the blast there was caused by a `` sticky bomb '' .
+dummy	dummy	0	0	He said witnesses saw a lone motorbike rider attach the device to the right rear side of the car in which an Israeli diplomat 's wife , who also works at the embassy , was travelling .
+dummy	dummy	0	0	`` This is the first time that this modus operandi has been seen in India , '' Bhagat told Reuters .
+dummy	dummy	0	0	`` We do n't yet have the evidence to point the finger at anybody .
+dummy	dummy	0	0	We are exploring all possibilities . ''
+dummy	dummy	0	0	On the same day , an attempt to bomb an Israeli embassy car in Tbilisi failed and the device was defused , Israeli and Georgian officials said .
+dummy	dummy	0	0	DIPLOMATIC BALANCE India has good relations with both Iran and Israel , so the attack makes its diplomatic balancing act between the two countries all the more difficult and has thrust the mounting tension between the Middle East rivals on to its doorstep .
+dummy	dummy	0	0	Israel is the second-largest supplier of arms to India .
+dummy	dummy	0	0	But India is Iran 's biggest oil buyer , relying on it for about 12 percent of its needs , and it is Iran 's top supplier of rice .
+dummy	dummy	0	0	India 's Economic Times questioned why Iran would take the risk of launching an attack in India .
+dummy	dummy	0	0	`` The idea that Iran would want to make India a theatre in its rivalry with Israel is far-fetched and does not sit well with the track record of Tehran 's relationship with India , '' it said .
+dummy	dummy	0	0	Indian media , however , said investigators were scanning records of all Iranians as well as Lebanese students who arrived in recent months as part of their investigation .
+dummy	dummy	0	0	In the Bangkok attack , one bomb went off in the bombers ' home .
+dummy	dummy	0	0	Another was thrown at a taxi that would n't take one of the men who left the house .
+dummy	dummy	0	0	The third blew off the man 's leg when he tried to throw it at police and it either went off before he could throw it or it hit something and ricocheted back at him .
+dummy	dummy	0	0	Two other men shared the rented house with him .
+dummy	dummy	0	0	One was arrested at Bangkok 's international airport on Tuesday but he has not yet been charged .
+dummy	dummy	0	0	A third man slipped past security at the airport and had fled to Malaysia .
+dummy	dummy	0	0	Thai police declined to make any link between Tuesday 's explosions and the arrest last month of a Lebanese man in Bangkok who , according to the Thai authorities , had links to Hezbollah .
+dummy	dummy	0	0	`` From investigation , it appears that the incident is more of an individual-focused plot rather than targeting landmark areas , '' Thai official Wichian said .
+dummy	dummy	0	0	`` At the moment , we have n't found any connection to the Lebanese suspect . ''
+dummy	dummy	0	0	-LRB- Additional reporting by Panarat Thepgumpanat , Sinsiri Tiwutanond and Alan Raybould in Bangkok , John Chalmers in New Delhi and Dan Williams in JERUSALEM ; Writing by Nick Macfie and Sanjeev Miglani ; Editing by Robert Birsel -RRB- Delhi Bombing : Israeli Diplomat 's Car In India Hit By Blast , According To Spokesman Assailants targeted Israeli diplomats in India and Georgia in near-simultaneous strikes on Monday , wounding two people in a car bombing in New Delhi , officials said .
+dummy	dummy	0	0	Israel said an attempted car bombing in Georgia was thwarted .
+dummy	dummy	0	0	Israeli Prime Minister Benjamin Netanyahu swiftly accused archenemy Iran , and its Lebanese proxy , Hezbollah .
+dummy	dummy	0	0	`` Today we witnessed two attempts of terrorism against innocent civilians , '' Prime Minister told a gathering of lawmakers from his Likud Party .
+dummy	dummy	0	0	`` Iran is behind these attacks and it is the largest terror exporter in the world . ''
+dummy	dummy	0	0	he said .
+dummy	dummy	0	0	There was no claim of responsibility for the attacks .
+dummy	dummy	0	0	But Netanyahu also said Israel had thwarted similar attacks in recent months in Azerbaijan and Thailand .
+dummy	dummy	0	0	`` In all those cases , the elements behind these attacks were Iran and its protege Hezbollah , '' he said , vowing to `` act with a strong hand against international terror . ''
+dummy	dummy	0	0	Both Hezbollah and Iran have deep grievances against the Jewish state .
+dummy	dummy	0	0	Hezbollah battled Israel in a monthlong war in the summer of 2006 , and on Sunday , it the Lebanese guerrilla group marked the anniversary of the 2008 assassination of one of its commanders , Imad Mughniyeh , in a bombing widely believed to have been carried out by Israel .
+dummy	dummy	0	0	Iran suspects Israeli involvement in a series of killings of officials and scientists involved in its controversial nuclear program .
+dummy	dummy	0	0	Israel routinely advises its citizens to use caution when traveling abroad .
+dummy	dummy	0	0	It has had a standing alert for tourists visiting India since a 2008 attack on a Jewish center in Mumbai .
+dummy	dummy	0	0	The explosion in India tore through a diplomat 's car , Israeli officials said .
+dummy	dummy	0	0	Indian officials said the driver and a diplomat 's wife were injured .
+dummy	dummy	0	0	The explosion took place in the late afternoon close to the embassy , said embassy spokesman David Goldfarb .
+dummy	dummy	0	0	Television footage showed a charred minivan with blue diplomatic plates , its rear door apparently blown out .
+dummy	dummy	0	0	Israeli Foreign Ministry spokesman Yigal Palmor would not discuss who was injured nor the extent of the injuries because it was a security matter .
+dummy	dummy	0	0	`` We are looking into the incident and cooperation with local security forces is excellent , '' Palmor said from Israel .
+dummy	dummy	0	0	Authorities in the former Soviet republic of Georgia said an explosive device was planted on the car of a driver for the Israeli Embassy .
+dummy	dummy	0	0	Shota Utiashvili , spokesman for the Georgian Interior Ministry , said the driver noticed a package attached to his car 's undercarriage on Monday and called police .
+dummy	dummy	0	0	Police found a grenade in the package and it was defused , Utiashvili said .
+dummy	dummy	0	0	He did not specify where the car was parked or say when the device was discovered .
+dummy	dummy	0	0	There was no immediate comment from Iran or Hezbollah .
+dummy	dummy	0	0	But speculation will undoubtedly be raised over the possibility of Iranian-linked payback for assassinations on nuclear scientists and other covert plots that Tehran has blamed on Israel 's spy agency Mossad and Western allies .
+dummy	dummy	0	0	`` There have been all kinds of mysterious things happening in Iran , and it could be an Iranian counterattack , '' said Mike Herzog , a retired Israeli general and former top aide to Israeli Defense Minister Ehud Barak .
+dummy	dummy	0	0	`` It 's no secret that Iran uses Hezbollah globally , and Hezbollah has the capacity to carry out attacks around the globe . ''
+dummy	dummy	0	0	Hezbollah dominates the government of Lebanon , which borders Israel to the north .
+dummy	dummy	0	0	Israel , like the West , accuses Iran of pursuing nuclear weapons , and has urged the international community to consider all means , including military action , to stop Tehran .
+dummy	dummy	0	0	Iran says its nuclear program is for peaceful purposes only .
+dummy	dummy	0	0	Last month , a director of Iran 's main uranium enrichment site was killed in a blast from a magnetic bomb placed on his car .
+dummy	dummy	0	0	The official , Mostafa Ahmadi Roshan , was at least the fifth member of Iran 's scientific community killed in apparent targeted attacks in the past two years .
+dummy	dummy	0	0	Iran accused Israel of being behind the attacks .
+dummy	dummy	0	0	Later , Iran 's official news agency IRNA said it had `` evidence '' of alleged U.S. and British involvement in the Roshan killing .
+dummy	dummy	0	0	In a signal that Iran could strike back for Roshan 's killing , Gen. Masoud Jazayeri , the spokesman for Iran 's Joint Armed Forces Staff , was quoted by the semiofficial ISNA news agency last month as saying that Tehran was `` reviewing the punishment '' of `` behind-the-scene elements '' involved in the assassination .
+dummy	dummy	0	0	`` Iran 's response will be a tormenting one for supporters of state terrorism , '' he said , without elaborating .
+dummy	dummy	0	0	`` The enemies of the Iranian nation , especially the United States , Britain and the Zionist regime , or Israel , have to be held responsible for their activities . ''
+dummy	dummy	0	0	Iran also has blamed the U.S. and allies for a sophisticated computer virus , known as Stuxnet , that was programmed to disrupt the centrifuges used in uranium enrichment .
+dummy	dummy	0	0	Iran said the virus was detected in its systems , but claimed no serious setbacks occurred .
+dummy	dummy	0	0	Israeli diplomats have been frequent targets of attackers around the world .
+dummy	dummy	0	0	In January , a foreign suspect with alleged links to Hezbollah militants led Thai police to a warehouse filled with materials commonly used to make bombs .
+dummy	dummy	0	0	Police seized more than 8,800 pounds -LRB- 4,000 kilograms -RRB- of urea fertilizer and several gallons of liquid ammonium nitrate at the warehouse in Samut Sakhon , on the western outskirts of Bangkok .
+dummy	dummy	0	0	The U.S. and Israel warned their citizens of a possible terror threat In January 2010 , assailants detonated a roadside bomb near a convoy of cars carrying Israeli diplomats in Jordan .
+dummy	dummy	0	0	No one was hurt , and there was no claim of responsibility .
+dummy	dummy	0	0	In 1992 , a bombing attack at the Israeli embassy in Buenos Aires killed 29 people .
+dummy	dummy	0	0	Two years later , a bombing at a Jewish community center in that city killed 85 people .
+dummy	dummy	0	0	Argentines have long suspected high-level Iranian diplomats were involved in the 1994 bombing .
+dummy	dummy	0	0	The Jewish group Chabad was one of the targets in a 2008 rampage by Islamic militants in the Indian city of Chabad .
+dummy	dummy	0	0	The attacks killed more than 160 people .
+dummy	dummy	0	0	Among them were six people at the Chabad house , including the rabbi who ran the site .

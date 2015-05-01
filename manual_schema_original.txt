@@ -1,30 +1,108 @@
-default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people
-
-
-default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	injure	A6:[person]	people;son;girl;nurse;more
-
-
-default	492	bomb;grenade;device;missile	A1:[device]	explode injure	A7:[person]	woman;people;immigrant;person;policeman
-
-
-default	35	robbery;abuse;bombing;conduct;exercise	A14:[activity]	kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
-
-
-default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	kill	A5:[number]	8600;three;two;192;eight
-
-
-default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	be charge with	A7:[activity]	charge;practice;crime;possession;fraud
-default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	injure	A6:[person]	people;son;girl;nurse;more
-default	35	robbery;abuse;bombing;conduct;exercise	A14:[activity]	kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
-default	284	Mrs. Pyne;man;officer;Martin;she	A7:[person]	kill	A1:[person]	I;husband;youth;Catholics;people
-
-
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	be convict of	A0:[activity]	racketeering;theft;kidnapping;cruelty;pornography
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	be sentence to	A4:  [none]	year;life;month;prison;death
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	be convict within	A6:  [none]	year
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	serve in	A7:  [none]	prison
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	be convict in	A9:[activity]	trial;theft;course;bombing;fraud
+default	48	Lardner;Jay Ronnie Roffman;Dinulescu;Strawberry;Clarett	A1:[person]	be convict by	A11:  [none]	jury
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest in	A9:  [none]	Minnesota;connection;Pakistan
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest by	A10:  [none]	police
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest at	A11:  [none]	O'Hare;house;airport
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest for	A12:  [none]	possession
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest after	A13:[activity]	attack;raid;bombing;theft;search
+default	82	Iguchi;Pappas;Ante Gotovina;Udegbulem;Moussaoui	A0:[person]	be arrest near	A14:[location]	Santa Rosa;Williamsburg Bridge;site;town;city
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire from	A0:[organization]	State Supreme Court;Times;Senate;Congress;Army
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire after	A5:[activity]	service;process;career;work;bombing
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire in	A7:  [none]	2001;1993;1996;1991;1992
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire as	A8:  [none]	colonel
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire on	A9:[time_unit]	Saturday;Tuesday;Dec.;July;Friday
+default	203	Durso;Claiborne;Remmel;Wilzig;Adler	A1:[person]	retire with	A10:[person]	wife;colonel;captain;general;commander
+default	303	Collins;Mosser;Lee;he;Thurman Munson	A1:[person]	be kill in	A5:  [none]	crash;Iraq;accident;shooting;bombing
+default	303	Collins;Mosser;Lee;he;Thurman Munson	A1:[person]	be kill by	A6:  [none]	fire;bomb
+default	303	Collins;Mosser;Lee;he;Thurman Munson	A1:[person]	be kill during	A8:[activity]	raid;robbery;attack;practice;construction
+default	303	Collins;Mosser;Lee;he;Thurman Munson	A1:[person]	be kill on	A9:[location]	outskirts;Ie Shima;campus;north;side
+default	303	Collins;Mosser;Lee;he;Thurman Munson	A1:[person]	be kill at	A10:  [none]	age
+default	668	Pflimlin;Dr. Robert C. Seamans Jr.;Rinfret;Metcalf;Jeffords	A0:[person]	serve in	A4:[structure;location]	Germany;Pacific Theater;House;South Pacific;state
+default	668	Pflimlin;Dr. Robert C. Seamans Jr.;Rinfret;Metcalf;Jeffords	A0:[person]	serve as	A7:  [none]	minister;secretary;chairman;director;chief
+default	668	Pflimlin;Dr. Robert C. Seamans Jr.;Rinfret;Metcalf;Jeffords	A0:[person]	serve for	A8:[activity]	burglary;role;bombing;robbery;theft
+default	668	Pflimlin;Dr. Robert C. Seamans Jr.;Rinfret;Metcalf;Jeffords	A0:[person]	serve with	A9:[organization;location]	Army;Navy;troops;Stryker Brigade;Divisions
+default	668	Pflimlin;Dr. Robert C. Seamans Jr.;Rinfret;Metcalf;Jeffords	A0:[person]	serve on	A10:  [none]	committee
+default	677	Alex Fuller;Collins;Saif Aldin;Diallo;Devon Lee	A1:[person]	be kill by	A8:  [none]	bomb
+default	677	Alex Fuller;Collins;Saif Aldin;Diallo;Devon Lee	A1:[person]	be kill over	A9:[time_period]	year;period;weekend;month
+default	677	Alex Fuller;Collins;Saif Aldin;Diallo;Devon Lee	A1:[person]	be kill on	A11:[location]	outskirts;Ie Shima;campus;border;north
+default	677	Alex Fuller;Collins;Saif Aldin;Diallo;Devon Lee	A1:[person]	be kill near	A12:[location]	Baghdad;border;Huggins Street;city;Fallujah
 default	677	summer;month;week;weekend	A10:[time_period]	be kill in	A4:[activity]	raid;bombing;attack;ambush;demonstration
-default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	kill	A5:[number]	8600;three;two;192;eight
-
-
-default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people
-
-
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	punch	A0:[person]	she;Carlesimo;I;he;officer
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	pull	A2:  [none]	hair
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	be charge with	A7:[activity]	charge;practice;crime;possession;fraud
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	be sentence on	A12:[time_unit]	April;Tuesday;Monday;Wednesday;Thursday
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	go in	A20:  [none]	search
+default	61	Gardner;Campbell;Williams;Leland Wong;Van Halen	A1:[person]	be arrest after	A13:[activity]	raid;bombing;theft;search;manhunt
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest by	A0:[organization]	U.S. Federal Bureau;police;Section;authority;Federal Bureau
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest on	A7:  [none]	charge;suspicion
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest at	A10:  [none]	home
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest in	A11:[activity]	charge;possession;raid;robbery;abuse
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest after	A12:[activity]	attack;raid;bombing;theft;search
+default	87	Iguchi;Lardner;Osborne;Soutar;Ante Gotovina	A1:[person]	be arrest for	A13:[activity]	possession;offens;conduct;infraction;vandalism
+default	284	Bullets;Guns;bomb;missile;rifle	A0:[device]	wound	A3:[number]	10;25;seven;eight;19
+default	284	Bullets;Guns;bomb;missile;rifle	A0:[device]	injure	A6:  [none]	other
+default	284	Mrs. Pyne;man;officer;Martin;she	A7:[person]	kill	A1:[person]	I;husband;youth;Catholics;people
+efault	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve in	A5:[location;structure;organization]	Navy;US Navy;Germany;Pacific Theater;army
+default	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve on	A6:[organization]	board;Central Newspapers Inc.;Florence Griswold Museum;committee;University South Florida-New College
+default	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve for	A7:[activity]	burglary;role;bombing;robbery;theft
+default	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve with	A8:[person]	Mandela;Gore;brother;Marplan;Robinson
+default	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve as	A9:  [none]	secretary;chairman;officer;director;chief
+default	313	Pflimlin;Kerr;Mr. Cohen;Jeffords;Michel	A1:[person]	serve under	A10:[person]	commissioner;Presidents Nixon;Morgenthau;Gerald Ford;President Calvin Coolidge
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	be arrest for	A1:[activity]	offens;infraction;vandalism;possession;attack
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	be arrest in	A4:[location]	Jordan;Tampa;Vermont;Minnesota;Collinsville
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	be sentence to	A7:[time_period]	year;month;probation;weekend;decade
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	come to	A8:[location]	U.S.;America;Europe;Shenyang;New York
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	be arrest on	A10:  [none]	charge;Oct.
+default	342	Iguchi;Hasek;Osborne;Nicholson;Ante Gotovina	A0:[person]	be arrest after	A11:[activity]	attack;raid;bombing;theft;search
+default	492	bomb;grenade;device;missile	A1:[device]	explode kill	A4:  [none]	people
+default	492	bomb;grenade;device;missile	A1:[device]	explode injure	A7:[person]	woman;people;immigrant;person;policeman
+default	492	bomb;grenade;device;missile	A1:[device]	explode on	A8:  [none]	Saturday
+default	492	bomb;grenade;device;missile	A1:[device]	explode wound	A9:[number]	56;20;97;nine;eight
+default	492	bomb;grenade;device;missile	A1:[device]	explode near	A10:[organization]	troops;patrol;school
+default	492	bomb;grenade;device;missile	A1:[device]	explode in	A11:  [none]	neighborhood;Baghdad
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	retire from	A0:[activity]	coaching;teaching;practice;research;football
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	retire as	A3:[person]	colonel;director;partner;captain;emeritus
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	retire in	A6:  [none]	1985;1988;1991;1986;1972
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	retire at	A8:  [none]	end
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	retire after	A9:[activity]	service;process;career;work;bombing
+default	637	I;Trowbridge;Muhammad;Madson;Mr. Dutton	A1:[person]	be survive by	A10:[person]	Mark;wife;daughter;Iole;child
+default	677	bomb;missile;grenade;device	A1:[device]	explode kill	A3:  [none]	people
+default	677	bomb;missile;grenade;device	A1:[device]	explode injure	A7:[person]	woman;people;immigrant;person;policeman
+default	677	bomb;missile;grenade;device	A1:[device]	explode on	A8:  [none]	Saturday
+default	677	bomb;missile;grenade;device	A1:[device]	explode near	A10:[organization]	troops;patrol;school
+default	677	bomb;missile;grenade;device	A1:[device]	explode in	A11:  [none]	neighborhood
+default	677	bomb;missile;grenade;device	A1:[device]	explode outside	A12:[organization]	Danish Embassy;Australian Embassy;academy;Jordanian Embassy;church
+default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	injure	A6:[person]	people;son;girl;nurse;more
+default	759	Bullets;Guns;bomb;missile;bullet	A1:[device]	wound	A7:[person]	soldier;Jaynanne Brown;nurse;officer;daughter
+default	759	people;he;they;Mrs. Pyne;man	A8:[person]	kill	A0:[person]	I;she;husband;youth;Catholics
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be convict of	A0:  [none]	murder
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be convict in	A8:[activity]	trial;theft;course;bombing;fraud
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be convict on	A9:[time_unit]	May;Nov.;Tuesday;June;Monday
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be sentence to	A10:[time_period]	year;probation;month;weekend;decade
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be convict by	A11:  [none]	jury
+default	767	Lardner;Clinton Smith;Ronnie;Dr. Francis M. Forster;Arndt	A1:[person]	be sentence without	A12:  [none]	parole;possibility
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill in	A5:  [none]	shooting;year;1983;home;week
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill on	A6:[time_unit]	Sunday;Feb.;Thursday;Saturday;April
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill during	A7:[activity]	raid;robbery;attack;practice;construction
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill since	A9:[time_unit]	January;1982;2004;2000;2003
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill at	A10:[organization;location]	home;Naharayim;Anse-a-Veaux;Fenton Ave;Fulton County Courthouse
+default	775	Alex Fuller;he;Collins;Blackwell;Saif Aldin	A1:[person]	be kill by	A11:[activity]	robbery;abuse;bombing;conduct;exercise
+default	35	Woodward;troops;bomb;Ferri;ESPN	A1:[organization]	shoot	A4:[person]	someone;Rashid Abdul Hamid;guard;Tina Kerbrat;Gale
+default	35	they;I;people;guy;you	A5:[person]	be go kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+default	35	she;Yates;Andrea Yates;woman;Mrs. Smith	A6:[person]	drown	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+default	35	he;Cynthia McGee;Blackwell;Polly;wife	A0:[person]	fire	A9:[device]	pistol;bullet;rifle;gun;weapon
+default	35	he;boyfriend;Kelly;husband;neighbor	A11:[person]	to kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+default	35	robbery;abuse;bombing;conduct;exercise	A14:[activity]	kill	A0:[person]	he;Cynthia McGee;Blackwell;Polly;wife
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	fire	A0:[device]	missile;weapon;rifle;gun;pistol
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	fire missile at	A3:[location]	position;site;outpost
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	throw	A4:[device]	dart;grenade;bomb
 default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	shoot	A6:[person]	Linda Lambesis;he;guy;hunter;Hawkins
-
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	be in	A7:[location]	area;field;place;Chicago;desert
+default	543	McVitie;Morgan;Governor Bush;Clinton;Blackwell	A1:[person]	enter	A8:[structure]	prison;office;room;building;courtyard
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	kill	A5:[number]	8600;three;two;192;eight
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	injure	A8:  [none]	other
+default	728	attack;bombing;demonstration;Bombings;fusillade	A1:[activity]	wound	A9:[person]	more;nurse;child;people

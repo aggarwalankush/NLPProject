@@ -1,33 +1,371 @@
 
 ========================================Document-Schema pairs matched using only relation===============================================
 
-A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[]	stones
+A1:[organization]	shoot	A4:[person]	<<-schema--|1.0|--document->>	two Negro boys	A1:[person]	be shoot to	A2:[event]	death
+A1:[person]	shoot	A6:[person]	<<-schema--|1.0|--document->>	two Negro boys	A1:[person]	be shoot to	A2:[event]	death
+A0:[device]	injure	A6:  [none]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+A1:[activity]	injure	A8:  [none]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[activity]	wound	A9:[person]	<<-schema--|0.9208354733498139|--document->>	One Negro and five whites	A1:[person]	be hurt in	A2:[event]	the disorders that followed
+A1:[person]	pull	A2:  [none]	<<-schema--|0.002976190476190476|--document->>	Some 500 National Guardsmen	A1:[organization]	stand on	A2:[event]	orders of Gov. George C. Wallace
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.001091703056768559|--document->>	300 state troopers	A1:[person]	join	A2:[organization]	the Birmingham police
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	Governor Wallace	A1:[person]	send	A2:[person]	the guardsmen and the troopers
+A1:[person]	throw	A4:[device]	<<-schema--|0.003531332935167763|--document->>	Governor Wallace	A1:[person]	send guardsman in	A2:[effect]	response
+A1:[person]	throw	A4:[device]	<<-schema--|0.004121143666984269|--document->>	Governor Wallace	A1:[person]	send trooper in	A2:[effect]	response
+A1:[person]	throw	A4:[device]	<<-schema--|0.003531332935167763|--document->>	Governor Wallace	A1:[person]	send guardsman	A2:[effect]	response
+A1:[person]	throw	A4:[device]	<<-schema--|0.004121143666984269|--document->>	Governor Wallace	A1:[person]	send trooper	A2:[effect]	response
+A1:[person]	fire missile at	A3:[location]	<<-schema--|0.5|--document->>	the city	A1:[location]	be arm with	A2:[device]	riot guns , carbines and shotguns
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.008333333333333333|--document->>	three fires	A1:[event]	burn at broom mop factory , at roofing company in building in	A2:[device]	Negro sections
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.008333333333333333|--document->>	three fires	A1:[event]	burn	A2:[number]	one
+A1:[person]	throw	A4:[device]	<<-schema--|0.125|--document->>	An incendiary bomb	A1:[device]	be toss into	A2:[structure]	a supermarket
+A1:[person]	fire	A0:[device]	<<-schema--|0.09615384615384616|--document->>	Fire marshals	A1:[person]	investigate blaze at	A2:[building]	two vacant houses
+A1:[person]	fire	A0:[device]	<<-schema--|0.00980392156862745|--document->>	Mayor Albert Boutwell and other city officials and civic leaders	A1:[person]	urge	A2:[person]	residents
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.004366812227074236|--document->>	this morning	A1:[time_period]	bring	A2:[time_unit]	hundreds of angry Negroes
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.7725859900745049|--document->>	Johnny Robinson	A1:[person]	be shoot afternoon in	A2:[person]	the back
+A1:[organization]	shoot	A4:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be shoot	A2:[time_period]	this afternoon
+A1:[person]	shoot	A6:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be shoot	A2:[time_period]	this afternoon
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Officers	A1:[person]	say	A2:[person]	the victim
+A1:[person]	pull	A2:  [none]	<<-schema--|0.020833333333333332|--document->>	white youths	A1:[person]	drive through	A2:[location]	the area
+A1:[person]	pull	A2:  [none]	<<-schema--|0.020833333333333332|--document->>	white youths	A1:[person]	drive in	A2:[location]	cars flying Confederate battle flags
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	The Jefferson County sheriff 's office	A1:[structure]	say	A2:[location]	no reason
+A0:[device]	injure	A6:  [none]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[location]	stones
+A1:[activity]	injure	A8:  [none]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[location]	stones
+A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[location]	stones
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013157894736842105|--document->>	The bombing	A1:[activity]	result in	A2:[event]	heavy damage
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013157894736842105|--document->>	The bombing	A1:[activity]	result to	A2:[structure]	a two-story office building across the street and to a home
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Mayor Boutwell and Chief of Police Jamie Moore	A1:[person]	express	A2:[event]	fear
+A0:[person]	come to	A8:[location]	<<-schema--|1.0|--document->>	the bombing	A1:[activity]	come on	A2:[location]	top of tension
+A0:[device]	injure	A6:  [none]	<<-schema--|0.03333333333333333|--document->>	tension	A1:[activity]	be arouse by	A2:[event]	desegregation of three schools
+A0:[device]	injure	A6:  [none]	<<-schema--|0.03333333333333333|--document->>	tension	A1:[activity]	be arouse in	A2:[time_period]	last week
+A1:[person]	pull	A2:  [none]	<<-schema--|0.09913711024344271|--document->>	George G. Seibels Jr.	A1:[person]	broadcast appeal to parent urge	A2:[person]	them
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013157894736842105|--document->>	a repetition of the segregationist motorcades	A1:[event]	result in	A2:[event]	possible death or injury
+A0:[person]	come to	A8:[location]	<<-schema--|0.14351278167882878|--document->>	The Rev. Dr. Martin Luther King Jr.	A1:[person]	arrive by	A2:[event]	plane
+A0:[person]	come to	A8:[location]	<<-schema--|0.0021685254027261464|--document->>	He	A1:[person]	lead	A2:[location]	Negroes
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.11764854457593141|--document->>	Col . Albert J. Lingo	A1:[organization]	be State director of	A2:[organization]	Public Safety
+A6:[person]	drown	A0:[person]	<<-schema--|0.15384615384615385|--document->>	Col . Albert J. Lingo	A1:[organization]	meet with	A2:[person]	Mayor Boutwell and the City Council
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|7.629194845335668E-4|--document->>	President Kennedy	A1:[person]	federalize end	A2:[event]	his defiance
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013157894736842105|--document->>	the Alabama National Guard and the Federal courts	A1:[organization]	issue	A2:[event]	a sweeping order
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A1:[activity]	kill	A5:[number]	<<-schema--|0.004166666666666667|--document->>	an operation	A1:[person]	end in	A2:[event]	a fire that killed about 80 people , including many children
-A1:[person]	shoot	A6:[person]	<<-schema--|0.021367521367521368|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter	A2:[location]	the United States
-A1:[person]	shoot	A6:[person]	<<-schema--|0.006675117005280684|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter United States under	A2:[location]	an assumed name
-A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
-A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A1:[person]	shoot	A6:[person]	<<-schema--|0.0075259890084549|--document->>	the church	A1:[organization]	hold Negroes at	A2:[event]	the time
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
-A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
-A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A0:[person]	come to	A8:[location]	<<-schema--|0.046288428630436064|--document->>	The blast	A1:[event]	occur at	A2:[number]	about 10:25
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Church members	A1:[person]	say	A2:[person]	they
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013888888888888888|--document->>	a biracial committee	A1:[organization]	be establish by	A2:[organization]	Mayor Boutwell
+A1:[person]	punch	A0:[person]	<<-schema--|0.04348517256427657|--document->>	The blast	A1:[event]	blow gape	A2:[location]	holes
+A1:[person]	punch	A0:[person]	<<-schema--|0.1129396488792505|--document->>	The blast	A1:[event]	blow gape hole through	A2:[structure]	walls
+A1:[person]	punch	A0:[person]	<<-schema--|0.1129396488792505|--document->>	The blast	A1:[event]	blow gape hole in	A2:[structure]	the church basement
+A1:[person]	be convict of	A0:[activity]	<<-schema--|0.25|--document->>	at least 15 sticks of dynamite	A1:[event]	cause	A2:[illness]	it
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.006578947368421052|--document->>	the police	A1:[organization]	talk to	A2:[person]	two witnesses who reported having seen a car drive by the church , slow down and then speed away before the blast
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.26571835571456237|--document->>	The authorities	A1:[organization]	open hunt in	A2:[time_unit]	today
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.07589285714285714|--document->>	the bombing	A1:[activity]	be attack against	A2:[event]	the Government
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.002136752136752137|--document->>	killers	A1:[person]	be treat like	A2:[person]	killers
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.002136752136752137|--document->>	he	A1:[person]	be treat like	A2:[person]	killers
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.04148471615720524|--document->>	the 550 people	A1:[person]	work in	A2:[structure]	the building
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	the authorities	A1:[organization]	say	A2:[person]	they
+A1:[person]	enter	A8:[structure]	<<-schema--|0.003289473684210526|--document->>	Some law-enforcement officials	A1:[person]	be link to	A2:[time_period]	the second anniversary
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.004166666666666667|--document->>	an operation	A1:[person]	end in	A2:[event]	a fire that killed about 80 people , including many children
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.1430504019789734|--document->>	Branch Davidians and their sympathizers	A1:[person]	be blame for	A2:[event]	the confrontation
+A1:[person]	fire	A0:[device]	<<-schema--|0.09090909090909091|--document->>	the technical expertise	A1:[person]	to engage in	A2:[activity]	bombings
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.04148471615720524|--document->>	the attack	A1:[event]	be work of	A2:[person]	Islamic militants
+A1:[person]	throw	A4:[device]	<<-schema--|0.016666666666666666|--document->>	they	A1:[person]	strike in	A2:[location]	Oklahoma City
+A1:[person]	be convict of	A0:[activity]	<<-schema--|0.25|--document->>	Some Middle Eastern groups	A1:[person]	hold	A2:[location]	meetings
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.016233766233766232|--document->>	investigators	A1:[person]	be seek to question	A2:[organization]	several men described as being Middle Eastern in appearance ,
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.016233766233766232|--document->>	investigators	A1:[person]	to question	A2:[organization]	several men described as being Middle Eastern in appearance ,
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013888888888888886|--document->>	they	A1:[person]	confirm	A2:[structure]	those reports
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.2261904761904762|--document->>	the explosion	A1:[event]	leave	A2:[organization]	a 20-foot-wide , 8-foot-deep crater
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.08323161680761128|--document->>	the explosion	A1:[event]	leave , crater in	A2:[organization]	the street
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.08323161680761128|--document->>	the explosion	A1:[event]	leave , crater	A2:[organization]	the street
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.003246753246753247|--document->>	they	A1:[person]	determine	A2:[organization]	the bomb 's chemical makeup which they suspected to be ammonium nitrate and fuel oil , both easily available substances
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	They	A1:[person]	say	A2:[event]	the damage
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.036026200873362446|--document->>	it	A1:[person]	be make of	A2:[substance]	ammonium nitrate
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	The firearms bureau	A1:[organization]	send	A2:[organization]	national emergency teams
+A1:[person]	throw	A4:[device]	<<-schema--|0.0024995586499228055|--document->>	The firearms bureau	A1:[organization]	send emergency team to coordinate	A2:[event]	the examination of the bomb site
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	The Federal Bureau of Investigation	A1:[organization]	send	A2:[event]	four special agents
+A1:[person]	punch	A0:[person]	<<-schema--|0.03210155762483797|--document->>	The Federal Bureau of Investigation	A1:[organization]	send agent in	A2:[event]	charge of field offices
+A1:[person]	punch	A0:[person]	<<-schema--|0.03210155762483797|--document->>	The Federal Bureau of Investigation	A1:[organization]	send agent	A2:[event]	charge of field offices
+A1:[person]	punch	A0:[person]	<<-schema--|0.021076572854795462|--document->>	The Federal Bureau of Investigation	A1:[organization]	send agent to manage	A2:[event]	the investigative operation
+A1:[person]	throw	A4:[device]	<<-schema--|0.004424778761061947|--document->>	The Federal Bureau of Investigation	A1:[organization]	to manage	A2:[event]	the investigative operation
+A1:[person]	pull	A2:  [none]	<<-schema--|0.005208333333333333|--document->>	Army soldiers	A1:[person]	be train in	A2:[event]	bomb disposal
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	The Air Force	A1:[organization]	send	A2:[organization]	a 66-member rescue squad
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.045454545454545456|--document->>	It	A1:[organization]	dispatch	A2:[person]	38 trauma-team members
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.045454545454545456|--document->>	It	A1:[organization]	dispatch trauma-team member from	A2:[organization]	Lackland Air Force Base
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.044858955048594676|--document->>	about 80 soldiers	A1:[person]	be help to provide	A2:[location]	security
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.036461604134415765|--document->>	about 80 soldiers	A1:[person]	be help to provide security around	A2:[structure]	the Federal building
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.013888888888888888|--document->>	A 24-hour F.B.I. command center	A1:[location]	be establish in	A2:[location]	Oklahoma
+A1:[person]	enter	A8:[structure]	<<-schema--|0.003289473684210526|--document->>	Michael D. McCurry	A1:[person]	be begin	A2:[event]	an Oval Office meeting
+A6:[person]	drown	A0:[person]	<<-schema--|0.15384615384615385|--document->>	Oval Office	A1:[organization]	meeting with	A2:[organization]	the Turkish Prime Minister
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.2261904761904762|--document->>	The White House chief of staff	A1:[person]	leave	A2:[organization]	the meeting
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.12461412151528248|--document->>	The White House chief of staff	A1:[person]	leave about	A2:[number]	11
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.11136269128446358|--document->>	The White House chief of staff	A1:[person]	leave meeting about with	A2:[number]	instructions to call Attorney General Reno and make sure that Federal agencies were coordinating their responses and had all the resources
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.045454545454545456|--document->>	The President	A1:[organization]	dispatch	A2:[person]	James Lee Witt
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.045454545454545456|--document->>	The President	A1:[organization]	dispatch James Lee Witt , head of Federal Emergency Management Agency , to	A2:[location]	Oklahoma
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.2261904761904762|--document->>	The President	A1:[person]	leave	A2:[organization]	the Oval Office
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.034858515319661464|--document->>	The President	A1:[person]	leave Oval Office rest of day to watch	A2:[organization]	reports
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.03034752792005602|--document->>	The President	A1:[person]	leave Oval Office rest of day to watch report from	A2:[location]	the scene
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.03034752792005602|--document->>	The President	A1:[person]	leave Oval Office rest of day to watch report on	A2:[location]	a television
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.003246753246753247|--document->>	he	A1:[person]	be trouble by	A2:[location]	pictures of the children
+A1:[person]	pull	A2:  [none]	<<-schema--|0.20366477895758034|--document->>	The President	A1:[person]	discuss situation with	A2:[person]	Oklahoma 's Governor , Frank Keating , and members of the state 's Congressional delegation
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.010376463168977957|--document->>	they	A1:[person]	watch television account from	A2:[location]	the scene
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	Ms. Reno	A1:[person]	send	A2:[person]	Deputy Attorney General Jamie S. Gorelick
+A1:[person]	throw	A4:[device]	<<-schema--|0.0010658765526923727|--document->>	Ms. Reno	A1:[person]	send Deputy Attorney General Jamie S. Gorelick to	A2:[organization]	the White House
+A1:[person]	throw	A4:[device]	<<-schema--|9.579998816805504E-4|--document->>	Ms. Reno	A1:[person]	send Deputy Attorney General Jamie S. Gorelick to advise	A2:[person]	officials
+A1:[person]	throw	A4:[device]	<<-schema--|0.024336283185840708|--document->>	a standing emergency response plan	A1:[person]	be put into	A2:[effect]	effect
+A0:[person]	come to	A8:[location]	<<-schema--|0.006302521008403361|--document->>	the Government	A1:[person]	receive	A2:[effect]	any intelligence indicating that any group had been planning an attack , and also unclear whether there had been any sign of movement like that leading to the explosion at the World Trade Center
+A1:[person]	enter	A8:[structure]	<<-schema--|1.0|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter	A2:[location]	the United States
+A1:[person]	enter	A8:[structure]	<<-schema--|0.656197737923568|--document->>	Ramzi Ahmed Yousef	A1:[person]	enter United States under	A2:[location]	an assumed name
+A1:[person]	enter	A8:[structure]	<<-schema--|0.19912280701754387|--document->>	Ramzi Ahmed Yousef	A1:[person]	recruit	A2:[person]	local supporters
+A1:[person]	enter	A8:[structure]	<<-schema--|0.18803027414579218|--document->>	Ramzi Ahmed Yousef	A1:[person]	recruit supporter to carry out	A2:[activity]	the detail work
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.2261904761904762|--document->>	violence	A1:[event]	leave in	A2:[event]	the streets
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	retire in	A7:  [none]	<<-schema--|0.023809523809523808|--document->>	darkness	A1:[person]	close over	A2:[time_unit]	the city hours
+A0:[device]	injure	A6:  [none]	<<-schema--|0.011904761904761904|--document->>	Stones	A1:[event]	smash into	A2:[time_unit]	cars driven by whites
+A1:[person]	pull	A2:  [none]	<<-schema--|0.020833333333333332|--document->>	cars	A1:[event]	be drive by	A2:[person]	whites
+A1:[person]	throw	A4:[device]	<<-schema--|0.011536152542498358|--document->>	A official	A1:[person]	be be set including	A2:[number]	one
+A1:[person]	throw	A4:[device]	<<-schema--|0.8136144044454663|--document->>	gasoline	A1:[substance]	be throw on	A2:[structure]	the building
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.004366812227074236|--document->>	The fires	A1:[event]	be bring under	A2:[structure]	control
+A1:[organization]	shoot	A4:[person]	<<-schema--|1.0|--document->>	City police	A1:[organization]	shoot	A2:[location]	a 16-year-old Negro
+A1:[person]	shoot	A6:[person]	<<-schema--|1.0|--document->>	City police	A1:[organization]	shoot	A2:[location]	a 16-year-old Negro
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.704719244348799|--document->>	City police	A1:[organization]	shoot Negro to	A2:[event]	death
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.16666666666666666|--document->>	him	A1:[person]	stone	A2:[event]	cars
+A1:[person]	pull	A2:  [none]	<<-schema--|0.002976190476190476|--document->>	he	A1:[person]	ride	A2:[event]	his bicycle
+A1:[person]	pull	A2:  [none]	<<-schema--|0.0013512531444824585|--document->>	he	A1:[person]	ride bicycle in	A2:[location]	a suburban area
+A1:[person]	fire	A0:[device]	<<-schema--|0.00980392156862745|--document->>	dark and police	A1:[organization]	urge	A2:[person]	white and Negro parents
+A1:[person]	enter	A8:[structure]	<<-schema--|0.026909736036618934|--document->>	dark and police	A1:[organization]	urge parent to keep	A2:[person]	their children
+A1:[person]	enter	A8:[structure]	<<-schema--|0.021837834547447477|--document->>	dark and police	A1:[organization]	urge parent to keep child off	A2:[person]	the streets
+A1:[person]	enter	A8:[structure]	<<-schema--|0.04615123831546783|--document->>	dark and police	A1:[organization]	to keep child off	A2:[person]	the streets
+A1:[person]	fire	A0:[device]	<<-schema--|0.7142364879372664|--document->>	Thousands of hysterical Negroes	A1:[organization]	pour fire	A2:[device]	rifles
+A1:[person]	fire	A0:[device]	<<-schema--|0.6324157770195994|--document->>	Thousands of hysterical Negroes	A1:[organization]	pour fire rifle into	A2:[device]	the air
+A1:[device]	explode outside	A12:[organization]	<<-schema--|0.05263157894736842|--document->>	scattered shootings and stonings	A1:[event]	erupt through	A2:[location]	the city
+A1:[device]	explode outside	A12:[organization]	<<-schema--|0.05263157894736842|--document->>	scattered shootings and stonings	A1:[event]	erupt during	A2:[time_period]	the afternoon
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
 A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	They	A1:[person]	say	A2:[person]	he
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.16666666666666666|--document->>	him	A1:[person]	stone	A2:[person]	cars
+A1:[organization]	shoot	A4:[person]	<<-schema--|1.0|--document->>	They	A1:[person]	shoot	A2:[person]	him
+A1:[person]	shoot	A6:[person]	<<-schema--|1.0|--document->>	They	A1:[person]	shoot	A2:[person]	him
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A10:[time_period]	be kill in	A4:[activity]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill by	A8:  [none]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill in	A5:  [none]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill by	A6:  [none]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill at	A10:  [none]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	enter	A8:[structure]	<<-schema--|0.015625|--document->>	the bombing police	A1:[organization]	break up	A2:[person]	a rally of white students
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	Police patrols augmented by 300 State troopers	A1:[organization]	send into	A2:[location]	the city
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	Police patrols augmented by 300 State troopers	A1:[organization]	send by	A2:[person]	Gov. George C. Wallace
+A1:[person]	throw	A4:[device]	<<-schema--|0.011061946902654867|--document->>	Wallace	A1:[person]	send	A2:[person]	the troopers
+A0:[person]	come to	A8:[location]	<<-schema--|0.14351278167882878|--document->>	King	A1:[person]	arrive in	A2:[person]	the city tonight
+A0:[person]	come to	A8:[location]	<<-schema--|0.14351278167882878|--document->>	King	A1:[person]	arrive	A2:[person]	the city tonight
+A1:[person]	be convict of	A0:[activity]	<<-schema--|0.25|--document->>	The City Council	A1:[organization]	hold	A2:[event]	an emergency meeting to discuss safety measures for the city
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
+A1:[person]	be convict of	A0:[activity]	<<-schema--|0.08805407139892234|--document->>	the church	A1:[organization]	hold Negroes at	A2:[event]	the time
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.017879948914431672|--document->>	police	A1:[organization]	pick up	A2:[person]	two white men
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.016233766233766232|--document->>	police	A1:[organization]	question	A2:[person]	them
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.016233766233766232|--document->>	police	A1:[organization]	question about	A2:[activity]	the bombing
+A1:[person]	throw	A4:[device]	<<-schema--|0.0022123893805309734|--document->>	police	A1:[organization]	release	A2:[person]	them
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.110154184022127|--document->>	immediate Federal steps	A1:[event]	be take in	A2:[location]	Birmingham and Alabama
+A1:[person]	fire	A0:[device]	<<-schema--|0.011904761904761904|--document->>	Dozens of survivors	A1:[person]	stagger around	A2:[structure]	the building
+A1:[person]	fire	A0:[device]	<<-schema--|0.011904761904761904|--document->>	their faces dripping blood from the glass	A1:[substance]	stagger around	A2:[structure]	the building
+A0:[device]	injure	A6:  [none]	<<-schema--|0.03333333333333333|--document->>	white dust	A1:[substance]	be raise by	A2:[event]	the explosion
+A0:[device]	injure	A6:  [none]	<<-schema--|0.0125|--document->>	The blast	A1:[event]	crush	A2:[event]	two nearby cars
+A1:[person]	punch	A0:[person]	<<-schema--|0.125|--document->>	The blast	A1:[event]	blow out	A2:[event]	windows blocks
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.16666666666666666|--document->>	Negroes	A1:[location]	stone	A2:[event]	cars
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.16666666666666666|--document->>	Negroes	A1:[location]	stone car in	A2:[event]	other sections of Birmingham and police
+A1:[person]	fire	A0:[device]	<<-schema--|0.1125|--document->>	a Negro firing wild shotgun	A1:[device]	blast	A2:[event]	two blocks
+A1:[person]	fire	A0:[device]	<<-schema--|0.06820384238428459|--document->>	a Negro firing wild shotgun	A1:[device]	blast block from	A2:[organization]	the church
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.19444444444444445|--document->>	It	A1:[device]	take	A2:[person]	officers
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.08771056974393761|--document->>	It	A1:[device]	take officer in	A2:[time_unit]	two hours to disperse the
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.026200873362445413|--document->>	surging crowd of 2,000 Negroes	A1:[device]	run to	A2:[organization]	the church
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.026200873362445413|--document->>	surging crowd of 2,000 Negroes	A1:[device]	run at	A2:[organization]	the sound of the blast
+A1:[activity]	wound	A9:[person]	<<-schema--|0.9208354733498139|--document->>	At least 20 persons	A1:[person]	be hurt by	A2:[event]	the blast to be treated at hospitals
+A1:[organization]	shoot	A4:[person]	<<-schema--|0.002136752136752137|--document->>	the blast	A1:[event]	to be treat at	A2:[structure]	hospitals
+A0:[device]	injure	A6:  [none]	<<-schema--|1.0|--document->>	a white man	A1:[person]	be injure by	A2:[location]	a Negro
+A1:[activity]	injure	A8:  [none]	<<-schema--|1.0|--document->>	a white man	A1:[person]	be injure by	A2:[location]	a Negro
 A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	a white man	A1:[person]	be injure by	A2:[location]	a Negro
+A1:[activity]	wound	A9:[person]	<<-schema--|1.0|--document->>	Another white man	A1:[person]	be wound by	A2:[location]	a Negro
+A0:[device]	wound	A3:[number]	<<-schema--|1.0|--document->>	Another white man	A1:[person]	be wound by	A2:[location]	a Negro
+A1:[device]	wound	A7:[person]	<<-schema--|1.0|--document->>	Another white man	A1:[person]	be wound by	A2:[location]	a Negro
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.00974025974025974|--document->>	the city	A1:[location]	ask for	A2:[activity]	help
+A1:[person]	pull	A2:  [none]	<<-schema--|0.0066326530612244895|--document->>	a few individuals	A1:[person]	commit	A2:[event]	such a horrible atrocity
+A1:[person]	be charge with	A7:[activity]	<<-schema--|0.00974025974025974|--document->>	Boutwell and Police Chief Jamie Moore	A1:[person]	request	A2:[activity]	the State assistance
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.07097156199662091|--document->>	Boutwell and Police Chief Jamie Moore	A1:[person]	request State assistance in	A2:[activity]	a telegram
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	the possibility of further trouble	A1:[person]	say in	A2:[event]	their telegram
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	the possibility of further trouble	A1:[person]	say	A2:[event]	their telegram
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Boutwell and Moore	A1:[person]	say in	A2:[event]	their telegram
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Boutwell and Moore	A1:[person]	say	A2:[event]	their telegram
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.19047619047619047|--document->>	radio-telephone and Attorney General Robert F. Kennedy	A1:[person]	order	A2:[person]	his chief civil rights troubleshooter
+A1:[device]	explode wound	A9:[number]	<<-schema--|0.006578947368421052|--document->>	We	A1:[person]	talk to	A2:[person]	witnesses who say they saw a car drive by and then speed away just before the bomb hit
+A0:[person]	come to	A8:[location]	<<-schema--|3.0978934324659227E-4|--document->>	they	A1:[person]	see	A2:[event]	a car drive
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Wallace	A1:[person]	say	A2:[person]	he
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	he	A1:[person]	say of	A2:[person]	the descriptions of the car 's occupants
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.036026200873362446|--document->>	the descriptions of the car 's occupants	A1:[person]	make	A2:[event]	clear their race
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve in	A7:  [none]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve under	A10:[person]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve for	A7:[activity]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A0:[person]	serve on	A10:  [none]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A0:[person]	serve for	A8:[activity]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve in	A5:[location;structure;organization]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve as	A9:  [none]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A0:[person]	serve as	A7:  [none]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A0:[person]	serve in	A4:[structure;location]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve with	A8:[person]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	serve on	A6:[organization]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.12962962962962962|--document->>	every law enforcement agency of this State	A1:[location]	to apprehend	A2:[person]	them
+A1:[person]	be convict of	A0:[activity]	<<-schema--|0.08467390497318993|--document->>	police	A1:[organization]	struggle to hold back	A2:[time_period]	the crowd
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.04096071768780537|--document->>	the blasted church 's pastor	A1:[person]	grab megaphone tell police	A2:[device]	the crowd
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.039571372145835726|--document->>	the blasted church 's pastor	A1:[person]	grab megaphone tell crowd	A2:[organization]	The police
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.010302169242841334|--document->>	the blasted church 's pastor	A1:[person]	grab megaphone be do	A2:[organization]	everything they can
+A0:[person]	come to	A8:[location]	<<-schema--|0.0021685254027261464|--document->>	Christ	A1:[organization]	lead	A2:[person]	a group of little children
+A1:[person]	be kill at	A10:[organization;location]	<<-schema--|0.5|--document->>	The bomb	A1:[device]	go off in	A2:[structure]	an unoccupied basement room
+A6:[person]	drown	A0:[person]	<<-schema--|0.15384615384615385|--document->>	the pulpit and Bible	A1:[person]	be cover with	A2:[organization]	pieces of stained glass
+A6:[person]	drown	A0:[person]	<<-schema--|0.0812227297282636|--document->>	one youth	A1:[person]	try to touch	A2:[organization]	one of the blanket-covered forms
+A6:[person]	drown	A0:[person]	<<-schema--|0.15384615384615385|--document->>	one youth	A1:[person]	to touch	A2:[organization]	one of the blanket-covered forms
+A1:[person]	be arrest at	A10:  [none]	<<-schema--|0.19444444444444445|--document->>	Police	A1:[organization]	take	A2:[person]	the hysterical boy
+A1:[person]	be sentence without	A12:  [none]	<<-schema--|0.25|--document->>	Mamie Grier	A1:[person]	say	A2:[person]	people
+A0:[person]	come to	A8:[location]	<<-schema--|1.0|--document->>	the current school desegregation crisis	A1:[person]	come to	A2:[person]	a boil
+A0:[person]	come to	A8:[location]	<<-schema--|1.0|--document->>	the current school desegregation crisis	A1:[person]	come in	A2:[time_unit]	Sept. 4
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.0024376382208520296|--document->>	Desegregation of schools in Birmingham , Mobile , and Tuskegee	A1:[person]	be bring about	A2:[time_unit]	last Wednesday
+A1:[person]	fire missile at	A3:[location]	<<-schema--|0.5|--document->>	the ones he alerted today	A1:[person]	be unit of	A2:[organization]	the Guard
+A0:[person]	serve with	A9:[organization;location]	<<-schema--|0.036026200873362446|--document->>	Your irresponsible and misguided actions	A1:[event]	create in	A2:[location]	Birmingham and Alabama
 
 =======================================================================Good Match=======================================================================
 
-A1:[activity]	kill	A5:[number]	<<-schema--|0.5|--document->>	the bomb	A1:[device]	go off including	A2:[person]	80 children
-A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
-A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill by	A11:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
 A14:[activity]	kill	A0:[person]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
-A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Four whites	A1:[person]	be injure by	A2:[]	stones
+A1:[person]	be kill since	A9:[time_unit]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[activity]	kill	A5:[number]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	serve for	A7:[activity]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill on	A11:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A0:[person]	serve for	A8:[activity]	<<-schema--|1.0|--document->>	he	A1:[person]	serve	A2:[event]	notice
+A1:[activity]	wound	A9:[person]	<<-schema--|0.9208354733498139|--document->>	One Negro and five whites	A1:[person]	be hurt in	A2:[event]	the disorders that followed
+A1:[person]	be kill during	A7:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A7:[person]	kill	A1:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+A1:[device]	injure	A6:[person]	<<-schema--|1.0|--document->>	Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+A5:[person]	be go kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	shoot	A6:[person]	<<-schema--|1.0|--document->>	They	A1:[person]	shoot	A2:[person]	him
+A1:[person]	be kill during	A8:[activity]	<<-schema--|1.0|--document->>	The four girls	A1:[person]	be kill in	A2:[event]	the blast
+A8:[person]	kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[activity]	wound	A9:[person]	<<-schema--|0.9208354733498139|--document->>	At least 20 persons	A1:[person]	be hurt by	A2:[event]	the blast to be treated at hospitals
+A11:[person]	to kill	A0:[person]	<<-schema--|1.0|--document->>	Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+A1:[person]	be kill on	A6:[time_unit]	<<-schema--|1.0|--document->>	Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+A1:[person]	be kill near	A12:[location]	<<-schema--|1.0|--document->>	The 13-year-old boy	A1:[person]	kill outside	A2:[location]	the city
+A1:[person]	be kill on	A9:[location]	<<-schema--|1.0|--document->>	Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
 
 =======================================================================Entities=======================================================================
 
-activity/device : [the explosion, the bomb, stones, the blast]
-person : [80 children, Four whites, Fourteen Negroes, The four girls]
+activity/device : [the explosion, the disorders that followed, the blast to be treated at hospitals, the blast, notice]
+person : [At least 20 persons, a policeman, Fourteen Negroes, The four girls, The 13-year-old boy, Johnny Robinson, Two Negro youths, Virgil Wade, One Negro and five whites, he, him, They]
+time_unit : [outbreaks shooting seven hours after the 16th Street Baptist Church]
+location : [the city, Birmingham]

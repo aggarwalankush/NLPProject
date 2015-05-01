@@ -38,6 +38,8 @@ public class ParseRelation {
 					continue;
 				if (tw.word().equalsIgnoreCase("be"))
 					continue;
+				if (tw.word().equalsIgnoreCase("go"))
+					continue;
 				sb.append(tw.word() + " ");
 			}
 			return sb.toString();
