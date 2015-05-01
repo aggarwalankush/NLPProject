@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Event Extraction System by aggarwalankush</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Event Extraction System</h1>
+      <h2 class="project-tagline">Event Extraction using Natural Language Processing</h2>
+      <a href="https://github.com/aggarwalankush/NLPProject" class="btn">View on GitHub</a>
+      <a href="https://github.com/aggarwalankush/NLPProject/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/aggarwalankush/NLPProject/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="natural-language-processing-course-project" class="anchor" href="#natural-language-processing-course-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Natural Language Processing Course Project</h2>
+
+<h4>
+<a id="problem-description" class="anchor" href="#problem-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem Description</h4>
+
+<p>The problem is to extract information about events mentioned in sentences. <code>Input</code> includes articles describing events and a schema for that domain such as bombing domain. <code>Output</code> is the information about the events in a tabular form of triples where each tuple denotes the relation between two actors and a second table for each actor and all its mentions. <code>Event extraction</code> is a key prerequisite for generating structured, machine-readable representations of natural language. Such representations can aid various tasks like question answering, machine translation, novelty detection.</p>
+
+<h4>
+<a id="required-files" class="anchor" href="#required-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Required Files</h4>
+
+<ol>
+<li>Jars
+
+<ul>
+<li>json-simple-1.1.1</li>
+<li>stanford-corenlp-3.5.1-models</li>
+<li>stanford-corenlp-3.5.1</li>
+</ul>
+</li>
+<li>relgramtuples-app</li>
+<li>textual-entailment running as service
+
+<ul>
+<li>go to textual-entailment directory and run following from terminal
+
+<ul>
+<li>sbt</li>
+<li>service/reStart</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+<h4>
+<a id="recommended-way-to-run" class="anchor" href="#recommended-way-to-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended way to Run</h4>
+
+<ul>
+<li>Run EventExtraction.java </li>
+</ul>
+
+<h4>
+<a id="step-by-step-instructions-to-run" class="anchor" href="#step-by-step-instructions-to-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step by Step Instructions to run</h4>
+
+<ol>
+<li>Copy required schema lines in <code>manual_schema_original.txt</code>
+</li>
+<li>Steps to run relgramtuples-app on news articles and store output in <code>document_relgram_original.txt</code>
+
+<ul>
+<li>save news article in <code>news_articles.txt</code>
+</li>
+<li>run <code>ParseDocumentForRelgramsApp.java</code>, it will output <code>news_relgram_input.txt</code>
+</li>
+<li>copy <code>news_relgram_input.txt</code> in relgramtuples-app directory</li>
+<li>go to relgramtuples-app directory from terminal and run below command
+
+<ul>
+<li><code>java -cp lib/relgramtuples-1.0.0-SNAPSHOT-jar-with-dependencies.jar edu.washington.cs.knowitall.relgrams.apps.RelgramTuplesApp --wnHome resources/wordnet3.0 --wnTypesFile resources/wordnet-selected-classes.txt --ne7ModelFile resources/english.muc.7class.nodistsim.crf.ser.gz --ne3ModelFile resources/english.all.3class.nodistsim.crf.ser.gz -mpp resources/engmalt.linear-1.7.mco news_relgram_input.txt document_relgram_original.txt</code></li>
+</ul>
+</li>
+<li>copy generated <code>document_relgram_original.txt</code> in workspace</li>
+</ul>
+</li>
+<li>Run following parsers to parse above files
+
+<ul>
+<li><code>ParseDocument.java</code></li>
+<li><code>ParseSchema.java</code></li>
+</ul>
+</li>
+<li>Run <code>TextEntail.java</code> to see desired output</li>
+</ol>
+
+<h4>
+<a id="output" class="anchor" href="#output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h4>
+
+<ul>
+<li>results.txt file</li>
+<li><code>Schema_tuple - confidence - Document_tuple</code></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/aggarwalankush/NLPProject">Event Extraction System</a> is maintained by <a href="https://github.com/aggarwalankush">aggarwalankush</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-56342639-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
+
