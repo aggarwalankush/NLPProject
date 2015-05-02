@@ -2,6 +2,7 @@ package eventExtraction;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 
 import parser.ParseDocument;
 import parser.ParseDocumentForRelgramsApp;
@@ -11,7 +12,13 @@ import textual_entailment.TextEntail;
 public class EventExtraction {
 
 	public static void main(String[] args) {
+		
+
+	}
+	
+	public HashSet<String> getGoodMatches(String[] args){
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		HashSet<String> goodMatchesDoc=null;
 		try {
 			System.out
 					.print("textual-entailment is running as service (Y-YES, N-NO)\t");
@@ -44,14 +51,14 @@ public class EventExtraction {
 			if (!br.readLine().equalsIgnoreCase("y"))
 				throw new Exception("--Please copy relgram output in workspace--");
 			ParseDocument.main(args);
-			
-			TextEntail.main(args);
+			TextEntail text_entail = new TextEntail();
+			goodMatchesDoc=text_entail.getGoodMatches();
 			br.close();
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-
+		return goodMatchesDoc;
 	}
 
 }

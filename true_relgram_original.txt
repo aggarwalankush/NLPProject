@@ -1,0 +1,417 @@
+DOCID-SENTID	Tuple Part	Original	Head	Type
+0-0	ARG1	The woman	woman	person:WordNet
+	REL	was in	be in
+	ARG2	stable condition	condition	
+
+0-0	ARG1	The woman	woman	person:WordNet
+	REL	was on	be on
+	ARG2	Wednesday	Wednesday	time_unit:Stanford,time_unit:Day
+
+0-0	ARG1	The woman	woman	person:WordNet
+	REL	was after	be after
+	ARG2	surgery	surgery	
+
+0-0	ARG1	two Negro boys	boy	person:WordNet
+	REL	were shot to	be shoot to
+	ARG2	death	death	event:WordNet
+
+0-0	ARG1	violence	violence	event:WordNet
+	REL	left in	leave in
+	ARG2	the streets	street	
+
+0-0	ARG1	The attacks	attack	event:WordNet,activity:WordNet
+	REL	killed	kill
+	ARG2	than 160 people	people	person:People
+
+0-0	ARG1	The police	police	organization:WordNet
+	REL	dispersed	disperse
+	ARG2	them	they	person:Pronoun
+
+0-0	ARG1	The Dust	Dust	
+	REL	Was	Was
+	ARG2	Blinding ' Ken Olson	Ken Olson	person:Stanford
+
+0-0	ARG1	Blinding ' Ken Olson	Ken Olson	person:Stanford
+	REL	was in	be in
+	ARG2	the basement	basement	structure:WordNet
+
+0-0	ARG1	a director of Iran 's main uranium enrichment site	director	leader:WordNet,person:WordNet
+	REL	was killed in	be kill in
+	ARG2	a blast	blast	event:WordNet
+
+0-0	ARG1	a director of Iran 's main uranium enrichment site	director	leader:WordNet,person:WordNet
+	REL	was killed from	be kill from
+	ARG2	a magnetic bomb	bomb	device:WordNet
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	was shot this afternoon in	be shoot afternoon in
+	ARG2	the back	back	
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	was shot	be shoot
+	ARG2	this afternoon	afternoon	time_period:WordNet
+
+0-0	ARG1	Johnny Robinson	Johnny Robinson	person:Stanford
+	REL	be killed by	be kill by
+	ARG2	a policeman	policeman	person:WordNet
+
+0-0	ARG1	The police	police	organization:WordNet
+	REL	said	say
+	ARG2	the blast	blast	event:WordNet
+
+0-0	ARG1	the blast	blast	event:WordNet
+	REL	killed	kill
+	ARG2	at least five people	people	person:People
+
+0-0	ARG1	than 650 others	other	
+	REL	be injured with	be with
+	ARG2	smoke inhalation or minor burns	inhalation	
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	went off in	go off in
+	ARG2	the church which held 400 Negroes at the time	church	organization:WordNet
+
+0-0	ARG1	the bomb	bomb	device:WordNet
+	REL	went off including	go off including
+	ARG2	80 children	child	person:WordNet
+
+0-0	ARG1	the church	church	organization:WordNet
+	REL	held 400 Negroes at	hold Negroes at
+	ARG2	the time	time	event:WordNet
+
+0-0	ARG1	Two Negro youths	youth	person:WordNet
+	REL	were killed in	be kill in
+	ARG2	outbreaks shooting seven hours after the 16th Street Baptist Church	hour	time_unit:WordNet
+
+0-0	ARG1	City police	police	organization:WordNet
+	REL	shot	shoot
+	ARG2	a 16-year-old Negro	Negro	location:Stanford,person:Stanford
+
+0-0	ARG1	City police	police	organization:WordNet
+	REL	shot a 16-year-old Negro to	shoot Negro to
+	ARG2	death	death	event:WordNet
+
+0-0	ARG1	him	he	person:Pronoun
+	REL	stoning	stone
+	ARG2	cars	car	
+
+0-0	ARG1	Some law-enforcement officials	official	person:WordNet
+	REL	might be linked to	be link to
+	ARG2	the second anniversary	anniversary	time_period:WordNet,time_unit:Stanford
+
+0-0	ARG1	an operation	operation	
+	REL	ended in	end in
+	ARG2	a fire that killed about 80 people , including many children	fire	event:WordNet
+
+0-0	ARG1	Virgil Wade	Virgil Wade	person:Stanford
+	REL	be killed outside	be kill outside
+	ARG2	Birmingham	Birmingham	location:Stanford
+
+0-0	ARG1	The Associated Press	Associated Press	organization:Stanford
+	REL	reported	report
+	ARG2	a white man injured by a Negro	man	person:WordNet
+
+0-0	ARG1	a white man	man	person:WordNet
+	REL	be injured by	be injure by
+	ARG2	a Negro	Negro	location:Stanford
+
+0-0	ARG1	The bomb	bomb	device:WordNet
+	REL	apparently went off in	go off in
+	ARG2	an unoccupied basement room	room	structure:WordNet
+
+0-0	ARG1	stone and debris	stone	
+	REL	flying like	fly like
+	ARG2	shrapnel	shrapnel	
+
+0-0	ARG1	stone and debris	stone	
+	REL	flying into	fly into
+	ARG2	a room where children were assembling for closing prayers following Sunday School	room	structure:WordNet
+
+0-0	ARG1	children	child	person:WordNet
+	REL	were assembling for	be assemble for
+	ARG2	closing prayers	prayer	activity:WordNet,event:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	tried to throw	try to throw
+	ARG2	it	it	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	tried to throw it at	try to throw at
+	ARG2	police	police	organization:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	to throw	to throw
+	ARG2	it	it	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	to throw it at	to throw at
+	ARG2	police	police	organization:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	could throw	throw
+	ARG2	it	it	
+
+0-0	ARG1	it	it	
+	REL	hit	hit
+	ARG2	something	something	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	ricocheted back at	ricochet at
+	ARG2	him	he	person:Pronoun
+
+0-0	ARG1	It	It	
+	REL	was also	be
+	ARG2	the deadliest attack	attack	activity:WordNet,event:WordNet
+
+0-0	ARG1	It	It	
+	REL	was also the deadliest attack in	be attack in
+	ARG2	the Sinai	Sinai	location:Stanford
+
+0-0	ARG1	It	It	
+	REL	was also the deadliest attack since	be attack since
+	ARG2	a multistage assault	assault	event:WordNet
+
+0-0	ARG1	Fourteen Negroes	Negroes	
+	REL	were injured in	be injure in
+	ARG2	the explosion	explosion	event:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	rode	ride
+	ARG2	his bicycle	bicycle	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	rode his bicycle in	ride bicycle in
+	ARG2	a suburban area	area	location:WordNet
+
+0-0	ARG1	It	It	
+	REL	's DAKAR of	be DAKAR of
+	ARG2	a Little Girl	Little Girl	
+
+0-0	ARG1	It	It	
+	REL	's	be
+	ARG2	a Little Girl ' DAKAR	DAKAR	location:WordNet,location:Stanford
+
+0-0	ARG1	A girl perhaps no more than 10 years old	girl	person:WordNet
+	REL	detonated	detonate
+	ARG2	powerful explosives concealed under her veil at a crowded northern Nigeria market on Saturday	explosive	substance:WordNet
+
+0-0	ARG1	A girl perhaps no more than 10 years old	girl	person:WordNet
+	REL	detonated powerful explosives concealed under her veil at a crowded northern Nigeria market on Saturday killing	detonate explosive conceal under veil at Nigeria market on Saturday kill
+	ARG2	as many as 20 people	people	person:People
+
+0-0	ARG1	powerful explosives	explosive	substance:WordNet
+	REL	be concealed under	be conceal under
+	ARG2	her veil	veil	
+
+0-0	ARG1	powerful explosives	explosive	substance:WordNet
+	REL	be concealed at	be conceal at
+	ARG2	a crowded northern Nigeria market	market	activity:WordNet,event:WordNet
+
+0-0	ARG1	powerful explosives	explosive	substance:WordNet
+	REL	be concealed on	be conceal on
+	ARG2	Saturday	Saturday	time_unit:Stanford,time_unit:Day
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	remained unconscious after	remain after
+	ARG2	10 hours of surgery	surgery	
+
+0-0	ARG1	The authorities	authority	organization:WordNet
+	REL	opened	open
+	ARG2	an intensive hunt	hunt	person:WordNet
+
+0-0	ARG1	The authorities	authority	organization:WordNet
+	REL	opened an intensive hunt in	open hunt in
+	ARG2	today	today	time_unit:Stanford
+
+0-0	ARG1	the bombing	bombing	event:WordNet,activity:WordNet
+	REL	was	be
+	ARG2	a terrorist attack	attack	activity:WordNet,event:WordNet
+
+0-0	ARG1	the bombing	bombing	event:WordNet,activity:WordNet
+	REL	was a terrorist attack against	be attack against
+	ARG2	the Government	Government	
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	entered	enter
+	ARG2	the United States	United States	location:Stanford
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	entered the United States under	enter United States under
+	ARG2	an assumed name	name	
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	recruited	recruit
+	ARG2	local supporters	supporter	person:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	recruited local supporters to carry out	recruit supporter to carry out
+	ARG2	the detail work	work	event:WordNet,activity:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	then fled	flee
+	ARG2	the country	country	organization:WordNet
+
+0-0	ARG1	Ramzi Ahmed Yousef	Ramzi Ahmed Yousef	person:Stanford
+	REL	then fled the country within	flee country within
+	ARG2	hours of the blast	blast	event:WordNet
+
+0-0	ARG1	The official	official	person:WordNet
+	REL	was	be
+	ARG2	the fifth member of Iran 's scientific community	member	person:WordNet
+
+0-0	ARG1	The official	official	person:WordNet
+	REL	was the fifth member of	be member of
+	ARG2	Iran 's scientific community	community	
+
+0-0	ARG1	Iran 's scientific community	community	
+	REL	be killed in	be kill in
+	ARG2	apparent targeted attacks	attack	event:WordNet,activity:WordNet
+
+0-0	ARG1	Iran 's scientific community	community	
+	REL	be killed in	be kill in
+	ARG2	the past two years	year	time_period:WordNet
+
+0-0	ARG1	the bombings	bombing	activity:WordNet,event:WordNet
+	REL	had injured	injure
+	ARG2	than 100 people	people	person:People
+
+0-0	ARG1	simultaneous bombings	bombing	activity:WordNet,event:WordNet
+	REL	targeting security facilities in	target security facility in
+	ARG2	the Sinai	Sinai	location:Stanford
+
+0-0	ARG1	A series of simultaneous bombings	bombing	activity:WordNet,event:WordNet
+	REL	killed	kill
+	ARG2	at least 26 people	people	person:People
+
+0-0	ARG1	A series of simultaneous bombings	bombing	activity:WordNet,event:WordNet
+	REL	killed at least 26 people in	kill at people in
+	ARG2	Thursday night	night	time_period:WordNet,time:Stanford
+
+0-0	ARG1	a bombing attack	attack	activity:WordNet,event:WordNet
+	REL	killed	kill
+	ARG2	29 people	people	person:People
+
+0-0	ARG1	two women	woman	person:WordNet
+	REL	hit	hit
+	ARG2	the Monday Market	Monday Market	time_unit:Stanford
+
+0-0	ARG1	two women	woman	person:WordNet
+	REL	hit the Monday Market in	hit Monday Market in
+	ARG2	suicide attacks	attack	event:WordNet,activity:WordNet
+
+0-0	ARG1	two women	woman	person:WordNet
+	REL	hit the Monday Market	hit Monday Market
+	ARG2	suicide attacks	attack	event:WordNet,activity:WordNet
+
+0-0	ARG1	two women	woman	person:WordNet
+	REL	hit the Monday Market killing	hit Monday Market kill
+	ARG2	dozens	dozen	
+
+0-0	ARG1	four women	woman	person:WordNet
+	REL	carried out	carry out
+	ARG2	bombings	bombing	activity:WordNet,event:WordNet
+
+0-0	ARG1	four women	woman	person:WordNet
+	REL	carried out bombings in	carry out bombing in
+	ARG2	northern Nigeria 's biggest city	city	location:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	had been charged with	be charge with
+	ARG2	illegal possesion of explosives	possesion	
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	had been charged causing	be charge cause
+	ARG2	explosions	explosion	event:WordNet
+
+0-0	ARG1	he	he	person:Pronoun
+	REL	had been charged assaulting	be charge assault
+	ARG2	a police officer	officer	person:WordNet
+
+0-0	ARG1	Four whites	whites	person:WordNet
+	REL	were injured by	be injure by
+	ARG2	stones	stone	
+
+0-0	ARG1	The four girls	girl	person:WordNet
+	REL	be killed in	be kill in
+	ARG2	the blast	blast	event:WordNet
+
+0-0	ARG1	The four girls killed in the blast	girl	person:WordNet
+	REL	had just heard	hear
+	ARG2	Mrs. Ella C. Demand	Demand	person:Stanford
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	be killed by	be kill by
+	ARG2	police	police	organization:WordNet
+
+0-0	ARG1	The Negro youth	youth	person:WordNet
+	REL	was	be
+	ARG2	Johnny Robinson	Johnny Robinson	person:Stanford
+
+0-0	ARG1	the bomber	bomber	
+	REL	exploded away from the checkpoint manned the paramilitary troops	explode from checkpoint man troops
+	ARG2	500 meters	meter	
+
+0-0	ARG1	the checkpoint	checkpoint	location:WordNet
+	REL	be manned by	be man by
+	ARG2	the paramilitary troops	troops	organization:WordNet
+
+0-0	ARG1	The Governor	Governor	
+	REL	was in	be in
+	ARG2	Albany	Albany	location:Stanford
+
+0-0	ARG1	him	he	person:Pronoun
+	REL	to express	to express
+	ARG2	concern and offer aid	concern	
+
+0-0	ARG1	him	he	person:Pronoun
+	REL	to express concern and offer aid from	to express concern offer aid from
+	ARG2	the Federal Emergency Management Agency	Federal Emergency Management Agency	organization:Stanford
+
+0-0	ARG1	One	One	number:NUM
+	REL	was arrested at	be arrest at
+	ARG2	Bangkok 's international airport	airport	
+
+0-0	ARG1	Another white man	man	person:WordNet
+	REL	was wounded by	be wound by
+	ARG2	a Negro	Negro	
+
+0-0	ARG1	A suicide bomber	bomber	
+	REL	detonated	detonate
+	ARG2	explosives	explosive	substance:WordNet
+
+0-0	ARG1	Boko Haram	Boko Haram	person:Stanford
+	REL	has carried out recently	carry out
+	ARG2	a spate of attacks	attack	event:WordNet,activity:WordNet
+
+0-0	ARG1	Boko Haram	Boko Haram	person:Stanford
+	REL	has carried out a spate of attacks recently in	carry out spate of attack in
+	ARG2	the northeast	northeast	
+
+0-0	ARG1	Boko Haram	Boko Haram	person:Stanford
+	REL	has carried out a spate of attacks recently including	carry out spate of attack including
+	ARG2	a devastating one	one	number:NUM
+
+0-0	ARG1	Baga	Baga	location:Stanford
+	REL	be a fishing village north of	be fishing village north of
+	ARG2	Maiduguri	Maiduguri	location:Stanford
+
+0-0	ARG1	Israeli Diplomat 's Car	Car	
+	REL	targeted	target
+	ARG2	Israeli diplomats	diplomat	person:WordNet
+
+0-0	ARG1	Israeli Diplomat 's Car	Car	
+	REL	targeted Israeli diplomats in India and Georgia on	target diplomat in India Georgia on
+	ARG2	Monday	Monday	time_unit:Stanford,time_unit:Day
+
+0-0	ARG1	Israeli Diplomat 's Car	Car	
+	REL	targeted Israeli diplomats in India and Georgia wounding	target diplomat in India Georgia wound
+	ARG2	two people	people	person:People
+
+0-0	ARG1	Israeli Diplomat 's Car	Car	
+	REL	targeted Israeli diplomats in India and Georgia wounding two people in	target diplomat in India Georgia wound people in
+	ARG2	a car bombing in New Delhi	car	
+
+0-0	ARG1	a car	car	
+	REL	bombing in	bomb in
+	ARG2	New Delhi	New Delhi	location:Stanford
+

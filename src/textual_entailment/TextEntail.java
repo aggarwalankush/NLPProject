@@ -28,27 +28,35 @@ public class TextEntail {
 	HashSet<String> match_list = new HashSet<String>();
 	HashMap<String, HashSet<String>> entities = new HashMap<String, HashSet<String>>();
 	HashMap<String, Double> entailResult = new HashMap<String, Double>();
+	HashSet<String> goodMatchDocument;
 
 	public TextEntail() {
+		goodMatchDocument=new HashSet<String>();
 		parseRelation = new ParseRelation();
 	}
 
 	public static void main(String[] args) {
-		TextEntail text_entail = new TextEntail();
+		
+		
+	}
+	
+	public HashSet<String> getGoodMatches(){
 		try {
 			// String text = "hello ankush";
 			// String hypothesis = "hi ankush";
 			// System.out.println(text_entail.entail(text, hypothesis));
 			// System.out.println(text_entail.entail("kill","go off including"));
-			text_entail.match_document_schema(D_R_R, M_S_R);
+			match_document_schema(D_R_R, M_S_R);
 			// // System.out.println("done");
-			text_entail.match_args_also();
+			match_args_also();
 			System.out
 					.println("<<Program ended>> : Please see results in results.txt file");
+			//System.out.println(goodMatchDocument.size());
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
+		return goodMatchDocument;
 	}
 
 	/*
@@ -101,6 +109,7 @@ public class TextEntail {
 			else if (len == 3) {// match 0 with 2 or 1 with 2
 				if (args[0].equalsIgnoreCase(args[2])) {
 					result_file.println(s);
+					goodMatchDocument.add(s.substring(s.indexOf(">>")+2));
 					// result_file.println(args[0] + " : " + arrOfMatchList[4]);
 					// result_file.println(args[1] + " : " + arrOfMatchList[8]);
 
@@ -122,7 +131,10 @@ public class TextEntail {
 
 				} else if (args[1].equalsIgnoreCase(args[2])) {
 					result_file.println(s);
-					// result_file.println(args[1] + " : " + arrOfMatchList[4]);
+					goodMatchDocument.add(s.substring(s.indexOf(">>")+2));
+					// result_file.println(args[1]
+					// + " : " +
+					// arrOfMatchList[4]);
 					// result_file.println(args[0] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[1])) {
@@ -148,7 +160,12 @@ public class TextEntail {
 						|| (args[0].equalsIgnoreCase(args[3]) && args[1]
 								.equalsIgnoreCase(args[2]))) {
 					result_file.println(s);
-					// result_file.println(args[2] + " : " + arrOfMatchList[4]);
+					goodMatchDocument.add(s.substring(s.indexOf(">>")+2));
+					//System.out.println(s.substring(s.indexOf(">>")+2));
+					
+					// result_file.println(args[2]
+					// + " : " +
+					// arrOfMatchList[4]);
 					// result_file.println(args[3] + " : " + arrOfMatchList[8]);
 
 					if (!entities.containsKey(args[2])) {
@@ -220,10 +237,9 @@ public class TextEntail {
 					confidence += entailResult.get(schema_relation
 							+ doc_relation);
 				} else {
-					double c=entail(schema_relation, doc_relation);
+					double c = entail(schema_relation, doc_relation);
 					confidence += c;
-					entailResult
-							.put(schema_relation + doc_relation, c);
+					entailResult.put(schema_relation + doc_relation, c);
 				}
 
 				confidence /= 2;

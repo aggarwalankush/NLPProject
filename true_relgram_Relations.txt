@@ -1,0 +1,104 @@
+The woman	A1:[person]	be in	A2:[]	stable condition
+The woman	A1:[person]	be on	A2:[time_unit]	Wednesday
+The woman	A1:[person]	be after	A2:[time_unit]	surgery
+two Negro boys	A1:[person]	be shoot to	A2:[event]	death
+violence	A1:[event]	leave in	A2:[event]	the streets
+The attacks	A1:[event]	kill	A2:[person]	than 160 people
+The police	A1:[organization]	disperse	A2:[person]	them
+The Dust	A1:[organization]	Was	A2:[person]	Blinding ' Ken Olson
+Blinding ' Ken Olson	A1:[person]	be in	A2:[structure]	the basement
+a director of Iran 's main uranium enrichment site	A1:[leader]	be kill in	A2:[event]	a blast
+a director of Iran 's main uranium enrichment site	A1:[leader]	be kill from	A2:[device]	a magnetic bomb
+Johnny Robinson	A1:[person]	be shoot afternoon in	A2:[device]	the back
+Johnny Robinson	A1:[person]	be shoot	A2:[time_period]	this afternoon
+Johnny Robinson	A1:[person]	be kill by	A2:[person]	a policeman
+The police	A1:[organization]	say	A2:[event]	the blast
+the blast	A1:[event]	kill	A2:[person]	at least five people
+than 650 others	A1:[event]	be with	A2:[person]	smoke inhalation or minor burns
+the bomb	A1:[device]	go off in	A2:[organization]	the church which held 400 Negroes at the time
+the bomb	A1:[device]	go off including	A2:[person]	80 children
+the church	A1:[organization]	hold Negroes at	A2:[event]	the time
+Two Negro youths	A1:[person]	be kill in	A2:[time_unit]	outbreaks shooting seven hours after the 16th Street Baptist Church
+City police	A1:[organization]	shoot	A2:[location]	a 16-year-old Negro
+City police	A1:[organization]	shoot Negro to	A2:[event]	death
+him	A1:[person]	stone	A2:[event]	cars
+Some law-enforcement officials	A1:[person]	be link to	A2:[time_period]	the second anniversary
+an operation	A1:[person]	end in	A2:[event]	a fire that killed about 80 people , including many children
+Virgil Wade	A1:[person]	be kill outside	A2:[location]	Birmingham
+The Associated Press	A1:[organization]	report	A2:[person]	a white man injured by a Negro
+a white man	A1:[person]	be injure by	A2:[location]	a Negro
+The bomb	A1:[device]	go off in	A2:[structure]	an unoccupied basement room
+stone and debris	A1:[device]	fly like	A2:[structure]	shrapnel
+stone and debris	A1:[device]	fly into	A2:[structure]	a room where children were assembling for closing prayers following Sunday School
+children	A1:[person]	be assemble for	A2:[activity]	closing prayers
+he	A1:[person]	try to throw	A2:[activity]	it
+he	A1:[person]	try to throw at	A2:[organization]	police
+he	A1:[person]	to throw	A2:[organization]	it
+he	A1:[person]	to throw at	A2:[organization]	police
+he	A1:[person]	throw	A2:[organization]	it
+it	A1:[person]	hit	A2:[organization]	something
+he	A1:[person]	ricochet at	A2:[person]	him
+It	A1:[person]	be	A2:[activity]	the deadliest attack
+It	A1:[person]	be attack in	A2:[location]	the Sinai
+It	A1:[person]	be attack since	A2:[event]	a multistage assault
+Fourteen Negroes	A1:[person]	be injure in	A2:[event]	the explosion
+he	A1:[person]	ride	A2:[event]	his bicycle
+he	A1:[person]	ride bicycle in	A2:[location]	a suburban area
+It	A1:[person]	be DAKAR of	A2:[location]	a Little Girl
+It	A1:[person]	be	A2:[location]	a Little Girl ' DAKAR
+A girl perhaps no more than 10 years old	A1:[person]	detonate	A2:[substance]	powerful explosives concealed under her veil at a crowded northern Nigeria market on Saturday
+A girl perhaps no more than 10 years old	A1:[person]	detonate explosive conceal under veil at Nigeria market on Saturday kill	A2:[person]	as many as 20 people
+powerful explosives	A1:[substance]	be conceal under	A2:[person]	her veil
+powerful explosives	A1:[substance]	be conceal at	A2:[activity]	a crowded northern Nigeria market
+powerful explosives	A1:[substance]	be conceal on	A2:[time_unit]	Saturday
+he	A1:[person]	remain after	A2:[time_unit]	10 hours of surgery
+The authorities	A1:[organization]	open	A2:[person]	an intensive hunt
+The authorities	A1:[organization]	open hunt in	A2:[time_unit]	today
+the bombing	A1:[event]	be	A2:[activity]	a terrorist attack
+the bombing	A1:[event]	be attack against	A2:[activity]	the Government
+Ramzi Ahmed Yousef	A1:[person]	enter	A2:[location]	the United States
+Ramzi Ahmed Yousef	A1:[person]	enter United States under	A2:[location]	an assumed name
+Ramzi Ahmed Yousef	A1:[person]	recruit	A2:[person]	local supporters
+Ramzi Ahmed Yousef	A1:[person]	recruit supporter to carry out	A2:[event]	the detail work
+Ramzi Ahmed Yousef	A1:[person]	flee	A2:[organization]	the country
+Ramzi Ahmed Yousef	A1:[person]	flee country within	A2:[event]	hours of the blast
+The official	A1:[person]	be	A2:[person]	the fifth member of Iran 's scientific community
+The official	A1:[person]	be member of	A2:[person]	Iran 's scientific community
+Iran 's scientific community	A1:[person]	be kill in	A2:[event]	apparent targeted attacks
+Iran 's scientific community	A1:[person]	be kill in	A2:[time_period]	the past two years
+the bombings	A1:[activity]	injure	A2:[person]	than 100 people
+simultaneous bombings	A1:[activity]	target security facility in	A2:[location]	the Sinai
+A series of simultaneous bombings	A1:[activity]	kill	A2:[person]	at least 26 people
+A series of simultaneous bombings	A1:[activity]	kill at people in	A2:[time_period]	Thursday night
+a bombing attack	A1:[activity]	kill	A2:[person]	29 people
+two women	A1:[person]	hit	A2:[time_unit]	the Monday Market
+two women	A1:[person]	hit Monday Market in	A2:[event]	suicide attacks
+two women	A1:[person]	hit Monday Market	A2:[event]	suicide attacks
+two women	A1:[person]	hit Monday Market kill	A2:[event]	dozens
+four women	A1:[person]	carry out	A2:[activity]	bombings
+four women	A1:[person]	carry out bombing in	A2:[location]	northern Nigeria 's biggest city
+he	A1:[person]	be charge with	A2:[location]	illegal possesion of explosives
+he	A1:[person]	be charge cause	A2:[event]	explosions
+he	A1:[person]	be charge assault	A2:[person]	a police officer
+Four whites	A1:[person]	be injure by	A2:[person]	stones
+The four girls	A1:[person]	be kill in	A2:[event]	the blast
+The four girls killed in the blast	A1:[person]	hear	A2:[person]	Mrs. Ella C. Demand
+The Negro youth	A1:[person]	be kill by	A2:[organization]	police
+The Negro youth	A1:[person]	be	A2:[person]	Johnny Robinson
+the bomber	A1:[person]	explode from checkpoint man troops	A2:[person]	500 meters
+the checkpoint	A1:[location]	be man by	A2:[organization]	the paramilitary troops
+The Governor	A1:[location]	be in	A2:[location]	Albany
+him	A1:[person]	to express	A2:[location]	concern and offer aid
+him	A1:[person]	to express concern offer aid from	A2:[organization]	the Federal Emergency Management Agency
+One	A1:[number]	be arrest at	A2:[organization]	Bangkok 's international airport
+Another white man	A1:[person]	be wound by	A2:[organization]	a Negro
+A suicide bomber	A1:[person]	detonate	A2:[substance]	explosives
+Boko Haram	A1:[person]	carry out	A2:[event]	a spate of attacks
+Boko Haram	A1:[person]	carry out spate of attack in	A2:[event]	the northeast
+Boko Haram	A1:[person]	carry out spate of attack including	A2:[number]	a devastating one
+Baga	A1:[location]	be fishing village north of	A2:[location]	Maiduguri
+Israeli Diplomat 's Car	A1:[location]	target	A2:[person]	Israeli diplomats
+Israeli Diplomat 's Car	A1:[location]	target diplomat in India Georgia on	A2:[time_unit]	Monday
+Israeli Diplomat 's Car	A1:[location]	target diplomat in India Georgia wound	A2:[person]	two people
+Israeli Diplomat 's Car	A1:[location]	target diplomat in India Georgia wound people in	A2:[person]	a car bombing in New Delhi
+a car	A1:[location]	bomb in	A2:[location]	New Delhi
