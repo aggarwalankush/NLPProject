@@ -27,6 +27,7 @@ public class TextEntail {
 	ParseRelation parseRelation = null;
 	HashSet<String> match_list = new HashSet<String>();
 	HashMap<String, HashSet<String>> entities = new HashMap<String, HashSet<String>>();
+	HashMap<String, Double> entailResult = new HashMap<String, Double>();
 
 	public TextEntail() {
 		parseRelation = new ParseRelation();
@@ -38,9 +39,9 @@ public class TextEntail {
 			// String text = "hello ankush";
 			// String hypothesis = "hi ankush";
 			// System.out.println(text_entail.entail(text, hypothesis));
-				//System.out.println(text_entail.entail("kill","go off including"));
+			// System.out.println(text_entail.entail("kill","go off including"));
 			text_entail.match_document_schema(D_R_R, M_S_R);
-//			// System.out.println("done");
+			// // System.out.println("done");
 			text_entail.match_args_also();
 			System.out
 					.println("<<Program ended>> : Please see results in results.txt file");
@@ -76,8 +77,9 @@ public class TextEntail {
 
 		for (String s : match_list) {
 			String[] arrOfMatchList = s.split("\t");
-			double conf=Double.parseDouble(arrOfMatchList[3].split("\\|")[1]);
-			if(conf<conf_threshold)continue;
+			double conf = Double.parseDouble(arrOfMatchList[3].split("\\|")[1]);
+			if (conf < conf_threshold)
+				continue;
 			StringBuilder sb = new StringBuilder();
 			// System.out.println();
 			m = p.matcher(s);
@@ -91,7 +93,7 @@ public class TextEntail {
 			for (int i = 0; i < len; i++) {
 				args[i] = args[i].replaceAll("number", "person");
 				args[i] = args[i].replaceAll("event", "activity");
-				//args[i] = args[i].replaceAll("physical_object", "device");
+				// args[i] = args[i].replaceAll("physical_object", "device");
 				args[i] = args[i].replaceAll("device", "activity");
 			}
 			if (len < 3)
@@ -173,9 +175,9 @@ public class TextEntail {
 				.println("\n=======================================================================Entities=======================================================================\n");
 
 		for (Map.Entry<String, HashSet<String>> entry : entities.entrySet()) {
-			String key=entry.getKey();
-			if(key.equalsIgnoreCase("activity"))
-				key+="/device";
+			String key = entry.getKey();
+			if (key.equalsIgnoreCase("activity"))
+				key += "/device";
 			result_file.println(key + " : " + entry.getValue());
 		}
 
@@ -206,10 +208,25 @@ public class TextEntail {
 
 				String schema_relation = s.split("\t")[1];
 				schema_relation = parseRelation.parse(schema_relation);
+				if (entailResult.containsKey(doc_relation + schema_relation)) {
+					confidence = entailResult.get(doc_relation
+							+ schema_relation);
+				} else {
+					confidence = entail(doc_relation, schema_relation);
+					entailResult
+							.put(doc_relation + schema_relation, confidence);
+				}
+				if (entailResult.containsKey(schema_relation + doc_relation)) {
+					confidence += entailResult.get(schema_relation
+							+ doc_relation);
+				} else {
+					double c=entail(schema_relation, doc_relation);
+					confidence += c;
+					entailResult
+							.put(schema_relation + doc_relation, c);
+				}
 
-				confidence = entail(doc_relation, schema_relation);
-				confidence+= entail(schema_relation,doc_relation);
-				confidence/=2;
+				confidence /= 2;
 				if (confidence > max_confidence) {
 					max_confidence = confidence;
 					max_match_pair = s + "\t<<-schema--|" + max_confidence
@@ -291,7 +308,7 @@ public class TextEntail {
 			JSONObject jsonObject = (JSONObject) parser.parse(br);
 			try {
 				double confidence = (double) jsonObject.get("confidence");
-//System.out.println(jsonObject);
+				// System.out.println(jsonObject);
 				return confidence;
 			} catch (Exception e) {
 				return 0;
