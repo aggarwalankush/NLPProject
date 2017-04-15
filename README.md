@@ -1,9 +1,9 @@
-##Natural Language Processing Course Project
+## Natural Language Processing Course Project
 
-####Problem Description
+#### Problem Description
 The problem is to extract information about events mentioned in sentences. `Input` includes articles describing events and a schema for that domain such as bombing domain. `Output` is the information about the events in a tabular form of triples where each tuple denotes the relation between two actors and a second table for each actor and all its mentions. `Event extraction` is a key prerequisite for generating structured, machine-readable representations of natural language. Such representations can aid various tasks like question answering, machine translation, novelty detection.
 
-####Required Files
+#### Required Files
 1. Jars
   - json-simple-1.1.1
   - stanford-corenlp-3.5.1-models
@@ -14,10 +14,10 @@ The problem is to extract information about events mentioned in sentences. `Inpu
     - sbt
     - service/reStart
 
-####Recommended way to Run
+#### Recommended way to Run
 - Run EventExtraction.java 
 
-####Step by Step Instructions to run
+#### Step by Step Instructions to run
 1. Copy required schema lines in `manual_schema_original.txt`
 2. Steps to run relgramtuples-app on news articles and store output in `document_relgram_original.txt`
   - save news article in `news_articles.txt`
@@ -31,7 +31,7 @@ The problem is to extract information about events mentioned in sentences. `Inpu
   - `ParseSchema.java`
 4. Run `TextEntail.java` to see desired output
 
-####Output
+#### Output
 - results.txt file
 - `Schema_tuple - confidence - Document_tuple`
 
